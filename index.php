@@ -129,30 +129,43 @@
     			          <a class="dropdown-item" href="recursos/gobierno/ReporteMIR2021.pdf" target="_blank">Reporte de Avance de los indicadores 2021</a>
     			          <a href="javascript:cambiarcont(\'view/gobierno/directorio.php\');" class="dropdown-item">Directorio</a>
     			          <a href="javascript:cambiarcont(\'view/gobierno/sala_prensa.php\');" class="dropdown-item">Sala de prensa</a>
-                          ';
-                            ?>
+                          
     			          <a class="dropdown-item" href="/informe" target="_blank">Informe de Gobierno</a>
     			          <a class="dropdown-toggle dropdown-item" href="#" id="licitacionesLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Licitaciones</a>
 				          <div class="dropdown-menu" aria-labelledby="licitacionesLink">
-				            <a class="dropdown-item" href="javascript:pagecontent('view/licitaciones/licitaciones.php');">Obras Públicas</a>
+				          <a href="javascript:cambiarcont(\'view/gobierno/.php\');" class="dropdown-item">Obras Publicas</a>
 				          </div>
 				          
-				         <a class="dropdown-item" href="javascript:pagecontent('view/buzon/buzon.php');">Buzón de sugerencias</a>
+				         <a href="javascript:cambiarcont(\'view/gobierno/buzon.php\');" class="dropdown-item">Buzón</a>
+                        
 				        </div>
                         </div>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Trámites en línea</span></a>
-                            <div class="dropdown-menu m-0">
-                                <a href="feature.html" class="dropdown-item">Feature</a>
-                                <a href="countries.html" class="dropdown-item">Countries</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="training.html" class="dropdown-item">Training</a>
-                                <a href="404.html" class="dropdown-item">404 Page</a>
-                            </div>
+				        <a class="nav-link dropdown-toggle bjm" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				          Trámites en línea
+				        </a>
+				        <div class="dropdown-menu show" aria-labelledby="navbarDropdownMenuLink">
+                         <a class="dropdown-item" href="https://jesusmaria.recaudacion.net/SIM/predial.jsp" target="_blank">Pago de Predial</a>
+				          <a class="dropdown-item" href="https://jesusmaria.recaudacion.net/SIM/datosTimbrado.jsp" target="_blank">Factura en Línea</a>
+                          <a href="javascript:cambiarcont(\'view/tramites_linea/dependencias.php\');" class="dropdown-item">Dependencias</a>
+                          <a href="javascript:cambiarcont(\'view/tramites_linea/cartografia.php\');" class="dropdown-item">Cartografía</a>
+                           ';
+                            ?>
+				          <a class="dropdown-item" href="http://desarrollo-economico.jesusmaria.gob.mx/" target="_blank">Bolsa de trabajo</a>
+				          <a class="dropdown-item" href="javascript:pagecontent('view/tramites_linea/mejora_regulatoria.php');">Agenda Regulatoria</a>
+				          <a class="dropdown-item" href="http://juventud.jesusmaria.gob.mx/" target="_blank">Servicio Social y Prácticas Profesionales</a>
+				          <a class="dropdown-item" href="http://jesusmaria.gob.mx/estrado/" target="_blank">Estrado Electrónico</a>
+				          <a class="dropdown-item" href="http://jesusmaria.gob.mx/directorio_empresarial/" target="_blank">Directorio Empresarial</a>
+				          <a class="dropdown-item" href="http://jesusmaria.gob.mx/cedeco/" target="_blank">Talleres CEDECOS</a>
+				        </div>
                         </div>
-                        <a href="about.html" class="nav-item nav-link">Mejora Regulatoria</a>
+                        <?php
+                            echo '
+                       <a href="javascript:cambiarcont(\'view/tramites_linea/mejora_regulatoria.php\');" class="nav-item nav-link">Mejora Regulatoria</a>
+                        ';
+                            ?>
                         <a href="https://turismo.jesusmaria.gob.mx/" class="nav-item nav-link" target="_blank">Turismo</a>
-                        <a href="service.html" class="nav-item nav-link">Transparecia</a>
+                        <a href="https://transparencia.jesusmaria.gob.mx/#/" class="nav-item nav-link">Transparecia</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Consulta Evaluación</span></a>
                             <div class="dropdown-menu m-0">
