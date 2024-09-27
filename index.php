@@ -117,14 +117,21 @@
 				          <a class="dropdown-item" href="recursos/gobierno/Plan_de_Desarrollo_municipal_JM_2019-2021.pdf" target="_blank">Plan de Desarrollo Municipal 2019-2021</a>
 				          <a class="dropdown-item" href="recursos/gobierno/Plan_de_Desarrollo_municipal_JM_2021-2024.pdf" target="_blank">Plan de Desarrollo Municipal 2021-2024</a>
     			          <a class="dropdown-item" href="recursos/gobierno/D.O.DISTRIBUCIONDEFONDOSFISMDFYFOTAMUNDF3970.pdf" target="_blank">D.O. DISTRIBUCIÓN DE FONDOS FISMDF Y FOTAMUNDF 3970</a>
-    			          <a class="dropdown-item" href="javascript:pagecontent('view/gobierno/cabildo.php');">Cabildo</a>
+    			          <?php
+                            echo '
+                         <a href="javascript:cambiarcont(\'view/gobierno/cabildo.php\');" class="dropdown-item">Cabildo</a>
+                           
     			          <a class="dropdown-item" href="recursos/gobierno/convocatoria%20cabildo%20abierto_compressed.pdf" target="_blank">Cabildo Abierto</a>
-    			          <a class="dropdown-item" href="javascript:pagecontent('view/gobierno/gabinete.php');">Gabinete</a>
+    			          <a href="javascript:cambiarcont(\'view/gobierno/gabinete.php\');" class="dropdown-item">Gabinete</a>
+                          
     			          <a class="dropdown-item" href="recursos/gobierno/MIR2020.PDF" target="_blank">Matriz de Indicadores de Resultados 2020</a>
     			          <a class="dropdown-item" href="recursos/gobierno/MIR2021.PDF" target="_blank">Matriz de Indicadores de Resultados 2021</a>
     			          <a class="dropdown-item" href="recursos/gobierno/ReporteMIR2021.pdf" target="_blank">Reporte de Avance de los indicadores 2021</a>
-    			          <a class="dropdown-item" href="javascript:pagecontent('view/gobierno/directorio.php');">Directorio</a>
+    			          <a href="javascript:cambiarcont(\'view/gobierno/directorio.php\');" class="dropdown-item">Directorio</a>
+                          ';
+                            ?>
     			          <a class="dropdown-item" href="javascript:pagecontent('view/sala_prensa/sala_prensa.php');">Sala de Prensa</a>
+                          
     			          <a class="dropdown-item" href="/informe" target="_blank">Informe de Gobierno</a>
     			          <a class="dropdown-toggle dropdown-item" href="#" id="licitacionesLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     				          Licitaciones
@@ -282,7 +289,7 @@
         $(document).ready(function() {
 				
 				    	$("#body_content").html("<img src='img/exit.gif' class='img-responsive center-block' alt='Cargando...' />");
-					    $('#body_content').load('view/inicio.php');
+					    $('#body_content').load('view/miorgullo/inicio.php');
 						$("#body_content").fadeIn(10000);
 				    	
 			});
