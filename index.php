@@ -128,14 +128,11 @@
     			          <a class="dropdown-item" href="recursos/gobierno/MIR2021.PDF" target="_blank">Matriz de Indicadores de Resultados 2021</a>
     			          <a class="dropdown-item" href="recursos/gobierno/ReporteMIR2021.pdf" target="_blank">Reporte de Avance de los indicadores 2021</a>
     			          <a href="javascript:cambiarcont(\'view/gobierno/directorio.php\');" class="dropdown-item">Directorio</a>
+    			          <a href="javascript:cambiarcont(\'view/gobierno/sala_prensa.php\');" class="dropdown-item">Sala de prensa</a>
                           ';
                             ?>
-    			          <a class="dropdown-item" href="javascript:pagecontent('view/sala_prensa/sala_prensa.php');">Sala de Prensa</a>
-                          
     			          <a class="dropdown-item" href="/informe" target="_blank">Informe de Gobierno</a>
-    			          <a class="dropdown-toggle dropdown-item" href="#" id="licitacionesLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    				          Licitaciones
-    				          </a>
+    			          <a class="dropdown-toggle dropdown-item" href="#" id="licitacionesLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Licitaciones</a>
 				          <div class="dropdown-menu" aria-labelledby="licitacionesLink">
 				            <a class="dropdown-item" href="javascript:pagecontent('view/licitaciones/licitaciones.php');">Obras Públicas</a>
 				          </div>

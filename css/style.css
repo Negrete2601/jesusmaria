@@ -1010,3 +1010,19 @@
 .dropdown-submenu {
     position: relative; /* Necesario para el posicionamiento absoluto del submenú */
 }
+/* Estilo personalizado para centrar las imágenes y el texto */
+.custom-img-container {
+    text-align: center; /* Centrar contenido dentro del contenedor */
+    margin-bottom: 20px; /* Espacio inferior entre imágenes */
+}
+.custom-img {
+    width: 370px;
+    height: 300px; /* Tamaño fijo para la altura */
+    object-fit: cover; /* Asegura que la imagen se ajuste sin deformarse */
+    margin: 0 auto; /* Centrar imagen */
+}
+.custom-text {
+    max-width: 370px; /* Igualar el ancho del texto al de la imagen */
+    margin: 0 auto; /* Centrar el texto */
+    text-align: center; /* Opcional, centrado del texto */
+}
