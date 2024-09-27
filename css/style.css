@@ -338,7 +338,7 @@
 
 /*** Single Page Hero Header Start ***/
 .bg-breadcrumb {
-    background: linear-gradient(rgba(0, 58, 102, 0.9), rgba(0, 58, 102, 0.8)), url(../img/breadcrumb.jpg);
+    background: linear-gradient(rgba(81, 141, 188, 0.9), rgba(0, 58, 102, 0.8)), url(../img/breadcrumb.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: initial;
@@ -347,7 +347,16 @@
 }
 /*** Single Page Hero Header End ***/
 
-
+/*** Single Page Hero Header Start ***/
+.bg-breadcrumb2 {
+    background: linear-gradient(rgba(0, 58, 102, 0.9), rgba(0, 68, 120, 0.8)), url(../img/imgjesusmariaarco.jfif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-size: cover;
+    padding: 100px 0 60px 0;
+}
+/*** Single Page Hero Header End ***/
 /*** Carousel Hero Header Start ***/
 .carousel-header .carousel-control-prev .carousel-control-prev-icon,
 .carousel-header .carousel-control-next .carousel-control-next-icon {
@@ -986,3 +995,18 @@
     color:#0A1D3D;
 }
 /*** copyright end ***/
+/* Para el submenú Revista El Chicahual */
+.dropdown-submenu .dropdown-menu {
+    display: none; /* Ocultar por defecto */
+    position: absolute; /* Posicionar absolutamente */
+    left: 100%; /* Desplazar a la derecha del elemento padre */
+    top: 0; /* Alinear en la parte superior */
+}
+
+.dropdown-submenu:hover .dropdown-menu {
+    display: block; /* Mostrar al pasar el cursor sobre el elemento padre */
+}
+
+.dropdown-submenu {
+    position: relative; /* Necesario para el posicionamiento absoluto del submenú */
+}
