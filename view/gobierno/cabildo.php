@@ -19,7 +19,7 @@
     <div class="col-lg-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
         <div class="training-item">
             <div class="training-inner">
-                <img src="img/JoseGuadalupeGarcíaEsparza.jpg" class="img-fluid w-100 rounded" alt="Image">
+                <img src="img/AvatarMan.png" class="img-fluid w-100 rounded" alt="Image">
                 <div class="training-title-name">
                     <a href="#" class="h4 text-white mb-0">Presidente Municipal</a>
                 </div>
@@ -33,7 +33,7 @@
     <div class="col-lg-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
         <div class="training-item">
             <div class="training-inner">
-                <img src="img/JoseGuadalupeGarcíaEsparza.jpg" class="img-fluid w-100 rounded" alt="Image">
+                <img src="img/AvatarMan.png" class="img-fluid w-100 rounded" alt="Image">
                 <div class="training-title-name">
                     <a href="#" class="h4 text-white mb-0">Sindicatura Municipal</a>
                 </div>
@@ -47,7 +47,7 @@
     <div class="col-lg-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
         <div class="training-item">
             <div class="training-inner">
-                <img src="img/JoseGuadalupeGarcíaEsparza.jpg" class="img-fluid w-100 rounded" alt="Image">
+                <img src="img/AvatarMan.png" class="img-fluid w-100 rounded" alt="Image">
                 <div class="training-title-name">
                     <a href="#" class="h4 text-white mb-0">Regidor</a>
                 </div>
@@ -69,7 +69,7 @@
     <div class="col-lg-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
         <div class="training-item">
             <div class="training-inner">
-                <img src="img/JoseGuadalupeGarcíaEsparza.jpg" class="img-fluid w-100 rounded" alt="Image">
+                <img src="img/AvatarMan.png" class="img-fluid w-100 rounded" alt="Image">
                 <div class="training-title-name">
                     <a href="#" class="h4 text-white mb-0">Regidora</a>
                 </div>
@@ -83,7 +83,7 @@
     <div class="col-lg-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
         <div class="training-item">
             <div class="training-inner">
-                <img src="img/LeonardoDanielPerezEsquivel.jpg" class="img-fluid w-100 rounded" alt="Image">
+                <img src="img/AvatarMan.png" class="img-fluid w-100 rounded" alt="Image">
                 <div class="training-title-name">
                     <a href="#" class="h4 text-white mb-0">Regidor</a>
                 </div>
@@ -97,7 +97,7 @@
     <div class="col-lg-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
         <div class="training-item">
             <div class="training-inner">
-                <img src="img/JoseGuadalupeGarcíaEsparza.jpg" class="img-fluid w-100 rounded" alt="Image">
+                <img src="img/AvatarMan.png" class="img-fluid w-100 rounded" alt="Image">
                 <div class="training-title-name">
                     <a href="#" class="h4 text-white mb-0">Regidora</a>
                 </div>
@@ -119,7 +119,7 @@
     <div class="col-lg-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
         <div class="training-item">
             <div class="training-inner">
-                <img src="img/JoseGuadalupeGarcíaEsparza.jpg" class="img-fluid w-100 rounded" alt="Image">
+                <img src="img/AvatarMan.png" class="img-fluid w-100 rounded" alt="Image">
                 <div class="training-title-name">
                     <a href="#" class="h4 text-white mb-0">Regidora</a>
                 </div>
@@ -133,7 +133,7 @@
     <div class="col-lg-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
         <div class="training-item">
             <div class="training-inner">
-                <img src="img/JoseGuadalupeGarcíaEsparza.jpg" class="img-fluid w-100 rounded" alt="Image">
+                <img src="img/AvatarMan.png" class="img-fluid w-100 rounded" alt="Image">
                 <div class="training-title-name">
                     <a href="#" class="h4 text-white mb-0">Regidor</a>
                 </div>
@@ -147,7 +147,7 @@
     <div class="col-lg-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
         <div class="training-item">
             <div class="training-inner">
-                <img src="img/JoseGuadalupeGarcíaEsparza.jpg" class="img-fluid w-100 rounded" alt="Image">
+                <img src="img/AvatarMan.png" class="img-fluid w-100 rounded" alt="Image">
                 <div class="training-title-name">
                     <a href="#" class="h4 text-white mb-0">Regidora</a>
                 </div>
@@ -169,7 +169,7 @@
     <div class="col-lg-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
         <div class="training-item">
             <div class="training-inner">
-                <img src="img/LeobardoValdezAlba.jpg" class="img-fluid w-100 rounded" alt="Image">
+                <img src="img/AvatarMan.png" class="img-fluid w-100 rounded" alt="Image">
                 <div class="training-title-name">
                     <a href="#" class="h4 text-white mb-0">Regidor</a>
                 </div>
