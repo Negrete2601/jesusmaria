@@ -91,7 +91,7 @@
     <h5 class="sub-title pe-3">Trámites</h5>
     <h1 class="display-5 mb-4">Por dependencia:</h1>
     <div class="row">
-        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3" data-bs-toggle="modal" data-bs-target="#modal_dependencia">
             <i class="fas fa-clipboard fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
             <h5 class="ms-3">Secretaría Particular</h5>
         </div>
@@ -359,3 +359,22 @@
             </div>
         </div>
         <!-- Services End -->
+
+ <!-- modal tramites por dependencias -->
+        <!-- Modal -->
+<div class="modal fade" id="modal_dependencia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Trámites</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
