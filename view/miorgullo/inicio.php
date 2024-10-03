@@ -81,98 +81,99 @@
         <div class="container-fluid counter-facts2 py-5">
             <div class="container py-5">
                 <div class="row g-5">
-                    <div class="col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                    <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.1s">
                         <div class="bg-light rounded">
                             <img src="img/brand-logo.png" class="img-fluid w-100" style="margin-bottom: -7px;" alt="Image">
                             <img src="img/rectificacion.png" class="img-fluid w-100 border-bottom border-5 border-primary" style="border-top-right-radius: 300px; border-top-left-radius: 300px;" alt="Image">
                         </div>
                     </div>
-                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
-                        <h5 class="sub-title pe-3">Tramites</h5>
-                        <h1 class="display-5 mb-4">Por dependencia:</h1>
-                        <div class="row gy-4 align-items-center">
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-clipboard fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Secretaria Particular</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-female fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Instancia de la mujer</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-tint fa-3x text-secondary"></i>
-                                <h5 class="ms-4">CAPAS</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-medal fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Instancia del depore</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fa-solid fa-calculator fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Secrearia de Finanzas</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-guitar fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Instancia de la cultura</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-shield fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Secretaria de Seguridad Pública y vialidad</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-heartbeat fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Instancia de la Salud Pública</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-handshake-angle fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Secretaría de Desarrollo Social</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-scale-balanced fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Sindicatura</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-tractor fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Secretaría de Desarrollo Agrario, Territorial y Urbano Municipal</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-dumpster fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Secretaría de Servicios Públicos</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-recycle fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Secretaría de Medio Ambiente y Sustentabilidad</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-user-tie fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Secretaría del H. Ayuntamiento y Dirección General de Gobierno</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-helmet-safety fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Secretaría de Obras Públicas</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-star fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Instancia de la Juventud</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-magnifying-glass fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Contraloría Municipal</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-house fa-3x text-secondary"></i>
-                                <h5 class="ms-4">DIF</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-building fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Secretaría de Desarrollo Económico</h5>
-                            </div>
-                            <div class="col-12 col-sm-6 d-flex align-items-center">
-                                <i class="fas fa-calendar fa-3x text-secondary"></i>
-                                <h5 class="ms-4">Secretaría de Administración</h5>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;">
+    <h5 class="sub-title pe-3">Trámites</h5>
+    <h1 class="display-5 mb-4">Por dependencia:</h1>
+    <div class="row">
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fas fa-clipboard fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">Secretaría Particular</h5>
+        </div>
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fas fa-female fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">Instancia de la mujer</h5>
+        </div>
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fas fa-tint fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">CAPAS</h5>
+        </div>
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fas fa-medal fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">Instancia del deporte</h5>
+        </div>
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fa-solid fa-calculator fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">Secretaría de Finanzas</h5>
+        </div>
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fas fa-guitar fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">Instancia de la cultura</h5>
+        </div>
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fas fa-shield fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">Secretaría de Seguridad Pública y vialidad</h5>
+        </div>
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fas fa-heartbeat fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">Instancia de la Salud Pública</h5>
+        </div>
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fas fa-handshake-angle fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">Secretaría de Desarrollo Social</h5>
+        </div>
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fas fa-scale-balanced fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">Sindicatura</h5>
+        </div>
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fas fa-tractor fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">Secretaría de Desarrollo Agrario, Territorial y Urbano Municipal</h5>
+        </div>
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fas fa-dumpster fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">Secretaría de Servicios Públicos</h5>
+        </div>
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fas fa-recycle fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">Secretaría de Medio Ambiente y Sustentabilidad</h5>
+        </div>
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fas fa-user-tie fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">Secretaría del H. Ayuntamiento y Dirección General de Gobierno</h5>
+        </div>
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fas fa-helmet-safety fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">Secretaría de Obras Públicas</h5>
+        </div>
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fas fa-star fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">Instancia de la Juventud</h5>
+        </div>
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fas fa-magnifying-glass fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">Contraloría Municipal</h5>
+        </div>
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fas fa-house fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">DIF</h5>
+        </div>
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fas fa-building fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">Secretaría de Desarrollo Económico</h5>
+        </div>
+        <div class="col-12 col-sm-6 d-flex align-items-center mb-3">
+            <i class="fas fa-calendar fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+            <h5 class="ms-3">Secretaría de Administración</h5>
+        </div>
+    </div>
+</div>
+
                 </div>
             </div>
         </div>
@@ -188,7 +189,11 @@
                             </div>
                             <div class="feature-content d-flex flex-column">
                                 <h5 class="mb-3">Buzón de quejas</h5>
-                                <a class="btn btn-secondary rounded-pill" href="#">Ingresar<i class="fas fa-arrow-right ms-2"></i></a>
+                                <?php
+                            echo '
+                                <a class="btn btn-secondary rounded-pill" href="javascript:cambiarcont(\'view/gobierno/buzon.php\');">enviar<i class="fas fa-arrow-right ms-2"></i></a>
+                                ';
+                            ?>
                             </div>
                         </div>
                     </div>
@@ -199,7 +204,7 @@
                             </div>
                             <div class="feature-content d-flex flex-column">
                                 <h5 class="mb-3">whatsapp</h5>
-                                <a class="btn btn-secondary rounded-pill" href="#">Ingresar<i class="fas fa-arrow-right ms-2"></i></a>
+                                <a class="btn btn-secondary rounded-pill" href="https://wa.me/524495427445?text=Hola, estoy interesado en más información." target="_blank"> enviar<i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
                     </div>
@@ -210,7 +215,7 @@
                             </div>
                             <div class="feature-content d-flex flex-column">
                                 <h5 class="mb-3">Pagar predial</h5>
-                                <a class="btn btn-secondary rounded-pill" href="#">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+                                <a class="btn btn-secondary rounded-pill" href="https://jesusmaria.recaudacion.net/SIM/predial.jsp" target="_blank">ingresar<i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
                     </div>
