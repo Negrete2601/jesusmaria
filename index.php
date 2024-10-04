@@ -46,16 +46,15 @@
         <div class="col-lg-5 text-center text-lg-start mb-lg-0">
             <div class="d-flex">
                 <a href="#" class="text-muted me-4"><i class="fas fa-envelope text-secondary me-2"></i>Example@gmail.com</a>
-                <a href="#" class="text-muted me-0"><i class="fas fa-phone-alt text-secondary me-2"></i>+01234567890</a>
+                <a href="#" class="text-muted me-0"><i class="fas fa-phone-alt text-secondary me-2"></i>449 965 00 88</a>
             </div>
         </div>
         <div class="col-lg-3 row-cols-1 text-center mb-2 mb-lg-0">
             <div class="d-inline-flex align-items-center" style="height: 45px;">
-                <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal text-secondary"></i></a>
-                <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal text-secondary"></i></a>
-                <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal text-secondary"></i></a>
-                <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal text-secondary"></i></a>
-                <a class="btn btn-sm btn-outline-light btn-square rounded-circle" href=""><i class="fab fa-youtube fw-normal text-secondary"></i></a>
+                <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href="https://x.com/Jesus_Maria_"><i class="fab fa-twitter fw-normal text-secondary"></i></a>
+                <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href="https://www.facebook.com/JesusMariaMunicipio/"><i class="fab fa-facebook-f fw-normal text-secondary"></i></a>
+                <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href="https://www.instagram.com/jesusmaria_municipio/"><i class="fab fa-instagram fw-normal text-secondary"></i></a>
+                <a class="btn btn-sm btn-outline-light btn-square rounded-circle" href="https://www.youtube.com/channel/UCsrgM_afF4yD2xLY8y3fC_g"><i class="fab fa-youtube fw-normal text-secondary"></i></a>
             </div>
         </div>
         <div class="col-lg-4 text-center text-lg-end">
@@ -193,64 +192,159 @@
 
         <!-- Footer Start -->
         <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="text-secondary mb-4">Contact Info</h4>
-                            <a href=""><i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA</a>
-                            <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
-                            <a href=""><i class="fas fa-phone me-2"></i> +012 345 67890</a>
-                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-share fa-2x text-secondary me-2"></i>
-                                <a class="btn mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="btn mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="text-secondary mb-4">Opening Time</h4>
-                            <div class="mb-3">
-                                <h6 class="text-muted mb-0">Mon - Friday:</h6>
-                                <p class="text-white mb-0">09.00 am to 07.00 pm</p>
-                            </div>
-                            <div class="mb-3">
-                                <h6 class="text-muted mb-0">Satday:</h6>
-                                <p class="text-white mb-0">10.00 am to 05.00 pm</p>
-                            </div>
-                            <div class="mb-3">
-                                <h6 class="text-muted mb-0">Vacation:</h6>
-                                <p class="text-white mb-0">All Sunday is our vacation</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="text-secondary mb-4">Our Services</h4>
-                            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Business</a>
-                            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Evaluation</a>
-                            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Migrate</a>
-                            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Study</a>
-                            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Counselling</a>
-                            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Work / Career</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item">
-                            <h4 class="text-secondary mb-4">Newsletter</h4>
-                            <p class="text-white mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <div class="position-relative mx-auto rounded-pill">
-                                <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
-                                <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="pre-footer">
+		
+		<div class="emblem">
+      
+                        
+			<a href="javascript:cambiarcont(\'view/miorgullo/inicio.php\');">
+				<img src="./img/logo_v.png" class="imagenpie">
+			</a>
+           
+		</div>
+
+		<div class="mapa">
+			<div>
+			
+                <span><a href="index.php">Inicio</a></span>
+			</div>
+
+			<div>
+				<div>
+					<span>¡Mi orgullo, mi gente!</span>
+					<ul>
+						<a href="javascript:pagecontent('view/miorgullomigente/historia.php');">
+							<li>Historia</li>
+							
+						</a>
+
+						<a href="javascript:pagecontent('view/miorgullomigente/escudo.php');">
+							<li>Escudo</li>
+							
+						</a>
+
+						<a href="javascript:pagecontent('view/miorgullomigente/datos_relevantes.php');">
+							<li>Datos Relevantes</li>
+							
+						</a>
+
+						<a href="javascript:pagecontent('view/miorgullomigente/vision.php');">
+							<li>Visión</li>
+							
+						</a>
+
+						<a href="javascript:pagecontent('view/miorgullomigente/mision.php');">
+							<li>Misión</li>
+							
+						</a>
+
+						<a href="javascript:pagecontent('view/miorgullomigente/valores_principios.php');">
+							<li>Valores y Principios</li>
+							
+						</a>
+					</ul>
+				</div>
+			</div>
+
+			<div>
+				<div>
+					<span>Gobierno</span>
+					<ul>
+						<a href="estaticos/2020/plan/Plan_de_Desarrollo_municipal_JM_2019-2021.pdf" target="_blank">
+							<li>PDM 2019-2021</li>
+							
+						</a>
+						
+						<a href="estaticos/2022/plan/Plan_de_Desarrollo_municipal_JM_2021-2024.pdf" target="_blank">
+							<li>PDM 2021-2024</li>
+							
+						</a>
+						
+						<a href="javascript:pagecontent('view/gobierno/cabildo.php');">
+							<li>Cabildo</li>
+							
+						</a>
+
+						<a href="javascript:pagecontent('view/gobierno/gabinete.php');">
+							<li>Gabinete</li>
+							
+						</a>
+
+						<a href="javascript:pagecontent('view/gobierno/directorio.php');">
+							<li>Directorio</li>
+							
+						</a>
+						
+						<a href="javascript:pagecontent('view/buzon/buzon.php');">
+							<li>Buzón de sugerencias</li>
+							
+						</a>
+					</ul>
+				</div>
+			</div>
+				
+			<div>
+				<div>
+					<span>Trámites en línea</span>
+					<ul>
+					    <a onclick="info_predial();">
+    					    <li>Predial</li>
+    					</a>
+
+						<a href="javascript:pagecontent('view/tramites_linea/dependencias.php');">
+							<li>Dependencias</li>
+						</a>
+
+						<a href="javascript:pagecontent('view/tramites_linea/cartografia.php');">
+							<li>Cartografía</li>
+						</a>
+						
+						<a href="javascript:pagecontent('view/tramites_linea/mejora_regulatoria.php');">
+							<li>Agenda Regulatoria</li>
+						</a>
+						<a href="http://juventud.jesusmaria.gob.mx/" target="_blank"><li>Servicio Social y Prácticas Profesionales</li></a>
+				        <a href="http://jesusmaria.gob.mx/estrado/" target="_blank"><li>Estrado Electrónico</li></a>
+				        <a href="http://jesusmaria.gob.mx/directorio_empresarial/" target="_blank"><li>Directorio Empresarial</li></a>
+					</ul>
+					
+				</div>
+			</div>
+
+			<div>
+				<div>
+					<a href="http://turismo.jesusmaria.gob.mx/" target="_blank">Turismo</a>
+				</div>
+			</div>
+
+			<div>
+				<div>
+					<a href="http://transparencia.jesusmaria.gob.mx/#/" target="_blank">Transparencia</a>
+				</div>
+			</div>
+
+			<div>
+				<div>
+					<span>Consulta Evaluación</span>
+					<ul>
+						<a href="http://aguascalientes.gob.mx/cplap/Docs/IMCO/2019/Externas/FISM/JESUS_MARIA/03_ASM_2018_Jesus_Maria_FISM.pdf">
+							<li>Acciones susceptibles de mejora</li>
+						</a>
+					</ul>
+					
+				</div>
+			</div>	
+		</div>
+
+		<div class="social">
+                <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href="https://x.com/Jesus_Maria_"><i class="fab fa-twitter fw-normal text-secondary"></i></a>
+                <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href="https://www.facebook.com/JesusMariaMunicipio/"><i class="fab fa-facebook-f fw-normal text-secondary"></i></a>
+                <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href="https://www.instagram.com/jesusmaria_municipio/"><i class="fab fa-instagram fw-normal text-secondary"></i></a>
+                <a class="btn btn-sm btn-outline-light btn-square rounded-circle" href="https://www.youtube.com/channel/UCsrgM_afF4yD2xLY8y3fC_g"><i class="fab fa-youtube fw-normal text-secondary"></i></a>
+
+
+
+		</div>
+	</div>
         </div>
         <!-- Footer End -->
 

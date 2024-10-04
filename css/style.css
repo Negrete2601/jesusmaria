@@ -1026,3 +1026,47 @@
     margin: 0 auto; /* Centrar el texto */
     text-align: center; /* Opcional, centrado del texto */
 }
+.pre-footer
+{
+	
+	background-color:   #0A1D3D;
+	padding: 10px;
+    display: flex; /* Usar flexbox */
+    justify-content: space-between; /* Espacia los elementos */
+    align-items: center; /* Alinea verticalmente en el centro (opcional) */
+}
+.pre-footer .emblem {
+    
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    overflow: hidden; /* Oculta cualquier contenido que se desborde */
+    height: 200px;
+}
+
+.pre-footer .emblem, .pre-footer .mapa, .pre-footer .social {
+    padding: 10px;
+}
+.mapa{
+    color:#DDDDDD;
+}
+.pre-footer .mapa {
+    display: flex; /* Haz que cada div se comporte como un elemento en línea */
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 70%;
+    color: white;
+    font-size: 0.7em;
+    flex-direction: row; /* Alinea los elementos en fila */
+    justify-content: space-between; /* Espacia los elementos */
+}
+.imagenpie {
+    max-width: 100%; /* Limita el ancho máximo de la imagen al ancho del div */
+    max-height: 100%; /* Limita la altura máxima de la imagen a la altura del div */
+    object-fit: contain; /* Ajusta la imagen sin distorsionar */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin: 0 auto; /* Centra la imagen dentro del contenedor */
+}
+.mapa a {
+    color: white; /* Cambia el color del texto a blanco */
+}
