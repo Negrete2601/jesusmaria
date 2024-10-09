@@ -32,7 +32,7 @@
         <h1>Año 2024</h1>
         <div class="row">
             <div class="col-md-6 custom-img-container">
-                <img src="img/2336_boletin_1.jpg" alt="Imagen 2024-1" class="custom-img">
+                <img src="img/2335_boletin_1.jpg" alt="Imagen 2024-1" class="custom-img">
                 <div class="custom-text">
                     <p>RECIBIÓ ANTONIO ARÁMBULA, RECONOCIMIENTO POR PARTE DE ACNUR POR EL TRABAJO REALIZADO A FAVOR DE LAS NIÑAS Y NIÑOS REFUGIADOS.</p>
                     <button class="btn btn-primary">Ver más</button>

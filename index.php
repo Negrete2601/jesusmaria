@@ -45,7 +45,7 @@
     <div class="row gx-0 align-items-center">
         <div class="col-lg-5 text-center text-lg-start mb-lg-0">
             <div class="d-flex">
-                <a href="#" class="text-muted me-4"><i class="fas fa-envelope text-secondary me-2"></i>Example@gmail.com</a>
+               <!--   <a href="#" class="text-muted me-4"><i class="fas fa-envelope text-secondary me-2"></i>Example@gmail.com</a>-->
                 <a href="#" class="text-muted me-0"><i class="fas fa-phone-alt text-secondary me-2"></i>449 965 00 88</a>
             </div>
         </div>
@@ -59,8 +59,6 @@
         </div>
         <div class="col-lg-4 text-center text-lg-end">
             <div class="d-inline-flex align-items-center" style="height: 45px;">
-                <a href="#" class="text-muted me-2"> Soporte</a><small> / </small>
-                <a href="#" class="text-muted mx-2"> Ayuda</a>
             </div>
         </div>
     </div>
@@ -353,14 +351,14 @@
         <div class="container-fluid copyright py-4">
             <div class="container">
                 <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span ><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
+                    <div class="col-md-4 text-center text-md-start mb-md-0">
+                        <span>Municipio de Jesús María 2024 - 2027</span>
                     </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom text-white" href="https://themewagon.com">ThemeWagon</a>
+                    <div class="col-md-4 text-center text-md-start">
+                        Coordinación de Innovación Tecnológica · Copyleft 🄯 2021 · Derechos Reservados                     
+                    </div>
+                    <div class="col-md-4 text-center text-md-start">
+                        Calle Emiliano Zapata No. 109 - Colonia Centro, Jesús María, Aguascalientes - C.P. 20920                     
                     </div>
                 </div>
             </div>
