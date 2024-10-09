@@ -323,7 +323,11 @@
                                         <a href="#"><h4 class="text-white mb-4 py-3">EL GOBIERNO MUNICIPAL DE JESÚS MARÍA, IMPULSA LA TENENCIA RESPONSABLE DE MASCOTAS.</h4></a>
                                         <div class="px-4">
                                             <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.</p>
-                                            <a class="btn btn-primary border-secondary rounded-pill py-3 px-5" href="#">Ver más</a>
+                                            <?php
+                                           echo '
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="javascript:cambiarcont(\'view/gobierno/boletin.php\');">Ver más</a>
+                                           ';
+                                            ?>
                                         </div>
                                     </div>
                                 </div>
@@ -347,8 +351,12 @@
                                         <a href="#"><h4 class="text-white mb-4 py-3">JESÚS MARÍA CELEBRA LA GRADUACIÓN DE LA PPRIMERA GENERACIÓN DE LA UNIVERSIDAD DE LA CIUDAD DE AGUASCALIENTES.</h4></a>
                                         <div class="px-4">
                                             <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.</p>
-                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="#">Ver más</a>
-                                        </div>
+                                            <?php
+                                           echo '
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="javascript:cambiarcont(\'view/gobierno/boletin.php\');">Ver más</a>
+                                           ';
+                                            ?>
+                                            </div>
                                     </div>
                                 </div>
                             </div>
