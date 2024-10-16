@@ -81,7 +81,7 @@
                             echo '
                         <a href="javascript:cambiarcont(\'view/miorgullo/inicio.php\');" class="nav-item nav-link active">Inicio</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">¡Mi orgullo, mi gente!</span></a>
+                            <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Ciudad de Vanguardia</span></a>
                             <div class="dropdown-menu m-0">
                             
                                 <a href="javascript:cambiarcont(\'view/miorgullo/historia.php\');" class="dropdown-item">Historia</a>
