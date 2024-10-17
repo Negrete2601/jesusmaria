@@ -40,7 +40,7 @@
                 <div class="section-title text-center wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom: 70px;">
                 <div class="page-content">
     <div class="container">
-                <h2 id="linea_gris">Obligaciones</h2>
+    <h5 class="sub-title pe-3">Obligaciones</h5>
         <div style="text-align: right;" id="copy_link"><a style="border: 2px solid #007BFF; cursor: pointer;" onclick="alert('Link copiado al portapapeles; usar CTRL+V para pegarlo en donde desee')">Copiar link a esta carpeta</a></div><ul class="breadcum breadcrumb bred_border" id="breadcrumb" style="word-break: break-word;"><li><a role="button" onclick="fill_flexbox('../../carpetas/Obligaciones/'); fill_breadcrumb('../../carpetas/Obligaciones/'); fill_copy('Obligaciones/')">Obligaciones</a></li></ul>
         <div class="contenedor_flex" id="contenedor"><a href="carpetas/Obligaciones/.ftpquota" target="_blank"><div class="archivo_flex">
                             <div style="text-align: center;">

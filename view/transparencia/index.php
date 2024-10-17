@@ -106,10 +106,10 @@
                         <?php
                             echo '
                        <a href="javascript:cambiarcont(\'obligaciones/obligaciones.php\');" class="nav-item nav-link">Obligaciones</a>
-                       <a href="javascript:cambiarcont(\'view/tramites_linea/mejora_regulatoria.php\');" class="nav-item nav-link">Sesiones</a>
-                       <a href="javascript:cambiarcont(\'view/tramites_linea/mejora_regulatoria.php\');" class="nav-item nav-link">Cuenta Pública</a>
-                       <a href="javascript:cambiarcont(\'view/tramites_linea/mejora_regulatoria.php\');" class="nav-item nav-link">Contraloría Social</a>
-                       <a href="javascript:cambiarcont(\'view/tramites_linea/mejora_regulatoria.php\');" class="nav-item nav-link">Transparencia Proactiva</a>
+                       <a href="javascript:cambiarcont(\'sesiones/sesiones.php\');" class="nav-item nav-link">Sesiones</a>
+                       <a href="javascript:cambiarcont(\'cuenta_publica/cuenta_publica.php\');" class="nav-item nav-link">Cuenta Pública</a>
+                       <a href="javascript:cambiarcont(\'contraloria_social/contraloria.php\');" class="nav-item nav-link">Contraloría Social</a>
+                       <a href="javascript:cambiarcont(\'transparencia_proac/trans_proac.php\');" class="nav-item nav-link">Transparencia Proactiva</a>
 
 
 
