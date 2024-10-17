@@ -1,0 +1,439 @@
+.cabezal {
+	display: flex;
+	flex-flow: row wrap;
+	/*background-color: #171f3b;*/
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+	background: #45484D;
+	/* Old browsers */
+	background: #FFFFFF;
+	/* FF3.6-15 */
+	background: #FFFFFF;
+	/* Chrome10-25,Safari5.1-6 */
+	background: #FFFFFF;
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+	/* IE6-9 */
+	min-height: 115px;
+}
+
+.cabezal .imagen {
+	max-height: 195px;
+}
+
+.cabezal .social_net{
+	float: right;
+}
+
+.cabezal .mapa {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.dropdown-menu {
+	
+	background-color: #063F6E;
+}
+
+.dropdown-item{
+	color: white!important;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #16181B;
+  text-decoration: none;
+  background-color: #2574B6;
+}
+
+/*DROPDOWNS MENU/////////////////////////////////////////////777777*/
+.dropleft .dropdown-toggle::before {
+	display: none;
+}
+
+.dropdown-submenu ul.dropdown-menu {
+	background-color: #e20a0a;
+	position: relative;
+}
+
+.dropdown-item:active {
+	background-color: #777;
+}
+
+ul.dropdown-menu.show {
+	width: 100%;
+}
+
+/*dropdown menus ends//////////////////////////////////////*/
+.bjm-menu {
+	color: #171F3B;
+	background-color: white;
+	border-color: transparent;
+	border-radius: 3px;
+	padding-left: 6px;
+	padding-right: 6px;
+	font-size: 0.91em;
+}
+
+.bjm-menu:hover {
+	background-color: #2574B6;
+	border-color: #171F3B;
+	border: solid;
+	border-width: 0.125em;
+	border-color: #2574B6;
+}
+
+.bjm-menu:focus {
+	border-radius: 3px;
+	background-color: #2574B6;
+	color: black;
+}
+
+.bjm {
+	background-color: transparent;
+	border-color: transparent;
+	border-radius: inherit;
+	padding-left: 6px;
+	padding-right: 6px;
+	font-size: 0.91em;
+}
+
+.bjm:hover {
+	border-radius: 3px;
+	border-color: #171F3B;
+	border: solid;
+	border-width: 0.125em;
+	border-color: #2574B6;
+}
+
+.bjm:focus {
+	border-radius: 3px;
+	background-color: #2574B6;
+	color: black;
+}
+
+.cabezal .redes {
+	display: block;
+	padding: 0px;
+}
+
+.rsa {
+	color: #575759;
+	font-size: 1.3em;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.rsa:hover {
+	color: #2574B6;
+	font-size: 1.3em;
+}
+
+@media only screen and (min-width: 1182px) {
+	.nav-menu {
+		display: none;
+	}
+	
+	.mapa-sitio-head {
+		display: flex;
+	}
+}
+
+@media only screen and (max-width: 1181.99px) {
+	.nav-menu {
+		display: initial;
+	}
+	
+	.mapa-sitio-head {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 950px) {
+	.cabezal .imagen {
+		width: 100%;
+	}
+	
+	.cabezal .mapa {
+		width: 100%;
+	}
+	
+	.cabezal .redes {
+		width: 5%;
+		background-color: grey;
+	}
+}
+
+@media only screen and (max-width: 949.99px) {
+	.cabezal .imagen {
+		width: 50%;
+	}
+
+	.cabezal .imagen div img {
+		width: 50%!important;
+	}
+	
+	.cabezal .mapa {
+		width: 40%;
+		/*background-color: #171f3b;*/
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+		background: #45484D;
+		/* Old browsers */
+		background: #FFFFFF;
+		/* FF3.6-15 */
+		background: #FFFFFF;
+		/* Chrome10-25,Safari5.1-6 */
+		background: #FFFFFF;
+		/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+		/* IE6-9 */
+	}
+	
+	.cabezal .redes {
+		width: 10%;
+		background-color: grey;
+	}
+}
+
+@media only screen and (max-width: 629.99px) {
+	.cabezal .imagen {
+		width: 85%;
+	}
+	
+	.cabezal .mapa {
+		width: 15%;
+		background-color: #171F3B;
+		justify-content: center;
+	}
+	
+	.cabezal .redes {
+		width: 100%;
+		background-color: grey;
+		justify-content: space-evenly;
+		flex-flow: row nowrap;
+		align-items: center;
+	}
+
+	.cabezal .imagen div img {
+		width: 65%!important;
+	}
+
+	.cabezal .social_net{
+		float: left;
+		width: 25px;
+	}
+
+}
+
+@media only screen and (min-width: 630px) {
+	.cabezal .mapa {
+		justify-content: flex-end;
+	}
+	
+	.cabezal .redes {
+		/*background-color: #171f3b;*/
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+		background: #45484D;
+		/* Old browsers */
+		background: #FFFFFF;
+		/* FF3.6-15 */
+		background: #FFFFFF;
+		/* Chrome10-25,Safari5.1-6 */
+		background: #FFFFFF;
+		/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+		/* IE6-9 */
+	}
+}
+
+@media only screen and (max-width: 379.99px) {
+	.cabezal .imagen {
+		width: 100%;
+		order: 1;
+	}
+	
+	.cabezal .imagen div {
+		padding: 0px;
+	}
+	
+	.cabezal .imagen img {
+		max-height: 115px;
+	}
+	
+	.cabezal .imagen div img {
+		width: 50%!important;
+	}
+	
+	.cabezal .mapa {
+		width: 100%;
+		background-color: #171F3B;
+		order: 3;
+		justify-content: flex-start;
+	}
+	
+	.cabezal .mapa button.bjm-menu {
+		color: white;
+		/*background-color: #171f3b;*/
+		background-color: #444;
+		margin-left: 25px;
+	}
+	
+	.cabezal .redes {
+		width: 100%;
+		background-color: grey;
+		justify-content: space-evenly;
+		flex-flow: row nowrap;
+		align-items: center;
+		order: 2;
+	}
+}
+
+.cabezal .redes {
+	font-size: 15px;
+	float: right;
+	width: 100%;
+	text-align: right;
+}
+
+.cabezal .imagen div img {
+	width: 15%;
+	display: block;
+	height: 200px;
+	margin: auto;
+}
+
+.escudito {
+	position: absolute;
+	top: 0px;
+	padding: 20px;
+	display: block;
+}
+
+/*MI NAVBAR EXPAND*/
+.navbar-cu {
+	justify-content: flex-end !important;
+}
+
+@media (max-width: 1279.98px) {
+	.navbar-expand-cu > .container,
+	.navbar-expand-cu > .container-fluid {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+@media (min-width: 1280px) {
+	.navbar-expand-cu {
+		margin: 0 auto;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-flow: row nowrap;
+		flex-flow: row nowrap;
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+	
+	.navbar-expand-cu .navbar-nav {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+	
+	.navbar-expand-cu .navbar-nav .dropdown-menu {
+		position: absolute;
+	}
+	
+	.navbar-expand-cu .navbar-nav .dropdown-menu-right {
+		right: 0;
+		left: auto;
+	}
+	
+	.navbar-expand-cu .navbar-nav .nav-link {
+		padding-right: 0.5rem;
+		padding-left: 0.5rem;
+	}
+	
+	.navbar-expand-cu > .container,
+	.navbar-expand-cu > .container-fluid {
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+	}
+	
+	.navbar-expand-cu .navbar-collapse {
+		display: -webkit-box !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+		-ms-flex-preferred-size: auto;
+		flex-basis: auto;
+	}
+	
+	.navbar-expand-cu .navbar-toggler {
+		display: none;
+	}
+	
+	.navbar-expand-cu .dropup .dropdown-menu {
+		top: auto;
+		bottom: 100%;
+	}
+}
+
+/*MI NAVBAR EXPAND*/
+@media (min-width: 1280px) {
+	.navbar-nav-cu {
+		width: 821px;
+		justify-content: flex-end;
+	}
+	
+	.bjm {
+		color: white;
+	}
+	
+	.bjm:hover {
+		color: white;
+	}
+	
+	.bjm:focus {
+		color: white;
+	}
+	
+	.evaluacion {
+		left: -109px !important;
+	}
+}
+
+@media (max-width: 1279.9px) {
+	#navbarNavDropdown {
+		position: absolute;
+		background-color: #063f6e;
+		z-index: 1;
+		top: 40px;
+		border-radius: 3px;
+	}
+	
+	.navbar-nav-cu {
+		padding-right: 12px;
+		padding-top: 6px;
+		padding-bottom: 6px;
+		width: 229px;
+	}
+	
+	.bjm {
+		color: white;
+	}
+	
+	.bjm:hover {
+		border-color: transparent;
+		color: black;
+	}
+	
+	.dropdown-item {
+		white-space: normal;
+	}
+}
+
+@media (max-width: 379.99px) {
+	#navbarNavDropdown {
+		left: 40px;
+	}
+}

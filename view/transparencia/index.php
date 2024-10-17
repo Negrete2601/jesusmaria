@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Presidencia municipal de Jesús María</title>
+        <title>xPresidencia municipal de Jesús María</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -19,26 +19,20 @@
         <script src="https://kit.fontawesome.com/477a7a7e11.js" crossorigin="anonymous"></script>
 
         <!-- Libraries Stylesheet -->
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="../../lib/animate/animate.min.css" rel="stylesheet">
+        <link href="../../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
 
         <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
+        <link href="../../css/style.css" rel="stylesheet">
     </head>
 
     <body>
 
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
-        </div>
-        <!-- Spinner End -->
+        
 
 <!-- Topbar Start -->
 <div class="container-fluid bg-primary px-5 d-none d-lg-block">
@@ -69,7 +63,7 @@
         <div class="container-fluid nav-bar p-0">
             <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="display-5 text-secondary m-0"><img src="img/brand-logo.png" class="img-fluid" alt=""></h1>
+                    <h1 class="display-5 text-secondary m-0"><img src="../../img/brand-logo.png" class="img-fluid" alt=""></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -81,7 +75,7 @@
                             echo '
                         <a href="javascript:cambiarcont(\'view/miorgullo/inicio.php\');" class="nav-item nav-link active">Inicio</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Ciudad de Vanguardia</span></a>
+                            <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Transparencia</span></a>
                             <div class="dropdown-menu m-0">
                             
                                 <a href="javascript:cambiarcont(\'view/miorgullo/historia.php\');" class="dropdown-item">Historia</a>
@@ -107,74 +101,21 @@
                         </div>
                                 
                                 
-                            </div>
-                        </div>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Gobierno</span></a>
-                            <div class="dropdown-menu show" aria-labelledby="navbarDropdownMenuLink">
-				          <a class="dropdown-item" href="recursos/gobierno/Plan_de_Desarrollo_municipal_JM_2019-2021.pdf" target="_blank">Plan de Desarrollo Municipal 2019-2021</a>
-				          <a class="dropdown-item" href="recursos/gobierno/Plan_de_Desarrollo_municipal_JM_2021-2024.pdf" target="_blank">Plan de Desarrollo Municipal 2021-2024</a>
-    			          <a class="dropdown-item" href="recursos/gobierno/D.O.DISTRIBUCIONDEFONDOSFISMDFYFOTAMUNDF3970.pdf" target="_blank">D.O. DISTRIBUCIÓN DE FONDOS FISMDF Y FOTAMUNDF 3970</a>
-    			          <?php
-                            echo '
-                         <a href="javascript:cambiarcont(\'view/gobierno/cabildo.php\');" class="dropdown-item">Cabildo</a>
-                           
-    			          <a class="dropdown-item" href="recursos/gobierno/convocatoria%20cabildo%20abierto_compressed.pdf" target="_blank">Cabildo Abierto</a>
-    			          <a href="javascript:cambiarcont(\'view/gobierno/gabinete.php\');" class="dropdown-item">Gabinete</a>
-                          
-    			          <a class="dropdown-item" href="recursos/gobierno/MIR2020.PDF" target="_blank">Matriz de Indicadores de Resultados 2020</a>
-    			          <a class="dropdown-item" href="recursos/gobierno/MIR2021.PDF" target="_blank">Matriz de Indicadores de Resultados 2021</a>
-    			          <a class="dropdown-item" href="recursos/gobierno/ReporteMIR2021.pdf" target="_blank">Reporte de Avance de los indicadores 2021</a>
-    			          <a href="javascript:cambiarcont(\'view/gobierno/directorio.php\');" class="dropdown-item">Directorio</a>
-    			          <a href="javascript:cambiarcont(\'view/gobierno/sala_prensa.php\');" class="dropdown-item">Sala de prensa</a>
-                          
-    			          <a class="dropdown-item" href="/informe" target="_blank">Informe de Gobierno</a>
-    			          <a class="dropdown-toggle dropdown-item" href="#" id="licitacionesLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Licitaciones</a>
-				          <div class="dropdown-menu" aria-labelledby="licitacionesLink">
-				          <a href="javascript:cambiarcont(\'view/gobierno/.php\');" class="dropdown-item">Obras Publicas</a>
-				          </div>
-				          
-				         <a href="javascript:cambiarcont(\'view/gobierno/buzon.php\');" class="dropdown-item">Buzón</a>
-                        
-				        </div>
-                        </div>
-                        <div class="nav-item dropdown">
-				        <a class="nav-link dropdown-toggle bjm" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-				          Trámites en línea
-				        </a>
-				        <div class="dropdown-menu show" aria-labelledby="navbarDropdownMenuLink">
-                         <a class="dropdown-item" href="https://jesusmaria.recaudacion.net/SIM/predial.jsp" target="_blank">Pago de Predial</a>
-				          <a class="dropdown-item" href="https://jesusmaria.recaudacion.net/SIM/datosTimbrado.jsp" target="_blank">Factura en Línea</a>
-                          <a href="javascript:cambiarcont(\'view/tramites_linea/dependencias.php\');" class="dropdown-item">Dependencias</a>
-                          <a href="javascript:cambiarcont(\'view/tramites_linea/cartografia.php\');" class="dropdown-item">Cartografía</a>
-                           ';
-                            ?>
-				          <a class="dropdown-item" href="http://desarrollo-economico.jesusmaria.gob.mx/" target="_blank">Bolsa de trabajo</a>
-				          <a class="dropdown-item" href="javascript:pagecontent('view/tramites_linea/mejora_regulatoria.php');">Agenda Regulatoria</a>
-				          <a class="dropdown-item" href="http://juventud.jesusmaria.gob.mx/" target="_blank">Servicio Social y Prácticas Profesionales</a>
-				          <a class="dropdown-item" href="http://jesusmaria.gob.mx/estrado/" target="_blank">Estrado Electrónico</a>
-				          <a class="dropdown-item" href="http://jesusmaria.gob.mx/directorio_empresarial/" target="_blank">Directorio Empresarial</a>
-				          <a class="dropdown-item" href="http://jesusmaria.gob.mx/cedeco/" target="_blank">Talleres CEDECOS</a>
-				        </div>
-                        </div>
+                    </div>
+                </div>
                         <?php
                             echo '
-                       <a href="javascript:cambiarcont(\'view/tramites_linea/mejora_regulatoria.php\');" class="nav-item nav-link">Mejora Regulatoria</a>
-                        
-                        <a href="https://turismo.jesusmaria.gob.mx/" class="nav-item nav-link" target="_blank">Turismo</a>
-                        <a href="view/transparencia/index.php" class="nav-item nav-link">Transparecia</a>
+                       <a href="javascript:cambiarcont(\'obligaciones/obligaciones.php\');" class="nav-item nav-link">Obligaciones</a>
+                       <a href="javascript:cambiarcont(\'view/tramites_linea/mejora_regulatoria.php\');" class="nav-item nav-link">Sesiones</a>
+                       <a href="javascript:cambiarcont(\'view/tramites_linea/mejora_regulatoria.php\');" class="nav-item nav-link">Cuenta Pública</a>
+                       <a href="javascript:cambiarcont(\'view/tramites_linea/mejora_regulatoria.php\');" class="nav-item nav-link">Contraloría Social</a>
+                       <a href="javascript:cambiarcont(\'view/tramites_linea/mejora_regulatoria.php\');" class="nav-item nav-link">Transparencia Proactiva</a>
+
+
+
                         ';
                             ?>
-                        
-                        <div class="nav-item dropdown">
-				        <a class="nav-link dropdown-toggle bjm" href="#"  data-bs-toggle="dropdown">
-                        <span class="dropdown-toggle">Consulta Evaluación</span>
-				        </a>
-				        <div class="dropdown-menu evaluacion show" aria-labelledby="navbarDropdownMenuLink">
-				          <a class="dropdown-item" href="http://aguascalientes.gob.mx/cplap/Docs/IMCO/2019/Externas/FISM/JESUS_MARIA/03_ASM_2018_Jesus_Maria_FISM.pdf" target="_blank">Acciones Susceptibles a Mejora</a>
-				          <a class="dropdown-item" href="http://jesusmaria.gob.mx/estaticos/plan/REPORTE%201ER%20TRIMESTRE%202020%20JESUS%20MARIA%20.pdf" target="_blank">REPORTE 1ER TRIMESTRE 2020 JESUS MARIA</a>
-				        </div>
-                        </div>
+                    
                         
                     </div>
                     
@@ -188,6 +129,43 @@
 
 				<div class="main-content-inner" id="body_content" name="body_content"></div>
 			</div>
+            
+    <br>
+    <div class="container">
+      <div class="row">
+         <div class="col-md-12 text-center">
+            <strong>SITIOS DE INTERÉS</strong>
+         </div>
+      </div>
+      <hr>
+
+      <div class="contenedor_flex">
+
+         <div class="text-center objeto_flex">
+            <a href="http://www.plataformadetransparencia.org.mx/web/guest/inicio" target="_blank" title="Plataforma Nacional de Transparencia"><img src="../../img/portales_150.png" class="img_logos_secundarios"></a>
+         </div>
+
+         <div class="text-center objeto_flex">
+            <a href="https://3de3.mx/" target="_blank" title="Tres de Tres"><img src="../../img/3de3_150.png" class="img_logos_secundarios"></a>
+         </div>
+
+         <div class="text-center objeto_flex">
+             <a href="http://www.itea.org.mx/" target="_blank" title="Instituto de Transparencia del Estado de Aguascalientes"><img src="../../img/itea_150.png" class="img_logos_secundarios"></a>
+         </div>
+
+         <div class="text-center objeto_flex">
+             <a href="http://inicio.inai.org.mx/" target="_blank" title="Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales"><img src="../../img/inai_150.png" class="img_logos_secundarios"></a>
+         </div>
+
+         <div class="text-center objeto_flex">
+             <a href="tel:911">
+               <img src="../../img/911.png" class="img_logos_secundarios">
+             </a>
+         </div>
+      </div>
+
+   </div>
+   <br>
 
         <!-- Footer Start -->
         <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
@@ -196,11 +174,12 @@
 		<div class="emblem">
       
                         
-			<a href="javascript:cambiarcont(\'view/miorgullo/inicio.php\');">
-				<img src="./img/logo_v.png" class="imagenpie">
+			<a href="javascript:cambiarcont(\'../../view/transparencia/inicio.php\');">
+				<img src="../../img/brand-logo.png" class="imagenpie">
 			</a>
            
 		</div>
+        
 
 		<div class="mapa">
 			<div>
@@ -317,7 +296,7 @@
 
 			<div>
 				<div>
-					<a href="javascript:pagecontent('view/tramites_linea/cartografia.php');" target="_blank">Transparencia</a>
+					<a href="http://transparencia.jesusmaria.gob.mx/#/" target="_blank">Transparencia</a>
 				</div>
 			</div>
 
@@ -374,26 +353,26 @@
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../../lib/wow/wow.min.js"></script>
+    <script src="../../lib/easing/easing.min.js"></script>
+    <script src="../../lib/waypoints/waypoints.min.js"></script>
+    <script src="../../lib/counterup/counterup.min.js"></script>
+    <script src="../../lib/owlcarousel/owl.carousel.min.js"></script>
     
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="../../js/main.js"></script>
     <script>
         function cambiarcont(pagina)
 			{
-			    $("#body_content").html("<img src='img/exit.gif' class='img-responsive center-block' alt='Cargando...' />");
+			   // $("#body_content").html("<img ../../img/exit.gif' class='img-responsive center-block' alt='Cargando...' />");
 			    $("#body_content").load(pagina);
 				$("#body_content").fadeIn(10000);
 			}
         $(document).ready(function() {
 				
-				    	$("#body_content").html("<img src='img/exit.gif' class='img-responsive center-block' alt='Cargando...' />");
-					    $('#body_content').load('view/miorgullo/inicio.php');
+				    	//$("#body_content").html("<img src='../../img/exit.gif' class='img-responsive center-block' alt='Cargando...' />");
+					    $('#body_content').load('../../view/transparencia/inicio.php');
 						$("#body_content").fadeIn(10000);
 				    	
 			});

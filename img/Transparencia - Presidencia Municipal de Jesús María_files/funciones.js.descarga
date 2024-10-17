@@ -1,0 +1,10 @@
+// JavaScript Document
+function cambiarcont(pagina) 
+{			
+	/*$(".container").html("<img src='img/cargando.gif' class='img-responsive center-block' alt='Cargando' />");
+	$(".container").load(pagina);
+	$(".container").fadeIn(10000);*/
+	$("#contenido").html("<img src='img/cargando.gif' class='img-responsive center-block' alt='Cargando' />");
+	$("#contenido").load(pagina);
+	$("#contenido").fadeIn(10000);
+}

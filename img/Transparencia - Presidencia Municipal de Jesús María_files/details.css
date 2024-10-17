@@ -1,0 +1,356 @@
+@charset "utf-8";
+/* CSS Document */
+h1,h2,h3,h4,h5,h6
+{
+	padding-left:10px;
+}
+
+#details_menu
+{
+	background: transparent;
+	border:none;
+	margin-bottom:0px;
+}
+
+#details_menu1
+{
+	background: transparent;
+	padding-top:40px;
+}
+
+#menu_buscar
+{
+	padding-top:40px;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+#menu_buscar2
+{
+	display:none;
+	visibility:hidden;
+}
+
+#fecha
+{
+	background: transparent;
+	height:55px;
+	position:absolute;
+	text-align:right;
+	top:0;
+	right:0;
+	margin-right:10px;
+	font-style:italic;
+	color:#CCCCCC;
+}
+
+.redes
+{
+	visibility:visible;
+	background: transparent;
+	height:35px;
+	position:absolute;
+	text-align:right;
+	top:26;
+	right:0;
+	margin-right:10px;
+}
+
+.redes_movil
+{
+	visibility:hidden;
+	display:none;
+}
+
+
+#linea_naranja
+{
+	border-bottom: #eb8545 solid 7px;
+}
+
+#linea_amarillo
+{
+	border-bottom: #e1de4b solid 7px;
+}
+
+#linea_verde
+{
+	border-bottom: #91bb36 solid 7px;
+}
+
+#linea_azulb
+{
+	border-bottom: #23a9e1 solid 7px;
+}
+
+#linea_azulr
+{
+	border-bottom: #3e5af0 solid 7px;
+}
+
+#linea_morado
+{
+	border-bottom: #a22c9e solid 7px;
+}
+
+#linea_gris
+{
+	border-bottom: #8F8E8F solid 7px;
+}
+
+#linea_nota
+{
+	border-bottom: #8F8E8F solid 7px;
+}
+
+#cuadro_integrante
+{
+	height:360px;
+	text-align:center;
+}
+
+#cuadro_gabinete
+{
+	height:300px;
+	text-align:center;
+}
+
+#cuadro_nota
+{
+	height: 500px;
+}
+
+#cuadro_sala
+{
+	height: 380px !important;
+}
+
+#cuadro_dependencias
+{
+	height: 200px !important;
+	vertical-align:middle !important;
+}
+
+.fondo_presidente
+{
+	background:#F0EDEE;
+}
+
+.fondo_azul
+{
+	background:#D9E3FB;
+}
+
+@media (max-width: 767px)
+{
+	#details_menu1
+	{
+		background: transparent;
+		padding-top:10px;
+		border:none;
+	}
+	
+	#menu_buscar
+	{
+		display:none;
+		visibility:hidden;
+	}
+	
+	#menu_buscar2
+	{
+		display:block;
+		visibility:visible;
+		padding-top:10px;
+		padding-left:10px;
+		padding-right:10px;
+		padding-bottom:10px;
+	}
+
+	#fecha
+	{
+		background: transparent;
+		height:25px;
+		position:relative;
+		text-align:center;
+		font-style:italic;
+		color:#CCCCCC;
+		font-size:12px;
+		padding-top:5px;
+	}
+	
+	.redes
+	{
+		visibility:hidden;
+		display:none;
+	}
+
+	.redes_movil
+	{
+		visibility:visible;
+		display:block;
+		background: transparent;
+		height:35px;
+		width:100%;
+		position:relative;
+		text-align:center;
+		margin-bottom:5px;
+		margin-top:0px;
+	}
+	
+	.navbar-header
+	{
+		text-align:center;
+	}
+	
+	#linea_naranja, #linea_amarillo, #linea_verde, #linea_azulb, #linea_azulr, #linea_morado
+	{
+		border-bottom: #FFFFFF solid 1px;
+		font-size:14px;
+	}
+	
+	#linea_nota
+	{
+		font-size:14px;
+		font-weight:bold;
+	}
+	
+	#cuadro_nota
+	{
+		height: auto;
+	}
+	
+	#cuadro_sala
+	{
+		height: auto !important;
+	}
+	
+	#cuadro_dependencias
+	{
+		height: auto !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	#centerr
+	{
+		align-content:center;
+		text-align:center;
+		background: transparent;
+		width:100%;
+	}
+	
+	#defaultNavbar1
+	{
+		align-content:center;
+		text-align:center;
+		background: transparent;
+		width:100% !important;
+	}
+	
+	#details_menu1
+	{
+		background: transparent;
+		padding-top:10px;
+		padding-bottom:10px;
+		border:none;
+		width: auto !important;
+	}
+	
+	#fecha
+	{
+		background: transparent;
+		height:25px;
+		position:relative;
+		text-align:center;
+		font-style:italic;
+		color:#CCCCCC;
+		font-size:12px;
+		padding-top:5px;
+	}
+	
+	.redes
+	{
+		visibility:hidden;
+		display:none;
+	}
+
+	.redes_movil
+	{
+		visibility:visible;
+		display:block;
+		background: transparent;
+		height:35px;
+		width:100%;
+		position:relative;
+		text-align:center;
+		margin-bottom:5px;
+		margin-top:0px;
+	}
+
+}
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	#centerr
+	{
+		align-content:center;
+		text-align:center;
+		background: transparent;
+		width:100%;
+	}
+	
+	#defaultNavbar1
+	{
+		align-content:center;
+		text-align:center;
+		background: transparent;
+		width:100%;
+	}
+	
+	#details_menu1
+	{
+		background: transparent;
+		padding-top:10px;
+		padding-bottom:10px;
+		border:none;
+		width:auto !important;
+	}
+	
+	#fecha
+	{
+		background: transparent;
+		height:25px;
+		position:relative;
+		text-align:center;
+		font-style:italic;
+		color:#CCCCCC;
+		font-size:12px;
+		padding-top:5px;
+	}
+	
+	.redes
+	{
+		visibility:hidden;
+		display:none;
+	}
+
+	.redes_movil
+	{
+		visibility:visible;
+		display:block;
+		background: transparent;
+		height:35px;
+		width:100%;
+		position:relative;
+		text-align:center;
+		margin-bottom:5px;
+		margin-top:0px;
+	}
+
+}
+@media (min-width: 1200px)
+{
+
+}
+
+
