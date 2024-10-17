@@ -78,27 +78,41 @@
                             <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Transparencia</span></a>
                             <div class="dropdown-menu m-0">
                             
-                                <a href="javascript:cambiarcont(\'view/miorgullo/historia.php\');" class="dropdown-item">Historia</a>
+                                <a href="javascript:cambiarcont(\'transparencia/unidad.php\');" class="dropdown-item">¿Qué es una Unidad de Transparencia?</a>
                                 
-                                <a href="javascript:cambiarcont(\'view/miorgullo/escudo.php\');" class="dropdown-item">Escudo</a>
+                                <a href="javascript:cambiarcont(\'transparencia/obligaciones.php\');" class="dropdown-item">¿Qué son las obligaciones de Transparencia?</a>
                                
-                                <a href="javascript:cambiarcont(\'view/miorgullo/datos.php\');" class="dropdown-item">Datos Relevantes</a>
-                                <a href="javascript:cambiarcont(\'view/miorgullo/mision.php\');" class="dropdown-item">Visión</a>
-                                <a href="javascript:cambiarcont(\'view/miorgullo/mision.php\');" class="dropdown-item">Misión</a>
-                                <a href="javascript:cambiarcont(\'view/miorgullo/valores.php\');" class="dropdown-item">Valores y Principios</a>
+                                <a href="javascript:cambiarcont(\'transparencia/comision.php\');" class="dropdown-item">¿Qué es la comisión de transparencia?</a>
+                                <a href="javascript:cambiarcont(\'transparencia/comite.php\');" class="dropdown-item">¿Qué es el Comité de Transparencia?</a>
+                                <a href="javascript:cambiarcont(\'transparencia/solicitud.php\');" class="dropdown-item">¿Qué es una solicitud de Información?</a>
+                                 <div class="dropdown-submenu">
+                                    <a href="#" class="dropdown-item dropdown-toggle">Leyes Aplicables</a>
+                                        <div class="dropdown-menu" aria-labelledby="leyesLink">
+                                            <a class="dropdown-item" href="http://jesusmaria.gob.mx/trans17/docs/Puntos/Obligaciones/Formatos/JESUSMARIA/tablas/CodigoMunicipaldeJesusMaria.pdf" target="_blank">Código Municipal de Jesús María</a>
+                                            <a class="dropdown-item" href="http://www.jesusmaria.gob.mx/trans17/docs/Puntos/Obligaciones/Formatos/JESUSMARIA/tablas/LeydeTransparenciayAccesoalaInformacionPublicadelEstadodeAguascalientesysusMunicipios.pdf" target="_blank">Ley de Transparencia y Acceso a la Información Pública del Estado de Aguascalientes y sus Municipio</a>
+                                            <a class="dropdown-item" href="http://www.jesusmaria.gob.mx/trans17/docs/Puntos/Obligaciones/Formatos/JESUSMARIA/tablas/LeyGeneraldeProtecciondeDatosPersonalesenPosesiondeSujetosObligados.pdf" target="_blank">Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados</a>
+                                            <a class="dropdown-item" href="http://www.jesusmaria.gob.mx/trans17/docs/Puntos/Obligaciones/Formatos/JESUSMARIA/tablas/LeyGeneraldetransparenciayaccesoalainformacionPublica.pdf" target="_blank">Ley General de transparencia y acceso a la informacion Publica</a>
+                                            <a class="dropdown-item" href="http://www.jesusmaria.gob.mx/trans17/docs/Puntos/Obligaciones/Formatos/JESUSMARIA/tablas/LineamientosTecnicosGenerales.pdf" target="_blank">Lineamientos Técnicos Generales</a>
+                                        </div>
+                                </div>
+                                <div class="dropdown-submenu">
+                                    <a href="#" class="dropdown-item dropdown-toggle">Gobierno abierto</a>
+                                    <div class="dropdown-menu show" aria-labelledby="leyesLink">
+                                    <a class="dropdown-item" href="http://jesusmaria.gob.mx/trans17/docs/Puntos/Obligaciones/Formatos/JESUSMARIA/tablas/CodigoMunicipaldeJesusMaria.pdf" target="_blank">Código Municipal de Jesús María</a>
+                                    <a class="dropdown-item" href="http://www.jesusmaria.gob.mx/trans17/docs/Puntos/Obligaciones/Formatos/JESUSMARIA/tablas/LeydeTransparenciayAccesoalaInformacionPublicadelEstadodeAguascalientesysusMunicipios.pdf" target="_blank">Ley de Transparencia y Acceso a la Información Pública del Estado de Aguascalientes y sus Municipio</a>
+                                    <a class="dropdown-item" href="http://www.jesusmaria.gob.mx/trans17/docs/Puntos/Obligaciones/Formatos/JESUSMARIA/tablas/LeyGeneraldeProtecciondeDatosPersonalesenPosesiondeSujetosObligados.pdf" target="_blank">Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados</a>
+                                    <a class="dropdown-item" href="http://www.jesusmaria.gob.mx/trans17/docs/Puntos/Obligaciones/Formatos/JESUSMARIA/tablas/LeyGeneraldetransparenciayaccesoalainformacionPublica.pdf" target="_blank">Ley General de transparencia y acceso a la informacion Publica</a>
+                                    <a class="dropdown-item" href="http://www.jesusmaria.gob.mx/trans17/docs/Puntos/Obligaciones/Formatos/JESUSMARIA/tablas/LineamientosTecnicosGenerales.pdf" target="_blank">Lineamientos Técnicos Generales</a>
+                                </div>
+                                        
+                                </div>
+                                
+                                <a href="http://jesusmaria.gob.mx/trans17/docs/Puntos/Obligaciones/Formatos/JESUSMARIA/tablas/CodigoMunicipaldeJesusMaria.pdf" target="_blank" class="dropdown-item">Capacitaciones</a>
+                                <a href="javascript:cambiarcont(\'transparencia/quejas.php\');" class="dropdown-item">Quejas y denuncias</a>
                                  ';
                             ?>
                               <!-- Submenú para Revista El Chicahual -->
-                        <div class="dropdown-submenu">
-                            <a href="#" class="dropdown-item dropdown-toggle">Revista El Chicahual</a>
-                            <div class="dropdown-menu">
-                                <a href="recursos/MiOrgullo/ElChicahual2.pdf" target="_blank" class="dropdown-item">El Chicahual No2</a>
-                                <a href="recursos/MiOrgullo/ElChicahual3.pdf" target="_blank" class="dropdown-item">El Chicahual No3</a>
-                                <a href="recursos/MiOrgullo/ElChicahual4.pdf" target="_blank" class="dropdown-item">El Chicahual No4</a>
-                                <a href="recursos/MiOrgullo/ElChicahual5.pdf" target="_blank" class="dropdown-item">El Chicahual No5</a>
-                                <a href="recursos/MiOrgullo/ElChicahual6.pdf" target="_blank" class="dropdown-item">El Chicahual No5</a>
-                            </div>
-                        </div>
+                       
                                 
                                 
                     </div>
@@ -109,7 +123,7 @@
                        <a href="javascript:cambiarcont(\'sesiones/sesiones.php\');" class="nav-item nav-link">Sesiones</a>
                        <a href="javascript:cambiarcont(\'cuenta_publica/cuenta_publica.php\');" class="nav-item nav-link">Cuenta Pública</a>
                        <a href="javascript:cambiarcont(\'contraloria_social/contraloria.php\');" class="nav-item nav-link">Contraloría Social</a>
-                       <a href="javascript:cambiarcont(\'transparencia_proac/trans_proac.php\');" class="nav-item nav-link">Transparencia Proactiva</a>
+                       <a href="javascript:cambiarcont(\'transparencia_proac/.php\');" class="nav-item nav-link">Transparencia Proactiva</a>
 
 
 
