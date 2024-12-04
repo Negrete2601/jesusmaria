@@ -16,35 +16,23 @@ function fill_dependencias()
 
 function fill_tr_dependencias($dependencias)
 {
-	$tr_dependencia='';
-	$i = 0;
+	$tr_dependencia='';	
 	foreach ($dependencias as $dependencia) 
 	{		
-		if($i==0)
-		{
-			$tr_dependencia.= '<div class="listado_izq">
-					<ul class="list_dep">';
-		}
-
-		if($i == 10)
-		{
-			$tr_dependencia.= '</ul>					
-				</div>
-
-				<div class="listado_der">
-					<ul class="list_dep">';			
-		}
-		$tr_dependencia.='
-							<li id="'.$dependencia['id'].'" class="li_dep" onclick="fill_modal_dependencias(this);">
-								<span>
-									'.$dependencia['secretaria'].'	
-								</span>
-							</li>
+		
+		$tr_dependencia.=' <div id="'.$dependencia['id'].'" class="col-12 col-sm-6 d-flex align-items-center mb-3" data-bs-toggle="modal" data-bs-target="#modal_dependencia" onclick="fill_modal_dependencias(this);">
+					            
+								   	<i class="'.$dependencia['icono'].' fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
+					            	<h5 class="ms-3">
+					            		<span>
+											'.$dependencia['secretaria'].'	
+										</span>
+					            	</h5>
+								
+					        </div>							
 							';
-		$i++;
-	}
-	$tr_dependencia.='</ul>	
-				</div>';
+		
+	}	
 	return $tr_dependencia;
 }
 
