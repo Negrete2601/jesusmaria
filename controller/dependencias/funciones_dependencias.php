@@ -2,7 +2,7 @@
 include('../../controller/exe_tramites.php');
 function get_secretarias()
 {	
-	$sql="SELECT id, secretaria
+	$sql="SELECT id, secretaria,icono
 			FROM secretarias
 			WHERE status = 1";
 
