@@ -1,3 +1,12 @@
+<?php
+    require("../../model/dependencias/fill.php");
+    $dependencias = fill_secretarias();
+    $tr_dependencias = fill_tr_dependencias($dependencias);
+    $tr_dependencias_table = fill_tr_dependencias_table($dependencias);
+    require("../../model/banners/fill.php");
+    $banners = fill_banner();
+    $tr_banner = fill_tr_banner($banners);
+?>
  <!-- Carousel Start -->
  <div class="carousel-header">
             <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
@@ -6,20 +15,7 @@
                     <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
-                        <img src="img/banner.png" class="img-fluid" alt="Image">
-                        <div class="carousel-caption">
-                            
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/banner1.png" class="img-fluid" alt="Image">
-                        <div class="carousel-caption">
-                            <div class="text-center p-4" style="max-width: 900px;">
-                                
-                            </div>
-                        </div>
-                    </div>
+                   <?=$tr_banner?>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon bg-secondary wow fadeInLeft" data-wow-delay="0.2s" aria-hidden="false"></span>
