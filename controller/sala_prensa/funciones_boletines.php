@@ -1,10 +1,13 @@
 <?php
+
 ///PARA VER LOS ERRORES DE PHP COMENTAR LA SIGUIENTE LINEA
 //error_reporting(0);
 function get_ultimas_noticias()
 {
-	require('./controller/conexion.php');
-	$query = "SELECT b.num_boletin, b.titulo, b.texto, bf.url, b.idboletin FROM boletines b, boletines_fotos bf WHERE b.idboletin = bf.idboletin ORDER BY b.idboletin DESC LIMIT 2";
+	require('../../controller/conexion.php');
+	$query = "SELECT DISTINCT(b.idboletin), b.numero, b.titulo, b.texto, b.url
+		FROM boletines AS b
+ WHERE 1 ORDER BY b.idboletin DESC limit 2;";
 	$result = mysqli_query($conexion,$query);
 	return($result);
 }

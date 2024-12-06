@@ -220,63 +220,7 @@
                     </div>
                 </div>
                 <div class="row g-4">
-                    <div class="col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item">
-                            <div class="service-inner">
-                                <div class="service-img">
-                                    <img src="img/nota1.jpg" class="img-fluid w-100 rounded" alt="Image">
-                                </div>
-                                <div class="service-title">
-                                    <div class="service-title-name">
-                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
-                                            <a href="#" class="h4 text-white mb-0">EL GOBIERNO MUNICIPAL DE JESÚS MARÍA, IMPULSA LA TENENCIA RESPONSABLE DE MASCOTAS.</a>
-                                        </div>
-                                        <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#">Ver más</a>
-                                    </div>
-                                    <div class="service-content pb-4">
-                                        <a href="#"><h4 class="text-white mb-4 py-3">EL GOBIERNO MUNICIPAL DE JESÚS MARÍA, IMPULSA LA TENENCIA RESPONSABLE DE MASCOTAS.</h4></a>
-                                        <div class="px-4">
-                                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.</p>
-                                            <?php
-                                           echo '
-                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="javascript:cambiarcont(\'view/gobierno/boletin.php\');">Ver más</a>
-                                           ';
-                                            ?>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item">
-                            <div class="service-inner">
-                                <div class="service-img">
-                                    <img src="img/nota2.jpg" class="img-fluid w-100 rounded" alt="Image">
-                                </div>
-                                <div class="service-title">
-                                    <div class="service-title-name">
-                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
-                                            <a href="#" class="h4 text-white mb-0">JESÚS MARÍA CELEBRA LA GRADUACIÓN DE LA PPRIMERA GENERACIÓN DE LA UNIVERSIDAD DE LA CIUDAD DE AGUASCALIENTES.</a>
-                                        </div>
-                                        <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#">Ver más</a>
-                                    </div>
-                                    <div class="service-content pb-4">
-                                        <a href="#"><h4 class="text-white mb-4 py-3">JESÚS MARÍA CELEBRA LA GRADUACIÓN DE LA PPRIMERA GENERACIÓN DE LA UNIVERSIDAD DE LA CIUDAD DE AGUASCALIENTES.</h4></a>
-                                        <div class="px-4">
-                                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugit dolores nesciunt adipisci obcaecati veritatis cum, ratione aspernatur autem velit.</p>
-                                            <?php
-                                           echo '
-                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="javascript:cambiarcont(\'view/gobierno/boletin.php\');">Ver más</a>
-                                           ';
-                                            ?>
-                                            </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
+                    <?php require('../../model/sala_prensa/ultimas.php');?>                    
                 </div>
             </div>
         </div>
