@@ -3,22 +3,20 @@ include('../../controller/funciones.php');
 include('../../model//sala_prensa/fill_table.php');
 ?>
 
-<div class="container">
-
-  <h2 class="sub-title">Sala de Prensa</h2>
-
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#2021" role="tab" aria-controls="home" aria-selected="true">2021</a>
-    </li>
-     <li class="nav-item">
-      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#2020" role="tab" aria-controls="profile" aria-selected="false">2020</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#2019" role="tab" aria-controls="profile" aria-selected="false">2019</a>
-    </li>
- 
-  </ul>
+<div class="container-fluid bg-breadcrumb2">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Sala de prensa</h1>
+                <ol class="breadcrumb justify-content-center text-white mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index.php" class="text-white">Inicio</a></li>
+                    <li class="breadcrumb-item"><a href="#" class="text-white">Gobierno</a></li>
+                    <li class="breadcrumb-item active text-secondary">Sala de prensa</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+          <!-- Sala de prensa -->
+        <div class="container-fluid training bg-light overflow-hidden py-5">
+        <div class="container mt-5">
 
   <div class="tab-content" id="myTabContent">
     
@@ -51,4 +49,3 @@ include('../../model//sala_prensa/fill_table.php');
   <div>
   
   </div>
-</div>
