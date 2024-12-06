@@ -196,7 +196,7 @@
 
 			<div>
 				<div>
-					<span>¡Mi orgullo, mi gente!</span>
+					<span>Ciudad de Vanguardia</span>
 					<ul>
 						<a href="javascript:pagecontent('view/miorgullomigente/historia.php');">
 							<li>Historia</li>
