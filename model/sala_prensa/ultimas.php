@@ -39,7 +39,7 @@
                                         <div class="px-4">
                                             <p class="mb-4">'.$resumen.'...</p>
                                            
-                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="javascript:cambiarcont(\'view/gobierno/boletin.php\');">Ver más</a>
+                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="javascript:cambiarcont('.$mas.');">Ver más</a>
                                            
                                         </div>
                                     </div>
