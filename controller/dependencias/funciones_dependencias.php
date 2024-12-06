@@ -22,7 +22,7 @@ function get_dependencias()
 	return $result;
 }
 
-function get_tramites_dependencia($id_dependencia)
+function get_tramites_dependenciat($id_dependencia)
 {
 	
 	$sql ="SELECT t.id, t.nombre, s.secretaria, t.documento_obtenido, t.telefono

@@ -56,9 +56,8 @@ function fill_tr_dependencias_table($dependencias)
 }
 
 function fill_tramites_dependencia($id_dependencia)
-{
-	include("../../controller/dependencias/funciones_dependencias.php");
-	$tramites_dependencia = get_tramites_dependencia($id_dependencia);
+{	
+	$tramites_dependencia = get_tramites_dependenciat($id_dependencia);
 
 	return $tramites_dependencia;
 }
