@@ -100,41 +100,41 @@
             <div class="container" >
                 <div class="row g-4 justify-content-center text-center">
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="btn btn-secondary rounded-pill" href="javascript:cambiarcont('view/gobierno/buzon.php');"> 
                         <div class="feature-item text-center p-4">
                             <div class="feature-icon p-3 mb-4">
                                 <i class="fas fa-envelope fa-4x text-primary"></i>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-3">Buzón de Quejas</h5>
-                                <?php
-                            echo '
-                                <a class="btn btn-secondary rounded-pill" href="javascript:cambiarcont(\'view/gobierno/buzon.php\');">enviar<i class="fas fa-arrow-right ms-2"></i></a>
-                                ';
-                            ?>
+                               <h5 class="mb-3">Buzón de Quejas</h5>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="btn btn-secondary rounded-pill" href="https://wa.me/524495427445?text=Hola, estoy interesado en más información." target="_blank">
                         <div class="feature-item text-center p-4">
                             <div class="feature-icon p-3 mb-4">
                                 <i class="fab fa-whatsapp fa-4x text-primary"></i>
                             </div>
-                            <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-3">WhatsApp</h5>
-                                <a class="btn btn-secondary rounded-pill" href="https://wa.me/524495427445?text=Hola, estoy interesado en más información." target="_blank"> enviar<i class="fas fa-arrow-right ms-2"></i></a>
+                            <div class="feature-content d-flex flex-column">                                
+                                 <h5 class="mb-3">WhatsApp</h5>
                             </div>
                         </div>
+                        </a>
                     </div>
+
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <a class="btn btn-secondary rounded-pill" href="https://jesusmaria.recaudacion.net/SIM/predial.jsp" target="_blank">
                         <div class="feature-item text-center p-4">
                             <div class="feature-icon p-3 mb-4">
                                 <i class="fas fa-credit-card fa-4x text-primary"></i>
                             </div>
-                            <div class="feature-content d-flex flex-column">
+                            <div class="feature-content d-flex flex-column">                                
                                 <h5 class="mb-3">Pagar Predial</h5>
-                                <a class="btn btn-secondary rounded-pill" href="https://jesusmaria.recaudacion.net/SIM/predial.jsp" target="_blank">ingresar<i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
+                    </a>
                     </div>
                 </div>
             </div>

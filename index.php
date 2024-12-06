@@ -138,15 +138,9 @@
 		    			        <a class="dropdown-item" href="recursos/gobierno/MIR2021.PDF" target="_blank">Matriz de Indicadores de Resultados 2021</a>
 		    			        <a class="dropdown-item" href="recursos/gobierno/ReporteMIR2021.pdf" target="_blank">Reporte de Avance de los indicadores 2021</a>
 		    			        <a href="javascript:cambiarcont('view/gobierno/directorio.php');" class="dropdown-item">Directorio</a>
-		    			        <a href="javascript:cambiarcont('view/gobierno/sala_prensa.php');" class="dropdown-item">Sala de prensa</a>
+		    			        <a href="javascript:cambiarcont('view/sala_prensa/sala_prensa.php');" class="dropdown-item">Sala de prensa</a>
 		                        <a class="dropdown-item" href="/informe" target="_blank">Informe de Gobierno</a>
 		    			        <a class="dropdown-toggle dropdown-item" href="#" id="licitacionesLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Licitaciones</a>
-						        <li class="dropdown-submenu">
-						            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Countries</a>
-						            <ul class="dropdown-menu">
-						              
-						            </ul>
-						          </li>
 						        <a href="javascript:cambiarcont('view/gobierno/buzon.php');" class="dropdown-item">Buzón</a>	                        
 					        </div>
                         </div>
@@ -169,7 +163,7 @@
                         </div>
                         <a href="javascript:cambiarcont('view/tramites_linea/mejora_regulatoria.php');" class="nav-item nav-link">Mejora Regulatoria</a>
                         
-                      <a href="view/transparencia/index.php" class="nav-item nav-link">Transparecia</a>                        
+                      <a href="https://transparencia.jesusmaria.gob.mx" target="_blank" class="nav-item nav-link">Transparecia</a>                        
                     </div>
                     
                 </div>

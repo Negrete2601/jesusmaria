@@ -22,7 +22,7 @@
             <div class="container text-center py-5" style="max-width: 900px;">
                 <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">¿Qué es una Unidad de Transparencia?</h1>
                 <ol class="breadcrumb justify-content-center text-white mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html" class="text-white">Inicio</a></li>
+                    <li class="breadcrumb-item"><a href="index.php" class="text-white">Inicio</a></li>
                     <li class="breadcrumb-item"><a href="#" class="text-white">Transparencia</a></li>
                     <li class="breadcrumb-item active text-secondary">¿Qué es una Unidad de Transparencia?</li>
                 </ol>    
