@@ -10,7 +10,7 @@ function fill_banner()
 function fill_tr_banner($banners)
 {
 	$tr_banners = "";
-	$active = "active";
+	$active = " active";
 	foreach ($banners as $banner) 
 	{
 	    if($banner['target'])
@@ -23,16 +23,19 @@ function fill_tr_banner($banners)
 		if($banner['url']!= "")
 		{
 			$tr_banners.='
-						<div class="carousel-item '.$active.'" >
+						<div class="carousel-item'.$active.'" >
 					    	<a href="'.$banner['url'].'" '.$target.'>
-					    	  <img class="banner-img"  src=".'.$banner['imagen'].'">
+					    	  <img class="img-fluid"  src=".'.$banner['imagen'].'" alt="Banner Jesús María">
 					    	</a>
+
+					    	<div class="carousel-caption"></div>
 					    </div>
 					';	
 		}else{
 			$tr_banners.='
-						<div class="carousel-item '.$active.'">					
-					    	  <img class="banner-img"  src=".'.$banner['imagen'].'">					
+						<div class="carousel-item'.$active.'">					
+					    	  <img class="img-fluid" src=".'.$banner['imagen'].'" alt="Banner Jesús María">	
+					    	  <div class="carousel-caption"></div>				
 					    </div>
 					';	
 		}
