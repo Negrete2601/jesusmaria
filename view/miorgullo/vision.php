@@ -25,7 +25,7 @@
                 <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Visión</h1>
                 <ol class="breadcrumb justify-content-center text-white mb-0 wow fadeInDown" data-wow-delay="0.3s">
                     <li class="breadcrumb-item"><a href="index.php" class="text-white">Inicio</a></li>
-                    <li class="breadcrumb-item"><a href="#" class="text-white">¡Mi orgullo, mi gente!</a></li>
+                    <li class="breadcrumb-item"><a href="#" class="text-white">Ciudad de Vanguardia</a></li>
                     <li class="breadcrumb-item active text-secondary">Visión</li>
                 </ol>    
             </div>
