@@ -340,15 +340,15 @@
         <!-- Copyright Start -->
         <div class="container-fluid copyright py-4">
             <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-4 text-center text-md-start mb-md-0">
-                        <span>Municipio de Jesús María 2024 - 2027</span>
+                <div class="row">
+                    <div class="col-md-12 text-center mb-md-0">
+                        <span style="font-size: 0.6rem">Municipio de Jesús María 2024 - 2027</span>
                     </div>
-                    <div class="col-md-4 text-center text-md-start">
-                        Coordinación de Innovación Tecnológica · Copyleft 🄯 2024 · Derechos Reservados                     
+                    <div class="col-md-12 text-center">
+                        <span style="font-size: 0.6rem">Calle Emiliano Zapata No. 109 - Colonia Centro, Jesús María, Aguascalientes - C.P. 20920</span>                     
                     </div>
-                    <div class="col-md-4 text-center text-md-start">
-                        Calle Emiliano Zapata No. 109 - Colonia Centro, Jesús María, Aguascalientes - C.P. 20920                     
+                    <div class="col-md-12 text-center">
+                        <span style="font-size: 0.6rem">Copyright  &copy; 2024 Coordinación de Innovación Tecnológica del Municipio de Jesús María · Derechos Reservados</span>                 
                     </div>
                 </div>
             </div>
@@ -389,7 +389,7 @@
 		});
 
 		function fill_modal_dependencias(id_dependencia){
-	        var xmlhttp;
+			var xmlhttp;
 
 	        if (window.XMLHttpRequest){
 	            // code for IE7+, Firefox, Chrome, Opera, Safari
@@ -408,12 +408,11 @@
 	                //waitingDialog.hide();
 	                $('#modal_dependencia').modal('show');
 	                tablas();
-
 	            }
 	        }
 
-	        id = $(id_dependencia).attr("id");
-	        var datos_modal = "id_dependencia="+id;
+	        //id = $(id_dependencia).attr("id");
+	        var datos_modal = "id_dependencia="+id_dependencia;
 
 	        //waitingDialog.show('Cargando Información', {dialogSize: 'sm', progressType: 'warning'})
 	        xmlhttp.open("POST","./model/dependencias/modal_dependencias.php",true);

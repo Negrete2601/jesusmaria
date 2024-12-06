@@ -102,7 +102,7 @@
                                 <i class="fas fa-envelope fa-4x text-primary"></i>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-3">Buzón de quejas</h5>
+                                <h5 class="mb-3">Buzón de Quejas</h5>
                                 <?php
                             echo '
                                 <a class="btn btn-secondary rounded-pill" href="javascript:cambiarcont(\'view/gobierno/buzon.php\');">enviar<i class="fas fa-arrow-right ms-2"></i></a>
@@ -117,7 +117,7 @@
                                 <i class="fab fa-whatsapp fa-4x text-primary"></i>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-3">whatsapp</h5>
+                                <h5 class="mb-3">WhatsApp</h5>
                                 <a class="btn btn-secondary rounded-pill" href="https://wa.me/524495427445?text=Hola, estoy interesado en más información." target="_blank"> enviar<i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
@@ -128,7 +128,7 @@
                                 <i class="fas fa-credit-card fa-4x text-primary"></i>
                             </div>
                             <div class="feature-content d-flex flex-column">
-                                <h5 class="mb-3">Pagar predial</h5>
+                                <h5 class="mb-3">Pagar Predial</h5>
                                 <a class="btn btn-secondary rounded-pill" href="https://jesusmaria.recaudacion.net/SIM/predial.jsp" target="_blank">ingresar<i class="fas fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
@@ -155,10 +155,7 @@
                     </div>
                     <div class="counter-content">
                         <h3>Municipio de jesus maria</h3>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <span class="counter-value" data-toggle="counter-up">35</span>
-                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">K</h4>
-                        </div>
+                        <div class="d-flex align-items-center justify-content-center"></div>
                     </div>
                 </div>
             </div>
