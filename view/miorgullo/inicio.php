@@ -10,10 +10,7 @@
  <!-- Carousel Start -->
  <div class="carousel-header">
             <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
-                </ol>
+                
                 <div class="carousel-inner" role="listbox">
                    <?=$tr_banner?>
                 </div>
@@ -284,22 +281,3 @@
             </div>
         </div>
         <!-- Services End -->
-
- <!-- modal tramites por dependencias -->
-        <!-- Modal -->
-<div class="modal fade" id="modal_dependencia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Trámites</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>

@@ -24,6 +24,7 @@
 
         <!-- Customized Bootstrap Stylesheet -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/dataTables.css">
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
@@ -105,12 +106,12 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Ciudad de Vanguardia</span></a>
                             <div class="dropdown-menu m-0">                            
-                                <a href="javascript:cambiarcont(\'view/miorgullo/historia.php\');" class="dropdown-item">Historia</a>                                
-                                <a href="javascript:cambiarcont(\'view/miorgullo/escudo.php\');" class="dropdown-item">Escudo</a>                               
-                                <a href="javascript:cambiarcont(\'view/miorgullo/datos.php\');" class="dropdown-item">Datos Relevantes</a>
-                                <a href="javascript:cambiarcont(\'view/miorgullo/mision.php\');" class="dropdown-item">Visión</a>
-                                <a href="javascript:cambiarcont(\'view/miorgullo/mision.php\');" class="dropdown-item">Misión</a>
-                                <a href="javascript:cambiarcont(\'view/miorgullo/valores.php\');" class="dropdown-item">Valores y Principios</a>                                 
+                                <a href="javascript:cambiarcont('view/miorgullo/historia.php');" class="dropdown-item">Historia</a>                                
+                                <a href="javascript:cambiarcont('view/miorgullo/escudo.php');" class="dropdown-item">Escudo</a>                               
+                                <a href="javascript:cambiarcont('view/miorgullo/datos.php');" class="dropdown-item">Datos Relevantes</a>
+                                <a href="javascript:cambiarcont('view/miorgullo/mision.php');" class="dropdown-item">Visión</a>
+                                <a href="javascript:cambiarcont('view/miorgullo/mision.php');" class="dropdown-item">Misión</a>
+                                <a href="javascript:cambiarcont('view/miorgullo/valores.php');" class="dropdown-item">Valores y Principios</a>                                 
                               	<!-- Submenú para Revista El Chicahual -->
 		                        <div class="dropdown-submenu">
 		                            <a href="#" class="dropdown-item dropdown-toggle">Revista El Chicahual</a>
@@ -130,26 +131,23 @@
 					          	<a class="dropdown-item" href="recursos/gobierno/Plan_de_Desarrollo_municipal_JM_2019-2021.pdf" target="_blank">Plan de Desarrollo Municipal 2019-2021</a>
 					          	<a class="dropdown-item" href="recursos/gobierno/Plan_de_Desarrollo_municipal_JM_2021-2024.pdf" target="_blank">Plan de Desarrollo Municipal 2021-2024</a>
 	    			          	<a class="dropdown-item" href="recursos/gobierno/D.O.DISTRIBUCIONDEFONDOSFISMDFYFOTAMUNDF3970.pdf" target="_blank">D.O. DISTRIBUCIÓN DE FONDOS FISMDF Y FOTAMUNDF 3970</a>
-	    			          	<a href="javascript:cambiarcont(\'view/gobierno/cabildo.php\');" class="dropdown-item">Cabildo</a>	                           
+	    			          	<a href="javascript:cambiarcont('view/gobierno/cabildo.php');" class="dropdown-item">Cabildo</a>	                           
 		    			        <a class="dropdown-item" href="recursos/gobierno/convocatoria%20cabildo%20abierto_compressed.pdf" target="_blank">Cabildo Abierto</a>
-		    			        <a href="javascript:cambiarcont(\'view/gobierno/gabinete.php\');" class="dropdown-item">Gabinete</a>
+		    			        <a href="javascript:cambiarcont('view/gobierno/gabinete.php');" class="dropdown-item">Gabinete</a>
 		                        <a class="dropdown-item" href="recursos/gobierno/MIR2020.PDF" target="_blank">Matriz de Indicadores de Resultados 2020</a>
 		    			        <a class="dropdown-item" href="recursos/gobierno/MIR2021.PDF" target="_blank">Matriz de Indicadores de Resultados 2021</a>
 		    			        <a class="dropdown-item" href="recursos/gobierno/ReporteMIR2021.pdf" target="_blank">Reporte de Avance de los indicadores 2021</a>
-		    			        <a href="javascript:cambiarcont(\'view/gobierno/directorio.php\');" class="dropdown-item">Directorio</a>
-		    			        <a href="javascript:cambiarcont(\'view/gobierno/sala_prensa.php\');" class="dropdown-item">Sala de prensa</a>
+		    			        <a href="javascript:cambiarcont('view/gobierno/directorio.php');" class="dropdown-item">Directorio</a>
+		    			        <a href="javascript:cambiarcont('view/gobierno/sala_prensa.php');" class="dropdown-item">Sala de prensa</a>
 		                        <a class="dropdown-item" href="/informe" target="_blank">Informe de Gobierno</a>
 		    			        <a class="dropdown-toggle dropdown-item" href="#" id="licitacionesLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Licitaciones</a>
 						        <li class="dropdown-submenu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Countries</a>
-            <ul class="dropdown-menu">
-              <li><a href="#">USA</a></li>
-              <li><a href="#">Mexico</a></li>
-              <li><a href="#">Canada</a></li>
-              <li><a href="#">UK</a></li>
-            </ul>
-          </li>
-						        <a href="javascript:cambiarcont(\'view/gobierno/buzon.php\');" class="dropdown-item">Buzón</a>	                        
+						            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Countries</a>
+						            <ul class="dropdown-menu">
+						              
+						            </ul>
+						          </li>
+						        <a href="javascript:cambiarcont('view/gobierno/buzon.php');" class="dropdown-item">Buzón</a>	                        
 					        </div>
                         </div>
                         <div class="nav-item dropdown">
@@ -159,8 +157,8 @@
 				        <div class="dropdown-menu show" aria-labelledby="navbarDropdownMenuLink">
                          <a class="dropdown-item" href="https://jesusmaria.recaudacion.net/SIM/predial.jsp" target="_blank">Pago de Predial</a>
 				          <a class="dropdown-item" href="https://jesusmaria.recaudacion.net/SIM/datosTimbrado.jsp" target="_blank">Factura en Línea</a>
-                          <a href="javascript:cambiarcont(\'view/tramites_linea/dependencias.php\');" class="dropdown-item">Dependencias</a>
-                          <a href="javascript:cambiarcont(\'view/tramites_linea/cartografia.php\');" class="dropdown-item">Cartografía</a>
+                          <a href="javascript:cambiarcont('view/tramites_linea/dependencias.php');" class="dropdown-item">Dependencias</a>
+                          <a href="javascript:cambiarcont('view/tramites_linea/cartografia.php');" class="dropdown-item">Cartografía</a>
 				          <a class="dropdown-item" href="http://desarrollo-economico.jesusmaria.gob.mx/" target="_blank">Bolsa de trabajo</a>
 				          <a class="dropdown-item" href="javascript:pagecontent('view/tramites_linea/mejora_regulatoria.php');">Agenda Regulatoria</a>
 				          <a class="dropdown-item" href="http://juventud.jesusmaria.gob.mx/" target="_blank">Servicio Social y Prácticas Profesionales</a>
@@ -169,7 +167,7 @@
 				          <a class="dropdown-item" href="http://jesusmaria.gob.mx/cedeco/" target="_blank">Talleres CEDECOS</a>
 				        </div>
                         </div>
-                        <a href="javascript:cambiarcont(\'view/tramites_linea/mejora_regulatoria.php\');" class="nav-item nav-link">Mejora Regulatoria</a>
+                        <a href="javascript:cambiarcont('view/tramites_linea/mejora_regulatoria.php');" class="nav-item nav-link">Mejora Regulatoria</a>
                         
                       <a href="view/transparencia/index.php" class="nav-item nav-link">Transparecia</a>                        
                     </div>
@@ -189,15 +187,13 @@
         <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
         <div class="pre-footer">
 		
-		<div class="emblem">
-      
-                        
-			<a href="javascript:cambiarcont(\'view/miorgullo/inicio.php\');">
+		<div class="emblem">                        
+			<a href="javascript:cambiarcont('view/miorgullo/inicio.php');">
 				<img src="./img/logo_v.png" class="imagenpie">
-			</a>
-           
+			</a>           
 		</div>
-
+		<div id="load_modal_dependencias"></div>
+		<div id="load_modal_info"></div>
 		<div class="mapa">
 			<div>
 			
@@ -335,9 +331,6 @@
                 <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href="https://www.facebook.com/JesusMariaMunicipio/"><i class="fab fa-facebook-f fw-normal text-secondary"></i></a>
                 <a class="btn btn-sm btn-outline-light btn-square rounded-circle me-2" href="https://www.instagram.com/jesusmaria_municipio/"><i class="fab fa-instagram fw-normal text-secondary"></i></a>
                 <a class="btn btn-sm btn-outline-light btn-square rounded-circle" href="https://www.youtube.com/channel/UCsrgM_afF4yD2xLY8y3fC_g"><i class="fab fa-youtube fw-normal text-secondary"></i></a>
-
-
-
 		</div>
 	</div>
         </div>
@@ -352,7 +345,7 @@
                         <span>Municipio de Jesús María 2024 - 2027</span>
                     </div>
                     <div class="col-md-4 text-center text-md-start">
-                        Coordinación de Innovación Tecnológica · Copyleft 🄯 2021 · Derechos Reservados                     
+                        Coordinación de Innovación Tecnológica · Copyleft 🄯 2024 · Derechos Reservados                     
                     </div>
                     <div class="col-md-4 text-center text-md-start">
                         Calle Emiliano Zapata No. 109 - Colonia Centro, Jesús María, Aguascalientes - C.P. 20920                     
@@ -375,6 +368,7 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="js/dataTables.js"></script>
     
 
     <!-- Template Javascript -->
@@ -393,6 +387,88 @@
 			$("#body_content").fadeIn(10000);
 				    	
 		});
+
+		function fill_modal_dependencias(id_dependencia){
+	        var xmlhttp;
+
+	        if (window.XMLHttpRequest){
+	            // code for IE7+, Firefox, Chrome, Opera, Safari
+	            xmlhttp=new XMLHttpRequest();
+	        }
+	        
+	        else{// code for IE6, IE5
+	            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	        }
+
+	        xmlhttp.onreadystatechange=function(){
+	            
+	            if (xmlhttp.readyState==4 && xmlhttp.status==200){
+	                //document.getElementById("loading").innerHTML = ''; // Hide the image after the response from the
+	                document.getElementById("load_modal_dependencias").innerHTML=xmlhttp.responseText;
+	                //waitingDialog.hide();
+	                $('#modal_dependencia').modal('show');
+	                tablas();
+
+	            }
+	        }
+
+	        id = $(id_dependencia).attr("id");
+	        var datos_modal = "id_dependencia="+id;
+
+	        //waitingDialog.show('Cargando Información', {dialogSize: 'sm', progressType: 'warning'})
+	        xmlhttp.open("POST","./model/dependencias/modal_dependencias.php",true);
+	        xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+	        xmlhttp.send(datos_modal);
+	    }	 
+
+	    function fill_modal_info(id_tramite){
+			var xmlhttp;
+
+	        if (window.XMLHttpRequest){
+	            // code for IE7+, Firefox, Chrome, Opera, Safari
+	            xmlhttp=new XMLHttpRequest();
+	        }
+	        
+	        else{// code for IE6, IE5
+	            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	        }
+
+	        xmlhttp.onreadystatechange=function(){
+	            
+	            if (xmlhttp.readyState==4 && xmlhttp.status==200){
+	                //document.getElementById("loading").innerHTML = ''; // Hide the image after the response from the
+	                document.getElementById("load_modal_info").innerHTML=xmlhttp.responseText;
+	                //waitingDialog.hide();
+	                $('#modal_info').modal('show');
+	                modales_abrir_cerrar();
+	            }
+	        }
+
+	        
+	        var datos_modal = "id_tramite="+id_tramite;
+
+	        //waitingDialog.show('Cargando Información', {dialogSize: 'sm', progressType: 'warning'})
+	        xmlhttp.open("POST","./model/dependencias/modal_info.php",true);
+	        xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+	        xmlhttp.send(datos_modal);
+	    }
+
+	    function modales_abrir_cerrar(){
+
+	    	$('#modal_info').on('shown.bs.modal', function (e) {
+				$('#modal_dependencia').modal('toggle');
+			});
+
+			$('#modal_info').on('hidden.bs.modal', function (e) {
+				$('#modal_dependencia').modal('toggle');
+			});
+		}
+
+		function tablas(){
+			$(document).ready( function () {
+			    $('#table_dependencias').DataTable();
+			});
+		}
     </script>
     </body>
 

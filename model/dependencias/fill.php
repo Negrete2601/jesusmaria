@@ -20,15 +20,13 @@ function fill_tr_dependencias($dependencias)
 	foreach ($dependencias as $dependencia) 
 	{		
 		
-		$tr_dependencia.=' <div id="'.$dependencia['id'].'" class="col-12 col-sm-6 d-flex align-items-center mb-3" data-bs-toggle="modal" data-bs-target="#modal_dependencia" onclick="fill_modal_dependencias(this);">
-					            
+		$tr_dependencia.=' <div id="'.$dependencia['id'].'" class="col-12 col-sm-6 d-flex align-items-center mb-3" onclick="fill_modal_dependencias('.$dependencia['id'].');" style="cursor: pointer;">
 								   	<i class="'.$dependencia['icono'].' fa-2x text-secondary" style="min-width: 40px;" aria-hidden="true"></i>
 					            	<h5 class="ms-3">
 					            		<span>
 											'.$dependencia['secretaria'].'	
 										</span>
-					            	</h5>
-								
+					            	</h5>								
 					        </div>							
 							';
 		
