@@ -36,7 +36,7 @@
                 </div>
                 <div class="office pt-5">
                     <div class="row g-4 justify-content-center">
-                        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s" onclick="fill_modal_info(74);">
                             <div class="office-item p-4">
                                 <div class="office-img mb-4">
                                     <img src="img/n_o.png" class="img-fluid w-100 rounded" alt="">
@@ -44,21 +44,24 @@
                                 
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+
+                        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s" onclick="fill_modal_info(72);">
                             <div class="office-item p-4">
                                 <div class="office-img mb-4">
                                     <img src="img/permiso.png" class="img-fluid w-100 rounded" alt="">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+
+                        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s" onclick="fill_modal_info(1);">
                             <div class="office-item p-4">
                                 <div class="office-img mb-4">
                                     <img src="img/sare.png" class="img-fluid w-100 rounded" alt="">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+
+                        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s" onclick="fill_modal_dependencias(6);">
                             <div class="office-item p-4">
                                 <div class="office-img mb-4">
                                     <img src="img/uso_suelo.png" class="img-fluid w-100 rounded" alt="">
@@ -138,73 +141,72 @@
         </div>
         <!-- Features End -->
           <!-- Counter Facts Start -->
-<div class="container-fluid counter-facts py-5">
-    <div class="container py-5">
-        <div class="section-title text-center wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom: 70px;">
-            <div class="sub-style">
-                <h5 class="sub-title text-primary px-3">Paginas</h5>
-            </div>
-            <h1 class="display-5 mb-4">Oficiales</h1>
-        </div>
-        <div class="row g-4">
-            <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="counter">
-                    <div class="counter-icon">
-                        <i class="fa-brands fa-facebook"></i>
+            <div class="container-fluid counter-facts py-5">
+                <div class="container py-5">
+                    <div class="section-title text-center wow fadeInUp" data-wow-delay="0.1s" style="margin-bottom: 70px;">
+                        <div class="sub-style">
+                            <h5 class="sub-title text-primary px-3">Paginas</h5>
+                        </div>
+                        <h1 class="display-5 mb-4">Oficiales</h1>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                            <a href="https://www.facebook.com/JesusMariaMunicipio/" target="_blank">
+                                <div class="counter">
+                                    <div class="counter-icon">
+                                        <i class="fa-brands fa-facebook"></i>
 
-                    </div>
-                    <div class="counter-content">
-                        <h3>Municipio de jesus maria</h3>
-                        <div class="d-flex align-items-center justify-content-center"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="counter">
-                    <div class="counter-icon">
-                        <i class="fa-brands fa-facebook"></i>
-                    </div>
-                    <div class="counter-content">
-                        <h3>CAPAS Jesús María</h3>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <span class="counter-value" data-toggle="counter-up">2.3</span>
-                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">K</h4>
+                                    </div>
+                                    <div class="counter-content">
+                                        <h3>Municipio de jesus maria</h3>
+                                        <div class="d-flex align-items-center justify-content-center"></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                            <a href="https://www.facebook.com/CapasJesusMaria/" target="_blank">
+                                <div class="counter">
+                                    <div class="counter-icon">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </div>
+                                    <div class="counter-content">
+                                        <h3>CAPAS Jesús María</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                            <a href="https://www.facebook.com/JesusMariaDIF/" target="_blank">
+                                <div class="counter">
+                                    <div class="counter-icon">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </div>
+                                    <div class="counter-content">
+                                        <h3>DIF Jesús María&nbsp;&nbsp;&nbsp;&nbsp; </h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                            <a href="https://turismo.jesusmaria.gob.mx/" target="_blank">
+                                <div class="counter">
+                                    <div class="counter-icon">
+                                        <i class="fa-solid fa-globe"></i>
+                                    </div>
+                                    <div class="counter-content">
+                                        <h3>Turismo Jesús María</h3>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="counter">
-                    <div class="counter-icon">
-                        <i class="fa-brands fa-facebook"></i>
-                    </div>
-                    <div class="counter-content">
-                        <h3>DIF Jesús María</h3>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <span class="counter-value" data-toggle="counter-up">4.9</span>
-                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">K</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                <div class="counter">
-                    <div class="counter-icon">
-                        <i class="fa-solid fa-globe"></i>
-                    </div>
-                    <div class="counter-content">
-                        <h3>Turismo Jesús María</h3>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <span class="counter-value" data-toggle="counter-up">98</span>
-                            <h4 class="text-secondary mb-0" style="font-weight: 600; font-size: 25px;">K</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Counter Facts End --> 
+            <!-- Counter Facts End --> 
          
 
         

@@ -37,7 +37,7 @@ foreach ($requisitos_tramite as $requisito)
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title">Información del Trámite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="close_modal('modal_info');">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -158,7 +158,7 @@ foreach ($requisitos_tramite as $requisito)
       </div>
 
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fas fa-times"></i> Cerrar</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="close_modal('modal_info');"><i class="fas fa-times"></i> Cerrar</button>
       </div>
     </div>
   </div>
