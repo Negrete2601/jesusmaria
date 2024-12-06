@@ -179,9 +179,10 @@
 
 
         <div class="main-content">
-
-				<div class="main-content-inner" id="body_content" name="body_content"></div>
-			</div>
+			<div class="main-content-inner" id="body_content" name="body_content"></div>
+			<div id="load_modal_dependencias"></div>
+			<div id="load_modal_info"></div>
+		</div>
 
         <!-- Footer Start -->
         <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
@@ -192,8 +193,7 @@
 				<img src="./img/logo_v.png" class="imagenpie">
 			</a>           
 		</div>
-		<div id="load_modal_dependencias"></div>
-		<div id="load_modal_info"></div>
+		
 		<div class="mapa">
 			<div>
 			
@@ -461,6 +461,12 @@
 			$('#modal_info').on('hidden.bs.modal', function (e) {
 				$('#modal_dependencia').modal('toggle');
 			});
+		}
+
+		function close_modal(modal){
+			var id_modal= "#"+modal;
+			console.log(id_modal);
+			$(id_modal).modal('hide');
 		}
 
 		function tablas(){
