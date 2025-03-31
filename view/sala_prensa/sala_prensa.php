@@ -21,39 +21,27 @@ include('../../model//sala_prensa/fill_table.php');
             <!-- Paginación en la parte superior -->
   <nav aria-label="Page navigation example">
       <ul class="pagination justify-content-center mb-4">
-          <li class="page-item"><a class="page-link" href="#" data-page="1">2024</a></li>
+          <!-- <li class="page-item"><a class="page-link" href="#" data-page="1">2024</a></li>
           <li class="page-item"><a class="page-link" href="#" data-page="2">2023</a></li>
-          <li class="page-item"><a class="page-link" href="#" data-page="3">2022</a></li>
+          <li class="page-item"><a class="page-link" href="#" data-page="3">2022</a></li> -->
           <li class="page-item"><a class="page-link" href="#" data-page="4">2021</a></li>
+          <li class="page-item"><a class="page-link" href="#" data-page="5">2020</a></li>
       </ul>
   </nav>
 
   <div id="page-content">
-    <div id="page-1" class="page">
-        <h1>Año 2024</h1>
-        <div class="row">
-            <?php $anio  = 2024; include('tab.php'); $anio = ''; ?>
-        </div>
-    </div>
-
-    <div id="page-2" class="page">
-        <h1>Año 2023</h1>
-        <div class="row">
-            <?php $anio  = 2023; include('tab.php'); $anio = ''; ?>
-        </div>
-    </div>
-
-    <div id="page-3" class="page">
-        <h1>Año 2022</h1>
-        <div class="row">
-            <?php $anio  = 2022; include('tab.php'); $anio = ''; ?>
-        </div>
-    </div>
+    <!-- Contenido de la primera página -->
+    
 
     <div id="page-4" class="page">
         <h1>Año 2021</h1>
         <div class="row">
             <?php $anio  = 2021; include('tab.php'); $anio = ''; ?>
+        </div>
+    </div><div id="page-5" class="page">
+        <h1>Año 2020</h1>
+        <div class="row">
+            <?php $anio  = 2020; include('tab.php'); $anio = ''; ?>
         </div>
     </div>
   </div>

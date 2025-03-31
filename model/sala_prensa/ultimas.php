@@ -24,7 +24,7 @@
 		$tr_noticias.='<div class="col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item">
                             <div class="service-inner">
-                                <div class="service-img">
+                                <div class="service-img" style="height: 425px;overflow: hidden;position: relative;">
                                     <img class="img-fluid w-100 rounded" alt="Image" src="'.$back_img_noticia.'" >
                                 </div>
                                 <div class="service-title">
