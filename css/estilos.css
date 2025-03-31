@@ -1,0 +1,133 @@
+body{
+	background-color: #ededec;
+}
+
+.bg-white {
+    background-color: #98989A !important;
+}
+
+.dropdown-item {
+	padding: 0.01rem 1rem;
+}
+
+.puntitos {
+    text-align: center;
+    padding: 20px 0;
+}
+.puntitos img {
+    width: auto; /* Ajusta el tamaño si es necesario */
+    max-width: 100%;
+}
+
+.linea {
+    width: 100%;
+    height: 5px;
+    background-color: #00508B;
+}
+.sobre img {
+    transition: transform 0.3s ease-in-out; /* Suaviza la animación */
+    cursor: pointer;
+}
+
+.sobre:hover img,
+.sobre:active img { 
+    transform: scale(1.1); /* Aumenta un 10% */
+}
+
+.semblanza {
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem !important;
+}
+
+@media (min-width: 1200px) {
+    .semblanza {
+        font-size: 4rem;
+    }
+}
+
+.titulo {
+    font-size: 2.5rem;
+}
+
+/* Contenedor principal con transición suave */
+.hover-effect:hover {
+    transform: scale(1.02); /* Efecto de zoom muy sutil en todo el elemento */
+    transition: all 0.3s ease;
+}
+
+/* Estilos para el círculo del icono */
+.icon-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #0d4f8c; /* Azul de Bootstrap */
+    color: white;
+    transition: all 0.3s ease;
+}
+
+/* Efecto hover para el icono */
+.hover-effect:hover .icon-container i {
+    transform: rotate(15deg); /* Giro de 15 grados */
+    transition: transform 0.3s ease;
+}
+
+/* Efecto hover para el texto */
+.hover-effect:hover .text-content {
+    transform: scale(1.05); /* Zoom del 5% */
+    display: inline-block; /* Necesario para que funcione transform */
+    transition: transform 0.3s ease;
+}
+@media (max-width: 770px){
+    .whats{
+        max-width: 50%;
+    }
+}    
+.news-card {
+    max-width: 600px;
+    transition: transform 0.3s;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+}
+
+.card{
+    background: transparent;
+    border: 0px;
+}
+
+.card-img-overlay {
+    top: 5%;
+    left: -10%;
+}
+
+.card-title{
+    padding-left: 11%;
+    padding-right: 9%;
+}
+
+.card-text{
+    padding-left: 11%;
+    padding-right: 9%;
+}
+
+.emblem{
+    border-right: 2px solid white;
+}
+
+.icon-footer{
+    border: 0px;
+}
+
+.pieimg img{
+    width: 100%;
+}
+
+.copyright{
+    color: #074d8a!important; 
+    font-weight: 600; 
+    font-size: 0.85rem;
+}

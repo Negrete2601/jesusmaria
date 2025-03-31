@@ -6,7 +6,7 @@
 ?>
 
 <!-- Modal -->
-<div class="modal fade" id="modal_dependencia" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal_dependencia" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-lg" style="max-width: 90% !important;" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -19,7 +19,7 @@
           <div class="message-list-container">
             <div class="message-list" id="message-list">
               <div>
-                <table id="table_dependencias" class="table-striped" style="width: 100%;">
+                <table id="table_dependencias" class="table-striped" style="width: 100%; overflow-x: scroll;">
                   <thead>
                     <tr>
                       <th hidden>
@@ -36,17 +36,17 @@
                         Nombre del trámite
                       </th>
 
-                      <th style="min-width: 156.017px !important;">
+                      <th class="hidden-xs" style="min-width: 156.017px !important;">
                         <i class="fa fa-briefcase"></i>
                         Dependencia
                       </th>
 
-                      <th style="min-width: 256.9px !important;">
+                      <th class="hidden-xs" style="min-width: 256.9px !important;">
                         <i class="fas fa-file-alt"></i>
                         Documento que se obtiene
                       </th>
 
-                      <th style="min-width: 130.333px !important;">
+                      <th class="hidden-xs" style="min-width: 130.333px !important;">
                         <i class="fa fa-phone"></i>
                         Teléfono
                       </th>

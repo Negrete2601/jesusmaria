@@ -60,7 +60,7 @@
           </thead>
           <tbody>
             <tr>
-              <td class="photo-cell"><img src="./img/1.png" alt="Ernesto Martínez Esquivel"></td>
+              <td class="photo-cell"><img src="./img/verificadores/1.png" alt="Ernesto Martínez Esquivel"></td>
               <td>Ernesto Martínez Esquivel</td>
               <td>Secretaria del H. Ayuntamiento</td>
               <td>Protección Civil</td>
@@ -71,7 +71,7 @@
     </td>
             </tr>
             <tr>
-              <td class="photo-cell"><img src="./img/2.png" alt="Foto de Laura Guadalupe Martin Ruvalcaba"></td>
+              <td class="photo-cell"><img src="./img/verificadores/2.png" alt="Foto de Laura Guadalupe Martin Ruvalcaba"></td>
               <td>Laura Guadalupe Martin Ruvalcaba</td>
               <td>Secretaria del H. Ayuntamiento</td>
               <td>Protección Civil</td>
@@ -81,7 +81,7 @@
               <td>4499639921<br>proteccioncivl_jesusmaria@outlook.com</td>
             </tr>
             <tr>
-              <td class="photo-cell"><img src="./img/3.png" alt="Foto de Erika Susana Ledezma Moran"></td>
+              <td class="photo-cell"><img src="./img/verificadores/3.png" alt="Foto de Erika Susana Ledezma Moran"></td>
               <td>Erika Susana Ledezma Moran</td>
               <td>Secretaria del H. Ayuntamiento</td>
               <td>Protección Civil</td>
@@ -92,7 +92,7 @@
             </tr>
     
             <tr>
-              <td class="photo-cell"><img src="./img/4.png" alt="Foto de Humberto Ramón Esparza"></td>
+              <td class="photo-cell"><img src="./img/verificadores/4.png" alt="Foto de Humberto Ramón Esparza"></td>
               <td>Humberto Ramón Esparza</td>
               <td>Secretaria del H. Ayuntamiento</td>
               <td>Protección Civil</td>
@@ -103,7 +103,7 @@
             </tr>
     
             <tr>
-              <td class="photo-cell"><img src="./img/5.png" alt="Foto de Julio Cesar Vargas Rosado"></td>
+              <td class="photo-cell"><img src="./img/verificadores/5.png" alt="Foto de Julio Cesar Vargas Rosado"></td>
               <td>Julio Cesar Vargas Rosado</td>
               <td>Secretaria del H. Ayuntamiento</td>
               <td>Protección Civil</td>
@@ -114,7 +114,7 @@
             </tr>
     
             <tr>
-              <td class="photo-cell"><img src="./img/6.png" alt="Foto de Blanca Araceli Estrada Ramírez"></td>
+              <td class="photo-cell"><img src="./img/verificadores/6.png" alt="Foto de Blanca Araceli Estrada Ramírez"></td>
               <td>Blanca Araceli Estrada Ramírez</td>
               <td>Secretaria del H. Ayuntamiento</td>
               <td>Protección Civil</td>
@@ -125,7 +125,7 @@
             </tr>
     
             <tr>
-              <td class="photo-cell"><img src="./img/7.png" alt="Foto de Luis Enrique Padilla Tapia"></td>
+              <td class="photo-cell"><img src="./img/verificadores/7.png" alt="Foto de Luis Enrique Padilla Tapia"></td>
               <td>Luis Enrique Padilla Tapia</td>
               <td>Secretaria del H. Ayuntamiento</td>
               <td>Protección Civil</td>
@@ -136,7 +136,7 @@
             </tr>
     
             <tr>
-              <td class="photo-cell"><img src="./img/8.png" alt="Foto de Jaqueline del Rosario Martínez Esquivel"></td>
+              <td class="photo-cell"><img src="./img/verificadores/8.png" alt="Foto de Jaqueline del Rosario Martínez Esquivel"></td>
               <td>Jaqueline del Rosario Martínez Esquivel</td>
               <td>Secretaria del H. Ayuntamiento</td>
               <td>Protección Civil</td>
@@ -147,7 +147,7 @@
             </tr>
     
             <tr>
-              <td class="photo-cell"><img src="./img/9.png" alt="Foto de Gabriel Jauregui Manriquez"></td>
+              <td class="photo-cell"><img src="./img/verificadores/9.png" alt="Foto de Gabriel Jauregui Manriquez"></td>
               <td>Gabriel Jauregui Manriquez</td>
               <td>Secretaria del H. Ayuntamiento</td>
               <td>Protección Civil</td>
@@ -158,7 +158,7 @@
             </tr>
     
             <tr>
-              <td class="photo-cell"><img src="./img/10.png" alt="Foto de María Guadalupe Ledesma Herrera"></td>
+              <td class="photo-cell"><img src="./img/verificadores/10.png" alt="Foto de María Guadalupe Ledesma Herrera"></td>
               <td>María Guadalupe Ledesma Herrera</td>
               <td>Secretaria del H. Ayuntamiento</td>
               <td>Protección Civil</td>

@@ -87,6 +87,8 @@
     font-weight: 400;
     border: none;
     transition: 0.5s;
+    width: 90%;
+
 }
 
 .btn.btn-secondary:hover {
@@ -295,8 +297,21 @@
     }
 
     /*** Top and Bottom borders go out ***/
-    .navbar-light .navbar-nav .nav-link:after,
-    .navbar-light .navbar-nav .nav-link::before {
+    .navbar-light .navbar-nav .nav-link::after {
+        position: absolute;
+        content: "";
+        bottom: 0; /* Asegura que esté pegado a la base del texto */
+        top: 30px;
+        /*bottom: 30px;*/
+        left: 0px;
+        width: 100%;
+        height: 3px;
+        background: #C1D100; /* Color para ::after */
+        opacity: 0;
+        transition: all 0.5s;
+    }
+
+    /*.navbar-light .navbar-nav .nav-link::before {
         position: absolute;
         content: "";
         top: 30px;
@@ -304,10 +319,10 @@
         left: 0px;
         width: 100%;
         height: 2px;
-        background: var(--bs-primary);
+        background: #f6a016; /* Color para ::before
         opacity: 0;
         transition: all 0.5s;
-    }
+    }*/
 
     .navbar-light .navbar-nav .nav-link:before {
         bottom: auto;
@@ -325,7 +340,7 @@
 
     .navbar-light .navbar-nav .nav-link:hover::after,
     .navbar-light .navbar-nav .nav-link.active::after {
-        bottom: 20px;
+        bottom: 35%;
         opacity: 1;
     }
 }
@@ -368,6 +383,14 @@
     transition: 0.5s;
 }
 
+@media (max-width: 768px) {
+    .carousel-header .carousel-control-prev .carousel-control-prev-icon,
+    .carousel-header .carousel-control-next .carousel-control-next-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
 .carousel-header .carousel-control-next .carousel-control-next-icon {
     margin-left: 0;
     margin-right: -60px;
@@ -400,6 +423,11 @@
     position: relative;
     min-height: 75vh 
 }
+@media (max-width: 768px) {
+    .carousel-header .carousel-inner .carousel-item {
+        min-height: 20vh 
+    } 
+}
 
 .carousel-header .carousel-inner .carousel-item img {
     position: absolute;
@@ -423,15 +451,6 @@
 
 
 @media (max-width: 768px) {
-    .carousel-header {
-        height: 700px !important;
-    }
-
-    .carousel-header .carousel-control-prev .carousel-control-prev-icon,
-    .carousel-header .carousel-control-next .carousel-control-next-icon {
-        margin-top: 500px;
-    }
-
     .carousel-header .carousel-control-prev .carousel-control-prev-icon {
         margin-left: 0px;
     }
@@ -968,7 +987,7 @@
 
 /*** Footer Start ***/
 .footer {
-    background: #0A1D3D;
+    background: #0d4f8c;
 }
 .footer .footer-item a {
     line-height: 30px;
@@ -1029,7 +1048,7 @@
 .pre-footer
 {
 	
-	background-color:   #0A1D3D;
+	background-color: #0d4f8c;
 	padding: 10px;
     display: flex; /* Usar flexbox */
     justify-content: space-between; /* Espacia los elementos */

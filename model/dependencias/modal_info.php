@@ -32,7 +32,7 @@ foreach ($requisitos_tramite as $requisito)
 }
 ?>
 
-<div class="modal fade" style="overflow-y: scroll;" id="modal_info" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" style="overflow-y: scroll;" id="modal_info" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -42,15 +42,13 @@ foreach ($requisitos_tramite as $requisito)
         </button>
       </div>
 
-      <div class="modal-body" >  
+      <div class="modal-body">
           <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item">
-              
-              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-book"></i> Información</a>
+            <li class="nav-item">              
+              <a class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-book"></i> Información</a>
             </li>
             <li class="nav-item">
-
-              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><i class="far fa-list-alt"></i> Requisitos</a>
+              <a class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><i class="far fa-list-alt"></i> Requisitos</a>
             </li>
           </ul>
           
