@@ -5,7 +5,7 @@
     $tr_dependencias_table = fill_tr_dependencias_table($dependencias);
     require("../../model/banners/fill.php");
     $banners = fill_banner();
-    $tr_banner = fill_tr_banner($banners);
+    $tr_banner = fill_tr_banner($banners);    
 ?>
 <!-- Carousel Start -->
 <div class="carousel-header">
@@ -178,38 +178,9 @@
                 <h4 class="titulo display-5 mb-4">Entérate</h4>
             </div>
             <div class="row g-4 justify-content-center">
-                <div class="col-12 col-md-4 col-lg-4 col-xl-4 wow fadeInDown sobre" data-wow-delay="0.1s">                    
-                    <div class="card news-card" onclick="cambiarcont()" style="cursor: pointer;">
-                        <img src="img/Recurso 49.png" class="card-img" alt="Fondo" >
-                        <div class="card-img-overlay d-flex flex-column align-items-center  text-center">
-                            <img src="img/boletines/925_boletin_1.jpeg" class="mb-3" width="100" height="100" alt="Miniatura" style="width: 75%; height: auto;">
-                            <h4 class="card-title">PRESENTA EL ALCALDE DE JM EL PROGRAMA DEL SEXTO FESTIVAL “DE CHICAHUAL A CALAVERA"</h4>
-                            <p class="card-text">El presidente municipal, José Antonio Arámbula López presentó este día el programa general del sexto Festival de Chicahual a Calavera “Más vivo que nunca”, mismo que se llevará a cabo del ...</p>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-12 col-md-4 col-lg-4 col-xl-4 wow fadeInDown sobre" data-wow-delay="0.1s">                    
-                    <div class="card news-card" onclick="cambiarcont()" style="cursor: pointer;">
-                        <img src="img/Recurso 49.png" class="card-img" alt="Fondo" >
-                        <div class="card-img-overlay d-flex flex-column align-items-center  text-center">
-                            <img src="img/boletines/925_boletin_1.jpeg" class="mb-3" width="100" height="100" alt="Miniatura" style="width: 75%; height: auto;">
-                            <h4 class="card-title">PRESENTA EL ALCALDE DE JM EL PROGRAMA DEL SEXTO FESTIVAL “DE CHICAHUAL A CALAVERA"</h4>
-                            <p class="card-text">El presidente municipal, José Antonio Arámbula López presentó este día el programa general del sexto Festival de Chicahual a Calavera “Más vivo que nunca”, mismo que se llevará a cabo del ...</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-4 col-lg-4 col-xl-4 wow fadeInDown sobre" data-wow-delay="0.1s">                    
-                    <div class="card news-card" onclick="cambiarcont()" style="cursor: pointer;">
-                        <img src="img/Recurso 49.png" class="card-img" alt="Fondo" >
-                        <div class="card-img-overlay d-flex flex-column align-items-center  text-center">
-                            <img src="img/boletines/925_boletin_1.jpeg" class="mb-3" width="100" height="100" alt="Miniatura" style="width: 75%; height: auto;">
-                            <h4 class="card-title">PRESENTA EL ALCALDE DE JM EL PROGRAMA DEL SEXTO FESTIVAL “DE CHICAHUAL A CALAVERA"</h4>
-                            <p class="card-text">El presidente municipal, José Antonio Arámbula López presentó este día el programa general del sexto Festival de Chicahual a Calavera “Más vivo que nunca”, mismo que se llevará a cabo del ...</p>
-                        </div>
-                    </div>
-                </div>       
+                <?php require("../../model/sala_prensa/ultimas.php");?>   
+            
             </div>
             </div>
         </div>

@@ -11,7 +11,7 @@
 			$resumen = '';
 			foreach ($nota as $palabra) 
 			{
-				if($x <= 30)
+				if($x <= 25)
 				{
 					$resumen =  $resumen.$palabra." ";
 					$x++;
@@ -21,32 +21,16 @@
 		
 		$back_img_noticia = "img/boletines/".$noticia['url'];
 
-		$tr_noticias.='<div class="col-lg-6 col-xl-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item">
-                            <div class="service-inner">
-                                <div class="service-img" style="height: 425px;overflow: hidden;position: relative;">
-                                    <img class="img-fluid w-100 rounded" alt="Image" src="'.$back_img_noticia.'" >
-                                </div>
-                                <div class="service-title">
-                                    <div class="service-title-name">
-                                        <div class="bg-primary text-center rounded p-3 mx-5 mb-4">
-                                            <a href="#" class="h4 text-white mb-0">'.$noticia['titulo'].'</a>
-                                        </div>
-                                        <a class="btn bg-light text-secondary rounded-pill py-3 px-5 mb-4" href="#">Ver más</a>
-                                    </div>
-                                    <div class="service-content pb-4">
-                                        <a href="#"><h4 class="text-white mb-4 py-3">'.$noticia['titulo'].'</h4></a>
-                                        <div class="px-4">
-                                            <p class="mb-4">'.$resumen.'...</p>
-                                           
-                                            <a class="btn btn-primary border-secondary rounded-pill text-white py-3 px-5" href="javascript:cambiarcont('.$mas.');">Ver más</a>
-                                           
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+		$tr_noticias.='   <div class="col-12 col-md-4 col-lg-4 col-xl-4 wow fadeInDown sobre" data-wow-delay="0.1s">                    
+                    <div class="card news-card" onclick="cambiarcont('.$mas.')" style="cursor: pointer;">
+                        <img src="img/Recurso 49.png" class="card-img" alt="Fondo" >
+                        <div class="card-img-overlay d-flex flex-column align-items-center  text-center">
+                            <img src="'.$back_img_noticia.'" class="mb-3" width="100" height="100" alt="Miniatura" style="width: 75%; height: auto;">
+                            <h4 class="card-title">'.$noticia['titulo'].'"</h4>
+                            <p class="card-text">'.$resumen.'...</p>
                         </div>
                     </div>
+                </div>
 						';
 	}
 	echo $tr_noticias;

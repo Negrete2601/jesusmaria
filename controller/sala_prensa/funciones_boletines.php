@@ -7,7 +7,7 @@ function get_ultimas_noticias()
 	require('../../controller/conexion.php');
 	$query = "SELECT DISTINCT(b.idboletin), b.numero, b.titulo, b.texto, b.url
 		FROM boletines AS b
- WHERE 1 ORDER BY b.idboletin DESC limit 2;";
+ WHERE 1 ORDER BY b.idboletin DESC limit 3;";
 	$result = mysqli_query($conexion,$query);
 	return($result);
 }
