@@ -5,7 +5,7 @@ $username_conexion = "root"; //nombre de usuario
 $password_conexion = "";  //clave de usuario*/
 $database_conexion = "jm";  //nombre de la base de datos
 $username_conexion = "root"; //nombre de usuario
-$password_conexion = "";  //clave de usuario
+$password_conexion = "root";  //clave de usuario
 
 $conexion = mysqli_connect($hostname_conexion, $username_conexion, $password_conexion,$database_conexion);
 if(!$conexion)
