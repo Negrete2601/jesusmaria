@@ -50,8 +50,8 @@
 <!-- Semblanza -->
 <div class="container-fluid py-5">
     <div class="container py-5">
-    <div class="linea"></div>
-    <div style="padding-top: 2%;"></div>
+        <div class="linea"></div>
+        <div style="padding-top: 2%;"></div>
         <div class="row g-5">
             <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.1s">
                 <div class="bg-light rounded">
@@ -60,14 +60,31 @@
             </div>
             <div class="col-xl-7 wow fadeInRight" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;">
                 <h1 class="display-5 mb-4 semblanza">César Medina</h1>
+                <h4 class="display-5 mb-2 semblanza" style="font-size: 1.5rem;">Gobierno Municipal de Jesús María 2025–2027</h4>
                 <div class="row">
-                   <p style="font-weight: 600; color: #0b4e8b;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non justo euismod, blandit mi eu, lobortis enim. Nullam eu nulla et elit efficitur finibus. Fusce efficitur interdum ullamcorper. Vestibulum et maximus nulla. Cras ac euismod diam. Aenean quam urna, tempus ac est sed, condimentum dapibus nisl. Maecenas justo enim, ultrices at massa vel, suscipit pharetra nisi. Donec at commodo lacus, pulvinar efficitur ligula. Nullam pretium eleifend faucibus. Fusce eu consequat nibh.
-                   Sed odio metus, suscipit eu erat vel, sollicitudin efficitur tortor. Aenean sit amet auctor dui. Suspendisse dignissim, nibh dictum fermentum blandit, orci diam cursus est, eu rutrum sapien odio a nisl. Pellentesque scelerisque quam id malesuada commodo. Sed placerat, tortor in laoreet accumsan, ex massa convallis felis, eget varius lorem tellus sit amet sapien. Integer id urna commodo, pretium ipsum a, lacinia ipsum. Nullam bibendum commodo purus et sollicitudin. Maecenas egestas mattis scelerisque. Pellentesque semper lorem dolor, sit amet feugiat justo venenatis id. Morbi tincidunt ullamcorper augue eget pulvinar. Etiam fringilla, massa aliquet commodo congue, libero dui blandit ligula, ac faucibus turpis arcu id quam. Vivamus a lorem quis est ullamcorper dignissim. Cras eros tellus, rutrum id maximus in, malesuada a enim. Aliquam quis ante et lacus gravida ultricies quis eu mi. Nullam eget justo nibh. Aenean a bibendum felis.</p>
+                    <p style="font-weight: 300;color: #0b4e8b; line-height: 1.2;">
+                        Me gusta trabajar y dar lo mejor de mí en todo lo que hago, convencido de que la actitud frente a los retos marca el resultado.
+                        Mi carrera en el servicio público va más allá del deber cumplir, es más bien por la convicción de hacer de Jesús María una Ciudad de Vanguardia con la experiencia que he adquirido en distintas áreas operativas y administrativas.
+                        <br><br>
+                        El Gobierno de Jesús María trabaja con una visión clara: construir una ciudad más cercana, justa, ordenada y sustentable. Bajo una administración comprometida con el servicio público, se impulsan políticas públicas centradas en el desarrollo sostenible y el bienestar social.
+                        <br><br>
+                        La experiencia en distintas áreas operativas y administrativas se traduce hoy en una gestión que apuesta por la modernización, la inclusión y la justicia social, con base en cuatro ejes rectores:
+                    </p>
+                    <ul style="font-weight: 300; color: #0b4e8b;line-height: 1.2;padding-left: 2rem;">
+                        <li><strong style="font-weight: 600;">Jesús María cercano e incluyente:</strong> que promueve la participación ciudadana, la igualdad y el acceso equitativo a los servicios públicos.</li>
+                        <li><strong style="font-weight: 600;">Jesús María en paz y con justicia:</strong> enfocado en la seguridad, la legalidad y la construcción de una comunidad con valores.</li>
+                        <li><strong style="font-weight: 600;">Jesús María competitivo, ordenado y sustentable:</strong> que impulsa el crecimiento económico, el orden urbano y el cuidado del medio ambiente.</li>
+                        <li><strong style="font-weight: 600;">Jesús María, gobierno honesto, inteligente e innovador:</strong> que prioriza la transparencia, el uso eficiente de los recursos y la transformación digital de los servicios públicos.</li>
+                    </ul>
+                    <p style="font-weight: 300; color: #0b4e8b;line-height: 1.2;">
+                        Esta administración tiene como propósito consolidar un gobierno cercano, eficaz y responsable, que trabaje todos los días para mejorar la calidad de vida de quienes habitan Jesús María.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 
 <!-- Mas buscados -->
 <div class="container-fluid contact overflow-hidden pb-2">

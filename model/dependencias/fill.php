@@ -75,12 +75,11 @@ function fill_tr_tramites_dependencia($tramites_dependencia)
 					                      <td hidden></td>  
 					                      <td hidden></td>
 					                      <td>'.$tramite['nombre'].'</td>
-					                      <td>'.$tramite['secretaria'].'</td>
+					                      <td hidden></td>
 					                      <td>'.$tramite['documento_obtenido'].'</td>
 					                      <td>'.$tramite['telefono'].'</td>
 					                      <td>
-					                        <a class="btn btn-xs btn-info" onclick="fill_modal_info('.$tramite['id'].');"><i class="fas fa-info"></i></a>
-					                        <a class="btn btn-xs btn-danger" href="http://jesusmaria.gob.mx/assets/TCPDF-master/Generar-Formato.php?tramite='.$tramite['id'].'" target = "_blank"><i class="far fa-file-pdf"></i></a>
+					                        <a class="btn btn-xs btn-info" onclick="fill_modal_info('.$tramite['id'].');">Ver información del trámite</a>
 					                      </td>
 					                    </tr>
 									';
