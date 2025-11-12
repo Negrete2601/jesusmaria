@@ -10,6 +10,30 @@ body{
 	padding: 0.01rem 1rem;
 }
 
+/* Ajustar ancho y centrado del Gritter */
+.gritter-center {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 80% !important; /* Ajusta este valor según necesites (ej: 600px) */
+  max-width: 800px !important; /* Límite máximo de ancho */
+}
+
+/* Ajustar el texto interno para evitar desbordamiento */
+.gritter-item {
+  max-height: 29vh !important; /* Altura máxima con scroll */
+  overflow-y: auto !important; /* Habilitar scroll vertical si el contenido es muy largo */
+}
+
+/* Opcional: Estilo para el título y texto */
+.gritter-title {
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+.gritter-text {
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+}
+
 .puntitos {
     text-align: center;
     padding: 20px 0;
@@ -35,8 +59,8 @@ body{
 }
 
 .semblanza {
-    margin-top: 2.5rem;
-    margin-bottom: 1.5rem !important;
+    margin-top: 1.1rem;
+    margin-bottom: 1.1rem !important;
 }
 
 @media (min-width: 1200px) {

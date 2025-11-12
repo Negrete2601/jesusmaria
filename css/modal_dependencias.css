@@ -1,0 +1,286 @@
+
+        :root {
+            --primary-color: #2c5fa1;
+            --secondary-color: #4a6580;
+            --accent-color: #3d85c6;
+            --light-bg: #f8f9fa;
+            --text-dark: #2c3e50;
+            --text-light: #6c757d;
+            --border-radius: 10px;
+            --box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        
+        body {
+            background-color: #f5f7f9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: var(--text-dark);
+        }
+        
+        .modal-content {
+            border-radius: var(--border-radius);
+            border: none;
+            box-shadow: var(--box-shadow);
+        }
+        
+        .modal-header {
+            
+            color: white;
+            border-radius: var(--border-radius) var(--border-radius) 0 0;
+            padding: 1.2rem 1.5rem;
+        }
+        
+        .modal-title {
+            font-weight: 600;
+        }
+        
+        .btn-close {
+            filter: invert(1);
+            opacity: 0.8;
+        }
+        
+        .search-container {
+            position: relative;
+            margin-bottom: 1.2rem;
+        }
+        
+        .search-input {
+            padding-left: 45px;
+            border-radius: 50px;
+            border: 1px solid #e1e5eb;
+            height: 46px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        .search-input:focus {
+            border-color: var(--accent-color);
+            box-shadow: 0 0 0 0.25rem rgba(61, 133, 198, 0.25);
+        }
+        
+        .search-icon {
+            position: absolute;
+            left: 18px;
+            top: 13px;
+            color: var(--text-light);
+            z-index: 10;
+        }
+        
+        .filter-buttons {
+            display: flex;
+            gap: 0.6rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            border-radius: 50px;
+            padding: 0.4rem 1rem;
+            font-size: 0.85rem;
+            border: 1px solid #e1e5eb;
+            background: white;
+            color: var(--text-dark);
+            transition: all 0.2s;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        .filter-btn:hover, .filter-btn.active {
+            background-color: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+        
+        .accordion-item {
+            border: 1px solid #e1e5eb;
+            border-radius: var(--border-radius);
+            margin-bottom: 0.8rem;
+            overflow: hidden;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        
+        .accordion-button {
+            padding: 1.2rem;
+            font-weight: 500;
+            background-color: white;
+            border: none;
+            box-shadow: none;
+        }
+        
+        .accordion-button:not(.collapsed) {
+            background-color: var(--light-bg);
+            color: var(--text-dark);
+            border-bottom: 1px solid #e1e5eb;
+        }
+        
+        .accordion-button::after {
+            background-size: 1rem;
+        }
+        
+        .tramite-title {
+            font-size: 1.1rem;
+            margin-right: 1rem;
+        }
+        
+        .badge-container {
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        .badge-estado {
+            font-size: 0.75rem;
+            padding: 0.5em 0.8em;
+            border-radius: 50px;
+            font-weight: 500;
+        }
+        
+        .badge-tiempo {
+            background-color: #28a745;
+            color: white;
+        }
+        
+        .badge-costo {
+            background-color: #ffc107;
+            color: var(--text-dark);
+        }
+        
+        .badge-pago {
+            background-color: #e67e22;
+            color: white;
+        }
+        
+        .nav-tabs {
+            border-bottom: 1px solid #e1e5eb;
+            margin-bottom: 1.2rem;
+        }
+        
+        .nav-tabs .nav-link {
+            border: none;
+            border-bottom: 3px solid transparent;
+            color: var(--text-dark);
+            padding: 0.8rem 1rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .nav-tabs .nav-link:hover {
+            border-color: transparent;
+            background-color: var(--light-bg);
+        }
+        
+        .nav-tabs .nav-link.active {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+            background-color: transparent;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        
+        .info-item {
+            display: flex;
+            padding: 0.8rem;
+            border-radius: var(--border-radius);
+            background-color: var(--light-bg);
+        }
+        
+        .info-icon {
+            min-width: 40px;
+            color: var(--accent-color);
+            font-size: 1.1rem;
+            margin-right: 0.8rem;
+        }
+        
+        .info-content {
+            flex: 1;
+        }
+        
+        .info-label {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--text-dark);
+            margin-bottom: 0.2rem;
+        }
+        
+        .info-value {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+        
+        .map-link {
+            color: var(--accent-color);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            margin-top: 0.3rem;
+        }
+        
+        .map-link:hover {
+            text-decoration: underline;
+        }
+        
+        .map-link i {
+            margin-right: 0.3rem;
+            font-size: 0.9rem;
+        }
+        
+        .requisitos-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .requisitos-table th {
+            background-color: var(--light-bg);
+            padding: 0.75rem;
+            text-align: left;
+            font-weight: 600;
+            color: var(--text-dark);
+            font-size: 0.9rem;
+        }
+        
+        .requisitos-table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #f1f1f1;
+            vertical-align: middle;
+            font-size: 0.9rem;
+        }
+        
+        .requisitos-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .btn-download {
+            border-radius: 50px;
+            padding: 0.25rem 0.8rem;
+            font-size: 0.8rem;
+        }
+        
+        .modal-footer {
+            border-top: 1px solid #e1e5eb;
+            padding: 1rem 1.5rem;
+        }
+        
+        .btn-modal {
+            border-radius: 50px;
+            padding: 0.5rem 1.5rem;
+        }
+        
+        @media (max-width: 768px) {
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .accordion-button .d-flex {
+                flex-direction: column;
+                align-items: flex-start !important;
+            }
+            
+            .badge-container {
+                margin-top: 0.5rem;
+            }
+            
+            .tramite-title {
+                margin-right: 0;
+            }
+        }

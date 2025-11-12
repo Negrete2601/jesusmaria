@@ -23,11 +23,11 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gritter@1.7.4/css/jquery.gritter.min.css">
 
         <!-- Libraries Stylesheet -->
         <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">        
 
 
         <!-- Customized Bootstrap Stylesheet -->
@@ -315,7 +315,7 @@
 		            </div>
 		            <div class="col-12">
 		                <span>
-		                    &copy; 2025 Coordinación de Innovación Tecnológica del Municipio de Jesús María · Todos los derechos reservados
+		                    &copy; 2025 Departamento de Innovación Tecnológica del Municipio de Jesús María
 		                </span>
 		            </div>
 		        </div>
@@ -341,6 +341,8 @@
 	    <script type="text/javascript" charset="utf8" src="js/dataTables.js"></script>
 		<script src="https://kit.fontawesome.com/477a7a7e11.js" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/gritter@1.7.4/js/jquery.gritter.min.js"></script>
 
 	    <!-- Template Javascript -->
 	    <script src="js/main.js"></script>
@@ -356,8 +358,66 @@
 				$("#body_content").html('<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"><div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status"><span class="sr-only">Cargando...</span></div></div>');
 				$('#body_content').load('view/miorgullo/inicio.php');
 				$("#body_content").fadeIn(10000);
-					    	
+
+				$.gritter.add({
+					title: 'AVISO DE PRIVACIDAD SIMPLIFICADO',
+					text: '<div style="text-align: left;"><p>La Presidencia Municipal de Jesús María; Aguascalientes en cumplimiento a la Ley de Protección de Datos personales en  Posesión de los Sujetos Obligados del Estado de Aguascalientes y sus Municipios, y con fundamento en el artículo 35, emite el presente <strong>AVISO DE PRIVACIDAD SIMPLIFICADO</strong>. Señalando que los datos personales que se soliciten, serán utilizados para proveer los servicios que habrá de solicitar; para ello, se requiere obtener los siguientes datos personales:</p><ul><li>Nombre completo</li><li>Para fines estadísticos: Edad</li><li>Domicilio</li><li>Para fines estadísticos: Género </li><li>Teléfono</li><li>Para fines estadísticos: Estado Civil</li><li>CURP</li><li>Para fines estadísticos: Ocupación</li><li>Fotografía</li></ul><p>Así mismo se informa que con fundamento en el artículo 58 de la Ley de Protección de Datos Personales en Posesión de los Sujetos Obligados del Estado de Aguascalientes y sus Municipios, en cualquier momento usted tiene el derecho de acceder, rectificar y cancelar sus datos personales, así como oponerse al tratamiento de los mismos, utilizando los medios que para tal efecto se han implementado en esta dependencia y/o entidad mediante previa acreditación, pudiéndose poner en contacto con la Unidad de Transparencia de este Municipio.</p><p>En cumplimiento al artículo 35 fracción V de la Ley de Protección de Datos Personales en Posesión de los Sujetos Obligados Del Estado de Aguascalientes y sus Municipios, el Aviso de Privacidad Integral se podrá obtener para su consulta en el siguiente link: <a href="https://jesusmaria.gob.mx/estaticos/aviso.pdf" target="_blank">https://jesusmaria.gob.mx/estaticos/aviso.pdf</a></p><p>Correo electrónico. <a href = "mailto: transparenciamunicipaljm@jesusmaria.gob.mx">transparenciamunicipaljm@jesusmaria.gob.mx</a><br><a href = "mailto: jesusmariatransparencia@gmail.com">jesusmariatransparencia@gmail.com</a></p><p>Domicilio de la Unidad de Transparencia: Boulevard Alejandro de la Cruz N.- 106, fraccionamiento Agua Clara, Jesús María, Aguascalientes, C.P. 20924, 449 963 59 98.</p><p style="font-weight: bold;">SI USTED NO MANIFIESTA SU OPOSICIÓN PARA EL USO, TRANSFERENCIA Y/O TRATAMIENTO DE SUS DATOS PERSONALES, SE ENTENDERÁ QUE SE HA OTORGADO CONSENTIMIENTO PARA ELLO</p></div>',
+					sticky: true,
+					class_name: 'gritter-info gritter-center'
+				});
+				    	
 			});
+
+			function key_inputs(){				
+		        // Funcionalidad de búsqueda
+		        $('.search-input').on('keyup', function() {
+		            const searchText = $(this).val().toLowerCase();
+		            
+		            $('.accordion-item').each(function() {
+		                const tramiteText = $(this).find('.accordion-button').text().toLowerCase();
+		                
+		                if (tramiteText.indexOf(searchText) > -1) {
+		                    $(this).show();
+		                } else {
+		                    $(this).hide();
+		                }
+		            });
+		        });
+		        
+		        // Funcionalidad de filtros
+		        $('.filter-btn').on('click', function() {
+		            $('.filter-btn').removeClass('active');
+		            $(this).addClass('active');
+		            
+		            const filter = $(this).data('filter');
+		            
+		            if (filter === 'all') {
+		                $('.accordion-item').show();
+		                return;
+		            }
+		            
+		            $('.accordion-item').each(function() {
+		                const badgesText = $(this).find('.badge').text().toLowerCase();
+		                
+		                if (filter === 'inmediato' && badgesText.indexOf('inmediato') > -1) {
+		                    $(this).show();
+		                } else if (filter === 'gratuito' && (badgesText.indexOf('gratuito') > -1)) {
+		                    $(this).show();
+		                } else if (filter === 'presencial' && badgesText.indexOf('presencial') > -1) {
+		                    $(this).show();
+		                } else if (filter === 'digital' && badgesText.indexOf('digital') > -1) {
+		                    $(this).show();
+		                } else {
+		                    $(this).hide();
+		                }
+		            });
+		        });
+		        
+		        // Alternar entre tabs sin colapsar el acordeón
+		        $('.nav-tabs a').on('click', function(e) {
+		            e.stopPropagation();
+		        });
+			}
 
 			function fill_modal_dependencias(id_dependencia){
 				var xmlhttp;
@@ -379,6 +439,7 @@
 		                //waitingDialog.hide();
 		                $('#modal_dependencia').modal('show');
 		                tablas();
+		                key_inputs();
 		            }
 		        }
 

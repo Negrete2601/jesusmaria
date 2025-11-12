@@ -81,14 +81,7 @@
                                             </div>	  
                                         </form>	
                                     </div>
-
-
-                                    <script src="jquery-ui-1.12.1/external/jquery/jquery.js"></script>
-                                    <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
-                                    <script src="jquery-ui-1.12.1/jquery-ui.js"></script>
-
-                                    <script src="js/jquery.validate.min.js"></script>
-                                    <script src="funciones/funciones.js"></script>
+                                    
 
                                     <script>
                                     $("#form_buzon").validate(
