@@ -70,6 +70,8 @@ function fill_tr_tramites_dependencia($tramites_dependencia)
 
 	foreach ($tramites_dependencia as $tramite) 
 	{
+        $requisitos = fill_requisitos($tramite['id']);
+        $modal_requisitos = fill_modal_requisitos_tramite($requisitos);
 		$tr_tramites_dependencia.='
 									 <div class="accordion-item">
                         <h2 class="accordion-header" id="heading'.$tramite['id'].'">
@@ -188,8 +190,7 @@ function fill_tr_tramites_dependencia($tramites_dependencia)
                                         <div class="table-responsive">
                                             <table class="table requisitos-table">
                                                 <thead>
-                                                    <tr>
-                                                        <th scope="col">#</th>
+                                                    <tr>                                                        
                                                         <th scope="col">Requisito</th>
                                                         <th scope="col">Original</th>
                                                         <th scope="col">Copia</th>
@@ -197,40 +198,7 @@ function fill_tr_tramites_dependencia($tramites_dependencia)
                                                     </tr>
                                                 </thead>
                                                 <tbody>
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td>Acta de nacimiento</td>
-                                                        <td><i class="fas fa-check text-success"></i></td>
-                                                        <td><i class="fas fa-check text-success"></i></td>
-                                                        <td></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>2</td>
-                                                        <td>Identificación oficial</td>
-                                                        <td><i class="fas fa-times text-danger"></i></td>
-                                                        <td><i class="fas fa-check text-success"></i></td>
-                                                        <td></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3</td>
-                                                        <td>Certificado de secundaria</td>
-                                                        <td><i class="fas fa-check text-success"></i></td>
-                                                        <td><i class="fas fa-check text-success"></i></td>
-                                                        <td></td>                                                    </tr>
-                                                    <tr>
-                                                        <td>4</td>
-                                                        <td>Comprobante de domicilio</td>
-                                                        <td><i class="fas fa-times text-danger"></i></td>
-                                                        <td><i class="fas fa-check text-success"></i></td>
-                                                        <td></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>5</td>
-                                                        <td>Formato de solicitud</td>
-                                                        <td><i class="fas fa-check text-success"></i></td>
-                                                        <td><i class="fas fa-times text-danger"></i></td>
-                                                        <td><button class="btn btn-sm btn-outline-primary btn-download">Descargar Formato</button></td>
-                                                    </tr>
+                                                    '.$modal_requisitos.'
                                                 </tbody>
                                             </table>
                                         </div>
@@ -242,6 +210,47 @@ function fill_tr_tramites_dependencia($tramites_dependencia)
 									';
 	}
 	return $tr_tramites_dependencia;
+}
+
+function fill_requisitos($id_tramite)
+{
+    $result = get_requisitos_tramite($id_tramite);
+    return $result;
+}
+
+function fill_modal_requisitos_tramite($requisitos)
+{
+    $result = "";
+    foreach ($requisitos as $requisito) 
+    {
+        if($requisito['original'] > 0)
+        {
+            $original = '<td><i class="fas fa-check text-success"></i> '.$requisito['original'].' </td>';
+        }else{
+            $original = '<td><i class="fas fa-times text-danger"></i></td>';
+        }
+        
+        if($requisito['copia'] > 0)
+        {
+            $copia = '<td><i class="fas fa-check text-success"></i> '.$requisito['copia'].' </td>';
+        }else{
+            $copia = '<td><i class="fas fa-times text-danger"></i></td>';
+        }
+
+        if(!empty($requisito['documento']))
+        {
+            $documento = '<td><a href="'.$requisito['documento '].'"><button class="btn btn-sm btn-outline-primary btn-download">Descargar Formato</button></a></td>';
+        }else{
+            $documento = '';
+        }
+        $result.="
+                     <tr>
+                        <td>".$requisito['requisito']."</td>
+                        ".$original.$copia.$documento."
+                    </tr>
+                ";
+    }
+    return $result;
 }
 
 function fill_boletines()
