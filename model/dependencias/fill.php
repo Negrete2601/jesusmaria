@@ -83,7 +83,7 @@ function fill_tr_tramites_dependencia($tramites_dependencia)
                                     </span>
                                     <div class="badge-container">
                                         <span class="badge badge-estado badge-tiempo"><i class="fa-solid fa-clock me-1"></i> '.$tramite['tiempo'].'</span>
-                                        <span class="badge badge-estado badge-pago"><i class="fa-solid fa-dollar-sign me-1"></i>'.$tramite['costo'].'</span>
+                                        <span class="badge badge-estado badge-pago"><i class="fa-solid fa-dollar-sign me-1"></i>'.substr($tramite['costo'],0,8).'...</span>
                                     </div>
                                 </div>
                             </button>
