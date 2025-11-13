@@ -33,3 +33,14 @@ function get_tramites_dependenciat($id_dependencia)
 
 	return $result;
 }
+
+function get_requisitos_tramite($id_tramite)
+{
+	$sql = "SELECT id, requisito, documento, original, copia
+				FROM requisitos
+			WHERE id_tramite = $id_tramite AND status = 1";
+
+	$result = queryst($sql);
+
+	return $result;
+}
