@@ -1,8 +1,9 @@
 <?php
   include('fill.php');
   $id_dependencia = $_POST['id_dependencia'];
+  $icono = $_POST['icono'];
   $tramites_dependencia = fill_tramites_dependencia($id_dependencia);
-  $tr_tramites_dependencia = fill_tr_tramites_dependencia($tramites_dependencia);
+  $tr_tramites_dependencia = fill_tr_tramites_dependencia($tramites_dependencia, $icono);
 ?>
 
 <link href="css/modal_dependencias.css" rel="stylesheet">
@@ -11,7 +12,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="modalDependenciasLabel">
-                    <i class="fas fa-handshake-angle me-2"></i>Trámites de la Secretaría de Desarrollo Social
+                    <i class="<?=$_POST['icono']?> me-2"></i>Trámites de la <?=$_POST['secretaria']?>
                 </h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>

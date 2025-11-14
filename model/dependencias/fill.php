@@ -20,7 +20,7 @@ function fill_tr_dependencias($dependencias)
 	foreach ($dependencias as $dependencia) 
 	{		
 		
-		$tr_dependencia.=' <div id="'.$dependencia['id'].'" class="col-12 col-sm-6 d-flex align-items-center mb-3 hover-effect" onclick="fill_modal_dependencias('.$dependencia['id'].');" style="cursor: pointer;">
+		$tr_dependencia.=' <div id="'.$dependencia['id'].'" class="col-12 col-sm-6 d-flex align-items-center mb-3 hover-effect" onclick="fill_modal_dependencias('.$dependencia['id'].', \''.$dependencia['icono'].'\', \''.$dependencia['secretaria'].'\');" style="cursor: pointer;">
 								   	<span class="icon-container">
 								   		<i class="'.$dependencia['icono'].' text-secondary" aria-hidden="true"></i>
 								   	</span>
@@ -64,7 +64,7 @@ function fill_tramites_dependencia($id_dependencia)
 	return $tramites_dependencia;
 }
 
-function fill_tr_tramites_dependencia($tramites_dependencia)
+function fill_tr_tramites_dependencia($tramites_dependencia, $icono)
 {
 	$tr_tramites_dependencia = "";
 
@@ -78,7 +78,7 @@ function fill_tr_tramites_dependencia($tramites_dependencia)
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse'.$tramite['id'].'" aria-expanded="true" aria-controls="collapse'.$tramite['id'].'">
                                 <div class="d-flex justify-content-between align-items-center w-100">
                                     <span class="tramite-title">
-                                        <i class="fas fa-graduation-cap me-2"></i>
+                                        <i class="'.$icono.' me-2"></i>
                                         <strong>'.$tramite['nombre'].'</strong>
                                     </span>
                                     <div class="badge-container">
