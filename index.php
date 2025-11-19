@@ -419,7 +419,32 @@
 		        });
 			}
 
-			function fill_modal_dependencias(id_dependencia){
+			function fill_modal_dependencias(id_dependencia, icono, secretaria) {
+			    console.log("ID:", id_dependencia);
+			    console.log("Icono:", icono);
+			    console.log("Secretaría:", secretaria);
+			    
+			    //waitingDialog.show('Cargando Información...', { dialogSize: 'sm', progressType: 'warning' });
+
+			    $.post("./model/dependencias/modal_dependencias.php", { 
+			        id_dependencia: id_dependencia,
+			        icono: icono,
+			        secretaria: secretaria
+			    })
+			    .done(function(response) {
+			        $('#load_modal_dependencias').html(response);
+			        $('#modal_dependencia').modal('show');
+			        key_inputs();
+			    })
+			    .fail(function() {
+			        swal("¡Error de Conexión!", "No se pudo cargar la información del modal.", "error");
+			    })
+			    .always(function() {
+			        //waitingDialog.hide();
+			    });
+			}
+
+			/*function fill_modal_dependencias(id_dependencia){
 				var xmlhttp;
 
 		        if (window.XMLHttpRequest){
@@ -450,7 +475,7 @@
 		        xmlhttp.open("POST","./model/dependencias/modal_dependencias.php",true);
 		        xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
 		        xmlhttp.send(datos_modal);
-		    }	 
+		    }*/	 
 
 		    function fill_modal_info(id_tramite){
 				var xmlhttp;

@@ -20,7 +20,7 @@ function fill_tr_dependencias($dependencias)
 	foreach ($dependencias as $dependencia) 
 	{		
 		
-		$tr_dependencia.=' <div id="'.$dependencia['id'].'" class="col-12 col-sm-6 d-flex align-items-center mb-3 hover-effect" onclick="fill_modal_dependencias('.$dependencia['id'].');" style="cursor: pointer;">
+		$tr_dependencia.=' <div id="'.$dependencia['id'].'" class="col-12 col-sm-6 d-flex align-items-center mb-3 hover-effect" onclick="fill_modal_dependencias('.$dependencia['id'].', \''.$dependencia['icono'].'\', \''.$dependencia['secretaria'].'\');" style="cursor: pointer;">
 								   	<span class="icon-container">
 								   		<i class="'.$dependencia['icono'].' text-secondary" aria-hidden="true"></i>
 								   	</span>
@@ -64,7 +64,7 @@ function fill_tramites_dependencia($id_dependencia)
 	return $tramites_dependencia;
 }
 
-function fill_tr_tramites_dependencia($tramites_dependencia)
+function fill_tr_tramites_dependencia($tramites_dependencia, $icono)
 {
 	$tr_tramites_dependencia = "";
 
@@ -78,7 +78,7 @@ function fill_tr_tramites_dependencia($tramites_dependencia)
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse'.$tramite['id'].'" aria-expanded="true" aria-controls="collapse'.$tramite['id'].'">
                                 <div class="d-flex justify-content-between align-items-center w-100">
                                     <span class="tramite-title">
-                                        <i class="fas fa-graduation-cap me-2"></i>
+                                        <i class="'.$icono.' me-2"></i>
                                         <strong>'.$tramite['nombre'].'</strong>
                                     </span>
                                     <div class="badge-container">
@@ -99,6 +99,12 @@ function fill_tr_tramites_dependencia($tramites_dependencia)
                                     <li class="nav-item" role="presentation">
                                         <a class="nav-link" id="requisitos-tab-'.$tramite['id'].'" data-bs-toggle="tab" href="#requisitos-'.$tramite['id'].'" role="tab" aria-controls="requisitos-'.$tramite['id'].'" aria-selected="false">
                                             <i class="fas fa-list-alt me-1"></i> Requisitos
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link" id="legal-tab-'.$tramite['id'].'" data-bs-toggle="tab" href="#legal-'.$tramite['id'].'" role="tab" aria-controls="legal-'.$tramite['id'].'" aria-selected="false">
+                                            <i class="fa-regular fa-comment-dots me-1"></i> Observaciones
                                         </a>
                                     </li>
                                 </ul>
@@ -202,6 +208,15 @@ function fill_tr_tramites_dependencia($tramites_dependencia)
                                                 </tbody>
                                             </table>
                                         </div>
+                                    </div>
+                                    <div class="tab-pane fade show active" id="legal-'.$tramite['id'].'" role="tabpanel" aria-labelledby="legal-tab-'.$tramite['id'].'">                                        
+                                        <div class="info-item">
+                                            <span class="info-icon"><i class="fa-regular fa-comment-dots"></i></span>
+                                            <div class="info-content">
+                                                <div class="info-label">Observaciones</div>
+                                                <div class="info-value">'.$tramite['observaciones'].'</div>
+                                            </div>
+                                        </div>                                        
                                     </div>
                                 </div>
                             </div>                            
