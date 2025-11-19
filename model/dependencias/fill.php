@@ -101,6 +101,12 @@ function fill_tr_tramites_dependencia($tramites_dependencia, $icono)
                                             <i class="fas fa-list-alt me-1"></i> Requisitos
                                         </a>
                                     </li>
+
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link" id="legal-tab-'.$tramite['id'].'" data-bs-toggle="tab" href="#legal-'.$tramite['id'].'" role="tab" aria-controls="legal-'.$tramite['id'].'" aria-selected="false">
+                                            <i class="fa-regular fa-comment-dots me-1"></i> Observaciones
+                                        </a>
+                                    </li>
                                 </ul>
                                   
                                 <div class="tab-content mt-3" id="tramite'.$tramite['id'].'Content">
@@ -202,6 +208,15 @@ function fill_tr_tramites_dependencia($tramites_dependencia, $icono)
                                                 </tbody>
                                             </table>
                                         </div>
+                                    </div>
+                                    <div class="tab-pane fade show active" id="legal-'.$tramite['id'].'" role="tabpanel" aria-labelledby="legal-tab-'.$tramite['id'].'">                                        
+                                        <div class="info-item">
+                                            <span class="info-icon"><i class="fa-regular fa-comment-dots"></i></span>
+                                            <div class="info-content">
+                                                <div class="info-label">Observaciones</div>
+                                                <div class="info-value">'.$tramite['observaciones'].'</div>
+                                            </div>
+                                        </div>                                        
                                     </div>
                                 </div>
                             </div>                            
