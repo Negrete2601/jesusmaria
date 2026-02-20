@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 443.3 456.02">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #004a98;
+        font-family: AptosDisplay, Aptos;
+        font-size: 37.7px;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #00a0df;
+      }
+
+      .cls-4 {
+        fill: url(#Degradado_sin_nombre_47);
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-4, .cls-5 {
+        stroke-width: 2.02px;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        fill: #98989a;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        opacity: .95;
+      }
+
+      .cls-5 {
+        fill: url(#Degradado_sin_nombre_43);
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke-width: 6.66px;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_43" data-name="Degradado sin nombre 43" x1="38.72" y1="440.62" x2="443.59" y2="-40.22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ededed"/>
+      <stop offset="1" stop-color="#ededed"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" x="0" y="0" width="402.72" height="415.68" filterUnits="userSpaceOnUse">
+      <feOffset dx="-18.19" dy="-18.19"/>
+      <feGaussianBlur result="blur" stdDeviation="10.77"/>
+      <feFlood flood-color="#fff" flood-opacity=".15"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="Degradado_sin_nombre_47" data-name="Degradado sin nombre 47" x1="81.85" y1="389.4" x2="394.85" y2="17.67" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".75" stop-color="#ededed"/>
+    </linearGradient>
+    <filter id="drop-shadow-2" x="32.42" y="32.42" width="410.88" height="423.6" filterUnits="userSpaceOnUse">
+      <feOffset dx="18.19" dy="18.19"/>
+      <feGaussianBlur result="blur-2" stdDeviation="12.13"/>
+      <feFlood flood-color="#4f6367" flood-opacity=".15"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <g class="cls-11">
+        <rect class="cls-5" x="51.62" y="51.67" width="335.76" height="348.51" rx="20.21" ry="20.21"/>
+        <rect class="cls-4" x="51.62" y="51.67" width="335.76" height="348.51" rx="20.21" ry="20.21"/>
+      </g>
+      <text class="cls-1" transform="translate(120.39 351.69)"><tspan class="cls-2" x="0" y="0">E</tspan><tspan class="cls-8" x="20.47" y="0">v</tspan><tspan x="36.65" y="0">al</tspan><tspan class="cls-7" x="64.29" y="0">u</tspan><tspan class="cls-10" x="83.18" y="0">acion</tspan><tspan class="cls-12" x="166.54" y="0">e</tspan><tspan x="184.98" y="0">s</tspan></text>
+      <g>
+        <path class="cls-9" d="M367.29,132.88h0c-11.25,0-16.73-13.73-8.57-21.48l27.13-25.75v28.68c0,10.25-8.31,18.55-18.55,18.55Z"/>
+        <path class="cls-9" d="M366.96,182.22h0c-11.25-.08-16.63-13.85-8.42-21.54l27.3-25.56-.2,28.68c-.07,10.25-8.44,18.49-18.68,18.42Z"/>
+        <path class="cls-3" d="M366.96,231.31h0c-11.25-.08-16.63-13.85-8.42-21.54l27.3-25.56-.2,28.68c-.07,10.25-8.44,18.49-18.68,18.42Z"/>
+        <path class="cls-9" d="M366.96,281.59h0c-11.25-.08-16.63-13.85-8.42-21.54l27.3-25.56-.2,28.68c-.07,10.25-8.44,18.49-18.68,18.42Z"/>
+      </g>
+      <g>
+        <circle class="cls-3" cx="221.61" cy="183.62" r="59.77"/>
+        <g>
+          <g>
+            <polyline class="cls-6" points="233.02 161.27 233.02 174.77 206.02 174.77 206.02 147.77 219.52 147.77"/>
+            <polyline class="cls-6" points="238.23 144.02 220.07 161.87 214.5 156.17"/>
+          </g>
+          <g>
+            <polyline class="cls-6" points="233.02 208.73 233.02 222.23 206.02 222.23 206.02 195.22 219.52 195.22"/>
+            <polyline class="cls-6" points="238.23 191.48 220.07 209.33 214.5 203.62"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

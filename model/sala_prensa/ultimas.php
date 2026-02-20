@@ -25,7 +25,7 @@
                     <div class="card news-card" onclick="cambiarcont('.$mas.')" style="cursor: pointer;">
                         <img src="img/fondo_noticia.png" class="card-img" alt="Fondo" >
                         <div class="card-img-overlay d-flex flex-column align-items-center  text-center">
-                            <img src="'.$back_img_noticia.'" class="mb-3" width="100" height="100" alt="Miniatura" style="width: 75%;height: 50%;object-fit: cover;border-radius: 10px;">
+                            <img src="'.$back_img_noticia.'" class="mb-3" width="100" height="100" alt="Miniatura" style="width: 75%;height:45%;object-fit: cover;border-radius: 10px;">
                             <h4 class="card-title">'.$noticia['titulo'].'"</h4>
                             <p class="card-text">'.$resumen.'...</p>
                         </div>

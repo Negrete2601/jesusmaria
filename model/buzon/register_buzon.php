@@ -6,7 +6,7 @@
 	$email = $_POST['email'];
 	$domicilio = $_POST['domicilio'];
 	$telefono = $_POST['telefono'];
-	$email_institucional = 'eleazar.cortez@jesusmaria.gob.mx';
+	$email_institucional = 'contacto.ciudadano@jesusmaria.gob.mx';
 	$idtipoasunto = $_POST['idtipoasunto'];
 	$descripcion = $_POST['descripcion'];
     $contenido = "Se recibío desde el portal institucional el siguiente formulario de contacto: \n \n Nombre: ".$nombre."\n \n Correo electrónico: ".$email."\n \n Teléfono: ".$telefono."\n \n Descripción: ".$descripcion;

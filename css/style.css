@@ -96,6 +96,54 @@
 }
 
 
+/* 1. Base del submenú */
+.dropdown-submenu {
+    position: relative;
+}
+
+/* 2. Comportamiento en Computadoras (Escritorio) */
+@media (min-width: 992px) {
+    .dropdown-submenu > .dropdown-menu {
+        top: 0; /* Alinea el submenú a la altura del texto 'Revista...' */
+        left: 100%; 
+        margin-top: -5px;
+        display: block; /* Lo dejamos en block para que la animación funcione */
+        visibility: hidden; /* Pero oculto */
+        opacity: 0;
+        transform: rotateX(-75deg); /* Hereda la animación del menú principal */
+        transition: .5s;
+    }
+
+    /* Al pasar el mouse específicamente por 'Revista El Chicahual' */
+    .dropdown-submenu:hover > .dropdown-menu {
+        visibility: visible;
+        opacity: 1;
+        transform: rotateX(0deg); /* RESET: Esto es lo que faltaba */
+        display: block;
+        margin-top: 0;
+    }
+}
+
+/* 3. Comportamiento en Celulares (Móviles) */
+@media (max-width: 991.98px) {
+    .dropdown-submenu > .dropdown-menu {
+        position: relative !important; /* Se pone debajo del texto, no flota */
+        left: 0 !important;
+        top: 0;
+        width: 100%;
+        border: none;
+        background-color: rgba(0,0,0,0.05) !important; /* Gris suave para notar nivel */
+        padding-left: 20px;
+        display: none;
+    }
+    
+    /* Clase que activamos con el clic en JS */
+    .dropdown-submenu > .dropdown-menu.show {
+        display: block !important;
+    }
+}
+
+
 /*** Section Title Start ***/
 .section-title {
     max-width: 900px;
@@ -249,12 +297,29 @@
     }
 }
 
+/*** Corrección para Submenú en Escritorio ***/
+@media (min-width: 992px) {
+    /* Sobrescribir estilos generales para submenús */
+    .dropdown-submenu .dropdown-menu {
+        top: 0 !important;
+        left: 100% !important;
+        margin-top: -5px !important;
+        transform-origin: 0% 0% !important;
+    }
+    
+    .navbar .dropdown-submenu:hover > .dropdown-menu {
+        transform: rotateX(0deg) !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+}
+
 .dropdown .dropdown-menu a:hover {
     background: var(--bs-primary);
     color: var(--bs-secondary);
 }
 
-.navbar .nav-item:hover .dropdown-menu {
+.navbar .nav-item:hover > .dropdown-menu {
     transform: rotateX(0deg);
     visibility: visible;
     background: var(--bs-light) !important;
@@ -1014,17 +1079,6 @@
     color:#0A1D3D;
 }
 /*** copyright end ***/
-/* Para el submenú Revista El Chicahual */
-.dropdown-submenu .dropdown-menu {
-    display: none; /* Ocultar por defecto */
-    position: absolute; /* Posicionar absolutamente */
-    left: 100%; /* Desplazar a la derecha del elemento padre */
-    top: 0; /* Alinear en la parte superior */
-}
-
-.dropdown-submenu:hover .dropdown-menu {
-    display: block; /* Mostrar al pasar el cursor sobre el elemento padre */
-}
 
 .dropdown-submenu {
     position: relative; /* Necesario para el posicionamiento absoluto del submenú */
@@ -1122,5 +1176,55 @@
     padding: 5px 5px 5px 5px;
 }
 
+#body_content {
+    transition: opacity 0.4s ease-in-out;
+}
   
-  
+/* Reducción de espacios generales */
+.footer-title {
+    color: #C1D100;
+    font-size: 1rem; /* Un poco más pequeña */
+    font-weight: 700;
+    margin-bottom: 0.8rem; /* Reducido de 1.5rem a 0.8rem */
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 0.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.footer ul li {
+    margin-bottom: 4px; /* Espacio mínimo entre enlaces */
+}
+
+.footer ul li a {
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.2s;
+}
+
+/* Solo para pantallas grandes (Desktop) */
+@media (min-width: 992px) {
+    .footer {
+        padding-top: 40px !important;
+        padding-bottom: 20px !important;
+    }
+    
+    .footer-item {
+        padding-left: 15px;
+        border-left: 1px solid rgba(255,255,255,0.05); /* Separador sutil vertical */
+    }
+}
+
+/* Ajustes móviles para evitar que se vea amontonado */
+@media (max-width: 991.98px) {
+    .footer-title {
+        margin-bottom: 0;
+        padding: 10px 0;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    
+    .footer-item {
+        margin-bottom: 5px;
+    }
+}

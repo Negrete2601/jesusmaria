@@ -1,0 +1,19 @@
+ <!-- <div class="nav-item dropdown">
+						    <a href="#" class="nav-link" data-bs-toggle="dropdown">
+						        <span class="dropdown-toggle">Planeación Estratégica</span>
+						    </a>
+						    <div class="dropdown-menu m-0">                            
+						        <div class="dropdown-submenu">
+						            <a href="#" class="dropdown-item dropdown-toggle">Plan Municipal de Desarrollo</a>
+						            <div class="dropdown-menu m-0">
+						                <a href="estaticos/2022/plan/Plan_de_Desarrollo_municipal_JM_2021-2024.pdf" target="_blank" class="dropdown-item">2021 - 2024</a>
+						                <a href="estaticos/2024/plan/Plan_de_Desarrollo_municipal_JM_2024-2027.pdf" target="_blank" class="dropdown-item">2024 - 2027</a>
+						            </div>
+						        </div>                                
+						        <a href="#" class="dropdown-item">Matrices de Indicadores de Resultados</a>                               
+						        <a href="#" class="dropdown-item">Evaluaciones</a>
+						        <a href="#" class="dropdown-item">Fichas de Monitoreo</a>
+						        <a href="#" class="dropdown-item">Presupuesto participativo</a>
+						        <a href="javascript:cambiarcont('view/planeacion/planeacion_estrategica.php');" class="dropdown-item">Foros de consulta ciudadana</a>                             
+						    </div>
+						</div> -->

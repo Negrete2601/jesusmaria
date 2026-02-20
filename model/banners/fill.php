@@ -26,9 +26,8 @@ function fill_tr_banner($banners)
 						<div class="carousel-item'.$active.'" >
 					    	<a href="'.$banner['url'].'" '.$target.'>
 					    	  <img class="img-fluid"  src=".'.$banner['imagen'].'" alt="Banner Jesús María">
+					    	  <div class="carousel-caption"></div>
 					    	</a>
-
-					    	<div class="carousel-caption"></div>
 					    </div>
 					';	
 		}else{

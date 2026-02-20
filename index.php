@@ -22,7 +22,6 @@
         <!-- Icon Font Stylesheet -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gritter@1.7.4/css/jquery.gritter.min.css">
 
         <!-- Libraries Stylesheet -->
@@ -84,73 +83,51 @@
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto py-0">
-                        
+                    <div class="navbar-nav ms-auto py-0">                        
                         <a href="index.php" class="nav-item nav-link active">Inicio</a>
+
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Ciudad de Vanguardia</span></a>
-                            <div class="dropdown-menu m-0">                            
+                            <div class="dropdown-menu m-0">
+								<a class="dropdown-item" href="estaticos//2026/Cabildo%20abierto.pdf" target="_blank">Cabildo Abierto</a>                          
                                 <a href="javascript:cambiarcont('view/miorgullo/historia.php');" class="dropdown-item">Historia</a>                                
                                 <a href="javascript:cambiarcont('view/miorgullo/escudo.php');" class="dropdown-item">Escudo</a>                               
                                 <a href="javascript:cambiarcont('view/miorgullo/datos.php');" class="dropdown-item">Datos Relevantes</a>
                                 <a href="javascript:cambiarcont('view/miorgullo/mision.php');" class="dropdown-item">Visión</a>
                                 <a href="javascript:cambiarcont('view/miorgullo/mision.php');" class="dropdown-item">Misión</a>
-                                <a href="javascript:cambiarcont('view/miorgullo/valores.php');" class="dropdown-item">Valores y Principios</a>                                 
-                              	<!-- Submenú para Revista El Chicahual -->
-		                        <div class="dropdown-submenu">
-		                            <a href="#" class="dropdown-item dropdown-toggle">Revista El Chicahual</a>
-		                            <div class="dropdown-menu m-0">
-		                                <a href="estaticos/2020/revista/ElChicahual2.pdf" target="_blank" class="dropdown-item">El Chicahual No2</a>
-		                                <a href="estaticos/2020/revista/ElChicahual3.pdf" target="_blank" class="dropdown-item">El Chicahual No3</a>
-		                                <a href="estaticos/2020/revista/ElChicahual4.pdf" target="_blank" class="dropdown-item">El Chicahual No4</a>
-		                                <a href="estaticos/2020/revista/ElChicahual5.pdf" target="_blank" class="dropdown-item">El Chicahual No5</a>
-		                                <a href="estaticos/2020/revista/ElChicahual6.pdf" target="_blank" class="dropdown-item">El Chicahual No5</a>
-		                            </div>
-		                        </div>                                
+                                <a href="javascript:cambiarcont('view/miorgullo/valores.php');" class="dropdown-item">Valores y Principios</a>
+								<a href="javascript:cambiarcont('view/gobierno/directorio.php');" class="dropdown-item">Directorio</a>
+		    			        <a href="javascript:cambiarcont('view/sala_prensa/sala_prensa.php');" class="dropdown-item">Sala de prensa</a>
                             </div>
                         </div>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Gobierno</span></a>
-                            <div class="dropdown-menu show" aria-labelledby="navbarDropdownMenuLink">
-					          	<a class="dropdown-item" href="estaticos/2022/plan/Plan_de_Desarrollo_municipal_JM_2021-2024.pdf" target="_blank">Plan de Desarrollo Municipal 2021-2024</a>
-	    			          	<a class="dropdown-item" href="estaticos/2020/D.O.DISTRIBUCIONDEFONDOSFISMDFYFOTAMUNDF3970.pdf" target="_blank">D.O. Distribución de Fondos FISMDF Y FOTAMUNDF 3970</a>
-	    			          	<!-- <a href="javascript:cambiarcont('view/gobierno/cabildo.php');" class="dropdown-item">Cabildo</a> -->	                           
-		    			        <a class="dropdown-item" href="estaticos/2022/convocatoria%20cabildo%20abierto_compressed.pdf" target="_blank">Cabildo Abierto</a>
-		    			        <!-- <a href="javascript:cambiarcont('view/gobierno/gabinete.php');" class="dropdown-item">Gabinete</a> -->
-		                        <a class="dropdown-item" href="estaticos/2020/mir/MIR2020.PDF" target="_blank">Matriz de Indicadores de Resultados 2020</a>
-		    			        <a class="dropdown-item" href="estaticos/2021/mir/MIR2021.PDF" target="_blank">Matriz de Indicadores de Resultados 2021</a>
-		    			        <a class="dropdown-item" href="estaticos/2021/mir/gobierno/ReporteMIR2021.pdf" target="_blank">Reporte de Avance de los indicadores 2021</a>
-		    			        <a href="javascript:cambiarcont('view/gobierno/directorio.php');" class="dropdown-item">Directorio</a>
-		    			        <a href="javascript:cambiarcont('view/sala_prensa/sala_prensa.php');" class="dropdown-item">Sala de prensa</a>
-		                        <a class="dropdown-item" href="/informe" target="_blank">Informe de Gobierno</a>
-						        <a href="javascript:cambiarcont('view/gobierno/buzon.php');" class="dropdown-item">Buzón de Sugerencias</a>	                        
-		    			        <div class="dropdown-submenu">
-		                            <a href="#" class="dropdown-item dropdown-toggle">Licitaciones</a>
-		                            <div class="dropdown-menu m-0">
-		                                <a href="javascript:cambiarcont('view/gobierno/licitaciones.php');" class="dropdown-item">Obras Públicas</a>
-		                            </div>
-		                        </div>
-					        </div>
-                        </div>
+
+						<a href="javascript:cambiarcont('view/planeacion/planeacion_estrategica.php');" class="nav-item nav-link">Planeación Estratégica</a>
+						
                         <div class="nav-item dropdown">
 					        <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Trámites en línea</span></a>
-					        <div class="dropdown-menu show" aria-labelledby="navbarDropdownMenuLink">
-	                         <a class="dropdown-item" href="https://jesusmaria.recaudacion.net/SIM/predial.jsp" target="_blank">Pago de Predial</a>
-					          <a class="dropdown-item" href="https://jesusmaria.recaudacion.net/SIM/datosTimbrado.jsp" target="_blank">Factura en Línea</a>
-	                          <a href="javascript:cambiarcont('view/tramites_linea/cartografia.php');" class="dropdown-item">Cartografía</a>
-					          <a class="dropdown-item" href="http://desarrollo-economico.jesusmaria.gob.mx/" target="_blank">Bolsa de trabajo</a>
-					          <a class="dropdown-item" href="javascript:cambiarcont('view/tramites_linea/agenda_regulatoria.php');">Agenda Regulatoria</a>
-					          <a class="dropdown-item" href="http://juventud.jesusmaria.gob.mx/" target="_blank">Servicio Social y Prácticas Profesionales</a>
-					          <a class="dropdown-item" href="http://jesusmaria.gob.mx/estrado/" target="_blank">Estrado Electrónico</a>
-					          <a class="dropdown-item" href="http://jesusmaria.gob.mx/directorio_empresarial/" target="_blank">Directorio Empresarial</a>
-					          <a class="dropdown-item" href="http://jesusmaria.gob.mx/cedeco/" target="_blank">Talleres CEDECOS</a>
-					          <a class="dropdown-item" href="javascript:pedirFolio();">Consultar Estatus de su Petición</a>
-
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	                         	<a class="dropdown-item" href="https://jesusmaria.recaudacion.net/SIM/predial.jsp" target="_blank">Pago de Predial</a>
+					          	<a class="dropdown-item" href="https://jesusmaria.recaudacion.net/SIM/datosTimbrado.jsp" target="_blank">Factura en Línea</a>
+		                        <a href="javascript:cambiarcont('view/tramites_linea/cartografia.php');" class="dropdown-item">Cartografía</a>
+						        <a class="dropdown-item" href="http://desarrollo-economico.jesusmaria.gob.mx/" target="_blank">Bolsa de trabajo</a>
+						        <a class="dropdown-item" href="javascript:cambiarcont('view/tramites_linea/agenda_regulatoria.php');">Agenda Regulatoria</a>
+						        <a class="dropdown-item" href="http://juventud.jesusmaria.gob.mx/" target="_blank">Servicio Social y Prácticas Profesionales</a>
+						        <a class="dropdown-item" href="http://jesusmaria.gob.mx/estrado/" target="_blank">Estrado Electrónico</a>
+						        <a class="dropdown-item" href="http://jesusmaria.gob.mx/directorio_empresarial/" target="_blank">Directorio Empresarial</a>
+						        <a class="dropdown-item" href="http://jesusmaria.gob.mx/cedeco/" target="_blank">Talleres CEDECOS</a>
+						        <a class="dropdown-item" href="javascript:pedirFolio();">Consultar Estatus de su Petición</a>
 					        </div>
                         </div>
-                        <a href="javascript:cambiarcont('view/tramites_linea/mejora_regulatoria.php');" class="nav-item nav-link">Mejora Regulatoria</a>
-                        
-                      <a href="https://transparencia.jesusmaria.gob.mx" target="_blank" class="nav-item nav-link">Transparecia</a>                        
+
+                        <div class="nav-item dropdown">
+					        <a href="#" class="nav-link" data-bs-toggle="dropdown"><span class="dropdown-toggle">Mejora Regulatoria</span></a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	                         	<a class="dropdown-item" href="javascript:cambiarcont('view/tramites_linea/mejora_regulatoria.php');">¿Qué es la Mejora Regulatoria?</a>
+					          	<a href="javascript:cambiarcont('view/gobierno/buzon.php');" class="dropdown-item">Buzón de Sugerencias</a>
+					        </div>
+                        </div>
+
+                      	<a href="https://transparencia.jesusmaria.gob.mx" target="_blank" class="nav-item nav-link">Transparencia</a>                        
                     </div>
                     
                 </div>
@@ -166,139 +143,64 @@
 		</div>
 
         <!-- Footer Start -->
-        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-	        <div class="pre-footer">			
-				<div class="emblem">                        
-					<a href="javascript:cambiarcont('view/miorgullo/inicio.php');">
-						<img src="./img/logo_v.png" class="imagenpie">
-					</a>           
-				</div>
-				
-				<div class="mapa">
-					<div>
-						<div>
-							<span>Ciudad de Vanguardia</span>
-							<ul>
-								<a href="javascript:pagecontent('view/miorgullomigente/historia.php');">
-									<li>Historia</li>
-									
-								</a>
-
-								<a href="javascript:pagecontent('view/miorgullomigente/escudo.php');">
-									<li>Escudo</li>
-									
-								</a>
-
-								<a href="javascript:pagecontent('view/miorgullomigente/datos_relevantes.php');">
-									<li>Datos Relevantes</li>
-									
-								</a>
-
-								<a href="javascript:pagecontent('view/miorgullomigente/vision.php');">
-									<li>Visión</li>
-									
-								</a>
-
-								<a href="javascript:pagecontent('view/miorgullomigente/mision.php');">
-									<li>Misión</li>
-									
-								</a>
-
-								<a href="javascript:pagecontent('view/miorgullomigente/valores_principios.php');">
-									<li>Valores y Principios</li>
-									
-								</a>
-							</ul>
+        <div class="container-fluid footer pt-5 pb-3 wow fadeIn" data-wow-delay="0.2s">
+			<div class="container">
+				<div class="row g-3"> <div class="col-md-12 col-lg-3 text-center text-lg-start mb-3 mb-lg-0">
+						<div class="emblem mb-3">
+							<a href="javascript:cambiarcont('view/miorgullo/inicio.php');">
+								<img src="./img/logo_v.png" class="imagenpie img-fluid" style="max-width: 160px;">
+							</a>
+						</div>
+						<div class="social d-flex justify-content-center">
+							<a class="btn btn-outline-light btn-square me-2 icon-footer" href="https://www.facebook.com/JesusMariaMunicipio/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+							<a class="btn btn-outline-light btn-square me-2 icon-footer" href="https://x.com/Jesus_Maria_" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+							<a class="btn btn-outline-light btn-square me-2 icon-footer" href="https://www.instagram.com/jesusmaria_municipio/" target="_blank"><i class="fab fa-instagram"></i></a>
+							<a class="btn btn-outline-light btn-square me-2 icon-footer" href="https://www.youtube.com/channel/UCsrgM_afF4yD2xLY8y3fC_g" target="_blank"><i class="fab fa-youtube"></i></a>
+							<a class="btn btn-outline-light btn-square me-2 icon-footer" href="https://www.tiktok.com/@municipiojm" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
 						</div>
 					</div>
 
-					<div>
-						<div>
-							<span>Gobierno</span>
-							<ul>
-								<a href="estaticos/2020/plan/Plan_de_Desarrollo_municipal_JM_2019-2021.pdf" target="_blank">
-									<li>PDM 2019-2021</li>
-									
-								</a>
-								
-								<a href="estaticos/2022/plan/Plan_de_Desarrollo_municipal_JM_2021-2024.pdf" target="_blank">
-									<li>PDM 2021-2024</li>
-									
-								</a>
-								
-								<a href="javascript:pagecontent('view/gobierno/cabildo.php');">
-									<li>Cabildo</li>
-									
-								</a>
+					<div class="col-md-12 col-lg-9">
+						<div class="row">
+							<div class="col-md-4 col-sm-12 footer-item">
+								<h5 class="footer-title" data-bs-toggle="collapse" data-bs-target="#col1">Ciudad de Vanguardia <i class="fas fa-chevron-down d-lg-none float-end"></i></h5>
+								<ul id="col1" class="collapse d-lg-block list-unstyled">
+									<li><a href="javascript:cambiarcont('view/miorgullo/historia.php');">Historia</a></li>
+									<li><a href="javascript:cambiarcont('view/miorgullo/escudo.php');">Escudo</a></li>
+									<li><a href="javascript:cambiarcont('view/miorgullo/datos.php');">Datos Relevantes</a></li>
+									<li><a href="javascript:cambiarcont('view/miorgullo/mision.php');">Visión / Misión</a></li>
+								</ul>
+							</div>
 
-								<a href="javascript:pagecontent('view/gobierno/gabinete.php');">
-									<li>Gabinete</li>
-									
-								</a>
+							<div class="col-md-4 col-sm-12 footer-item">
+								<h5 class="footer-title" data-bs-toggle="collapse" data-bs-target="#col2">Planeación y Mejora <i class="fas fa-chevron-down d-lg-none float-end"></i></h5>
+								<ul id="col2" class="collapse d-lg-block list-unstyled">
+									<li><a href="javascript:cambiarcont('view/planeacion/planeacion_estrategica.php');">Planeación Estratégica</a></li>
+									<li><a href="javascript:cambiarcont('view/tramites_linea/mejora_regulatoria.php');">Mejora Regulatoria</a></li>
+									<li><a href="javascript:cambiarcont('view/gobierno/buzon.php');">Buzón de Sugerencias</a></li>
+								</ul>
+							</div>
 
-								<a href="javascript:pagecontent('view/gobierno/directorio.php');">
-									<li>Directorio</li>
-									
-								</a>
-								
-								<a href="javascript:pagecontent('view/buzon/buzon.php');">
-									<li>Buzón de sugerencias</li>
-									
-								</a>
-							</ul>
+							<div class="col-md-4 col-sm-12 footer-item">
+								<h5 class="footer-title" data-bs-toggle="collapse" data-bs-target="#col3">Trámites y Servicios <i class="fas fa-chevron-down d-lg-none float-end"></i></h5>
+								<ul id="col3" class="collapse d-lg-block list-unstyled">
+									<li><a href="https://jesusmaria.recaudacion.net/SIM/predial.jsp" target="_blank">Pago de Predial</a></li>
+									<li><a href="https://jesusmaria.recaudacion.net/SIM/datosTimbrado.jsp" target="_blank">Factura en Línea</a></li>
+									<li><a href="http://desarrollo-economico.jesusmaria.gob.mx/" target="_blank">Bolsa de trabajo</a></li>
+									<li class="mt-2"><a href="https://transparencia.jesusmaria.gob.mx" target="_blank" class="fw-bold text-secondary">Transparencia <i class="fas fa-external-link-alt ms-1"></i></a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
-						
-					<div>
-						<div>
-							<span>Trámites en línea</span>
-							<ul>
-							    <a onclick="info_predial();">
-		    					    <li>Predial</li>
-		    					</a>
-
-								<a href="javascript:pagecontent('view/tramites_linea/dependencias.php');">
-									<li>Dependencias</li>
-								</a>
-
-								<a href="javascript:pagecontent('view/tramites_linea/cartografia.php');">
-									<li>Cartografía</li>
-								</a>
-								
-								<a href="javascript:pagecontent('view/tramites_linea/mejora_regulatoria.php');">
-									<li>Agenda Regulatoria</li>
-								</a>
-								<a href="http://juventud.jesusmaria.gob.mx/" target="_blank"><li>Servicio Social y Prácticas Profesionales</li></a>
-						        <a href="http://jesusmaria.gob.mx/estrado/" target="_blank"><li>Estrado Electrónico</li></a>
-						        <a href="http://jesusmaria.gob.mx/directorio_empresarial/" target="_blank"><li>Directorio Empresarial</li></a>
-							</ul>
-							
-						</div>
-					</div>
-
-					<div>
-						<div>
-							<a href="javascript:pagecontent('view/tramites_linea/cartografia.php');" target="_blank">Transparencia</a>
-						</div>
-					</div>	
-				</div>
-
-				<div class="social">
-		                <a class="btn btn-outline-light btn-square me-2 icon-footer" href="https://www.facebook.com/JesusMariaMunicipio/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-		                <a class="btn btn-outline-light btn-square me-2 icon-footer" href="https://x.com/Jesus_Maria_" target="_blank"><i class="fa-brands fa-x-twitter fw-normal text-secondary"></i></a>
-		                <a class="btn btn-outline-light btn-square me-2 icon-footer" href="https://www.instagram.com/jesusmaria_municipio/" target="_blank"><i class="fab fa-instagram fw-normal text-secondary"></i></a>
-		                <a class="btn btn-outline-light btn-square me-2 icon-footer" href="https://www.youtube.com/channel/UCsrgM_afF4yD2xLY8y3fC_g" target="_blank"><i class="fab fa-youtube fw-normal text-secondary"></i></a>
-		                <a class="btn btn-outline-light btn-square me-2 icon-footer" href="https://www.tiktok.com/@municipiojm" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
 				</div>
 			</div>
-        </div>
+		</div>
         <!-- Footer End -->
-
         
         <!-- Copyright Start -->
 		<div class="container-fluid copyright py-3" style="border-top: 1px solid #dee2e6;">
 		    <div class="container">
-		        <div class="row text-center" style="">
+		        <div class="row text-center">
 		        	<div class="col-12 col-md-4 col-lg-4 col-xl-4 mb-2"></div>
 		        	<div class="col-12 col-md-4 col-lg-4 col-xl-4 mb-2">
 		        		<img src="img/lcopy.png" style="width: 80%;">
@@ -352,9 +254,10 @@
 			    $("#body_content").html('<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"><div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status"><span class="sr-only">Cargando...</span></div></div>');
 			    $("#body_content").load(pagina);
 				$("#body_content").fadeIn(10000);
+				$('.navbar-collapse').collapse('hide');
 			}
-	        $(document).ready(function() {
-					
+
+	        $(document).ready(function() {					
 				$("#body_content").html('<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"><div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status"><span class="sr-only">Cargando...</span></div></div>');
 				$('#body_content').load('view/miorgullo/inicio.php');
 				$("#body_content").fadeIn(10000);
@@ -365,7 +268,33 @@
 					sticky: true,
 					class_name: 'gritter-info gritter-center'
 				});
-				    	
+
+				// Manejo de clicks en submenús
+				$('.dropdown-submenu a.dropdown-toggle').on("click", function(e) {
+				    // SOLO ejecutar si la pantalla es de móvil (menor a 992px)
+				    if ($(window).width() < 992) {
+				        e.preventDefault();
+				        e.stopPropagation();
+
+				        var $subMenu = $(this).next(".dropdown-menu");
+				        
+				        // Cerramos otros submenús abiertos
+				        $(this).parent().siblings().find('.dropdown-menu').removeClass('show');
+				        
+				        // Toggle de la clase show
+				        $subMenu.toggleClass('show');
+				    }
+				    // Si es escritorio (> 992px), el link se comporta normal o el hover manda
+				});
+
+			    // Opcional: Cerrar submenús si se cierra el dropdown principal
+			    $('.nav-item.dropdown').on('hidden.bs.dropdown', function() {
+			        $(this).find('.dropdown-menu').removeClass('show');
+			    });
+				
+				$('.footer-title').on('click', function() {
+					$(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
+				});
 			});
 
 			function key_inputs(){				
@@ -567,7 +496,6 @@
 		        });
 		    }
 
-		    // Simulación de función para obtener estatus (debería venir de tu backend)
 		    function obtenerEstatus(folio) {
 		        const estados = ["Pendiente", "Aprobado", "Rechazado", "En proceso"];
 		        return estados[Math.floor(Math.random() * estados.length)];

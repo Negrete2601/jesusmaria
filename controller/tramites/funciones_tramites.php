@@ -101,3 +101,14 @@ function get_requisito($id)
 
 	return $result;
 }
+
+function get_requisitos_tramite_public($id_tramite)
+{
+	$sql = "SELECT id, requisito, documento, original, copia
+				FROM requisitos
+			WHERE id_tramite = $id_tramite AND status = 1";
+
+	$result = queryst($sql);
+
+	return $result;
+}

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 443.3 456.02">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        fill: #004a98;
+        font-family: AptosDisplay, Aptos;
+        font-size: 37.7px;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        fill: #dc2597;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8, .cls-9, .cls-10, .cls-11, .cls-12 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-8, .cls-9, .cls-11 {
+        fill: none;
+        stroke: #dc2597;
+        stroke-linecap: round;
+      }
+
+      .cls-8, .cls-11 {
+        stroke-width: 3.82px;
+      }
+
+      .cls-9 {
+        stroke-width: 6.37px;
+      }
+
+      .cls-10 {
+        fill: url(#Degradado_sin_nombre_47);
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-10, .cls-12 {
+        stroke: #fff;
+        stroke-width: 2.02px;
+      }
+
+      .cls-11 {
+        stroke-dasharray: .49 8.21;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        fill: #98989a;
+      }
+
+      .cls-15 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-16 {
+        opacity: .95;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        fill: url(#Degradado_sin_nombre_43);
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-18 {
+        letter-spacing: 0em;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_43" data-name="Degradado sin nombre 43" x1="38.82" y1="440.62" x2="443.69" y2="-40.22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ededed"/>
+      <stop offset="1" stop-color="#ededed"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" x="0" y="0" width="402.96" height="415.68" filterUnits="userSpaceOnUse">
+      <feOffset dx="-18.19" dy="-18.19"/>
+      <feGaussianBlur result="blur" stdDeviation="10.77"/>
+      <feFlood flood-color="#fff" flood-opacity=".15"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="Degradado_sin_nombre_47" data-name="Degradado sin nombre 47" x1="81.95" y1="389.4" x2="394.95" y2="17.67" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".75" stop-color="#ededed"/>
+    </linearGradient>
+    <filter id="drop-shadow-2" x="32.42" y="32.42" width="410.88" height="423.6" filterUnits="userSpaceOnUse">
+      <feOffset dx="18.19" dy="18.19"/>
+      <feGaussianBlur result="blur-2" stdDeviation="12.13"/>
+      <feFlood flood-color="#4f6367" flood-opacity=".15"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <g class="cls-16">
+        <rect class="cls-12" x="51.72" y="51.67" width="335.76" height="348.51" rx="20.21" ry="20.21"/>
+        <rect class="cls-10" x="51.72" y="51.67" width="335.76" height="348.51" rx="20.21" ry="20.21"/>
+      </g>
+      <text class="cls-4" transform="translate(126.07 321.08)"><tspan class="cls-7" x="0" y="0">P</tspan><tspan class="cls-15" x="20.58" y="0">r</tspan><tspan class="cls-18" x="31.79" y="0">e</tspan><tspan class="cls-3" x="50.24" y="0">s</tspan><tspan x="67.47" y="0">u</tspan><tspan class="cls-17" x="86.55" y="0">p</tspan><tspan class="cls-13" x="105.88" y="0">u</tspan><tspan class="cls-18" x="124.95" y="0">e</tspan><tspan class="cls-3" x="143.4" y="0">s</tspan><tspan class="cls-18" x="160.63" y="0">t</tspan><tspan class="cls-13" x="171.9" y="0">o</tspan><tspan class="cls-1" x="1.84" y="30.61">p</tspan><tspan x="21.21" y="30.61">artici</tspan><tspan class="cls-1" x="97.24" y="30.61">p</tspan><tspan class="cls-5" x="116.61" y="30.61">a</tspan><tspan x="134.73" y="30.61">ti</tspan><tspan class="cls-7" x="154.11" y="30.61">v</tspan><tspan x="170.05" y="30.61">o</tspan></text>
+      <g>
+        <circle class="cls-6" cx="221.69" cy="183.62" r="59.77"/>
+        <g>
+          <g>
+            <path class="cls-2" d="M223.73,151.38v7.3h7.3l-7.3-7.3Z"/>
+            <path class="cls-2" d="M219.32,184.32c0-3.82,3.11-6.92,6.92-6.92h9.7v-14.64h-14.25c-1.12,0-2.04-.91-2.04-2.04v-14.25h-30.54c-1.12,0-2.04.91-2.04,2.04v56.33c0,1.12.91,2.04,2.04,2.04h30.21v-22.55ZM197.26,154.61h16.29c1.12,0,2.04.91,2.04,2.04s-.91,2.04-2.04,2.04h-16.29c-1.12,0-2.04-.91-2.04-2.04s.91-2.04,2.04-2.04ZM197.26,162.76h16.29c1.12,0,2.04.91,2.04,2.04s-.91,2.04-2.04,2.04h-16.29c-1.12,0-2.04-.91-2.04-2.04s.91-2.04,2.04-2.04ZM197.26,170.9h23.12c1.12,0,2.04.91,2.04,2.04s-.91,2.04-2.04,2.04h-23.12c-1.12,0-2.04-.91-2.04-2.04s.91-2.04,2.04-2.04ZM214.1,191.26h-16.84c-1.12,0-2.04-.91-2.04-2.04s.91-2.04,2.04-2.04h16.84c1.12,0,2.04.91,2.04,2.04s-.91,2.04-2.04,2.04ZM214.56,183.12h-17.31c-1.12,0-2.04-.91-2.04-2.04s.91-2.04,2.04-2.04h17.31c1.12,0,2.04.91,2.04,2.04s-.91,2.04-2.04,2.04Z"/>
+          </g>
+          <g>
+            <rect class="cls-2" x="223.92" y="180.95" width="32.38" height="39.81" rx="4.82" ry="4.82"/>
+            <g>
+              <line class="cls-9" x1="231.25" y1="189.57" x2="248.96" y2="189.57"/>
+              <g>
+                <line class="cls-8" x1="231.25" y1="199.38" x2="231.65" y2="199.38"/>
+                <line class="cls-11" x1="239.86" y1="199.38" x2="244.46" y2="199.38"/>
+                <line class="cls-8" x1="248.56" y1="199.38" x2="248.96" y2="199.38"/>
+              </g>
+              <g>
+                <line class="cls-8" x1="231.25" y1="206.35" x2="231.65" y2="206.35"/>
+                <line class="cls-11" x1="239.86" y1="206.35" x2="244.46" y2="206.35"/>
+                <line class="cls-8" x1="248.56" y1="206.35" x2="248.96" y2="206.35"/>
+              </g>
+              <g>
+                <line class="cls-8" x1="231.25" y1="213.32" x2="231.65" y2="213.32"/>
+                <line class="cls-11" x1="239.86" y1="213.32" x2="244.46" y2="213.32"/>
+                <line class="cls-8" x1="248.56" y1="213.32" x2="248.96" y2="213.32"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g>
+        <path class="cls-6" d="M367.39,132.88h0c-11.25,0-16.73-13.73-8.57-21.48l27.13-25.75v28.68c0,10.25-8.31,18.55-18.55,18.55Z"/>
+        <path class="cls-14" d="M367.06,182.22h0c-11.25-.08-16.63-13.85-8.42-21.54l27.3-25.56-.2,28.68c-.07,10.25-8.44,18.49-18.68,18.42Z"/>
+        <path class="cls-14" d="M367.06,231.31h0c-11.25-.08-16.63-13.85-8.42-21.54l27.3-25.56-.2,28.68c-.07,10.25-8.44,18.49-18.68,18.42Z"/>
+        <path class="cls-14" d="M367.06,281.59h0c-11.25-.08-16.63-13.85-8.42-21.54l27.3-25.56-.2,28.68c-.07,10.25-8.44,18.49-18.68,18.42Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
