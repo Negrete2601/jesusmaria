@@ -2,3 +2,4 @@
 view/sala_prensa/error_log
 controller/conexion.php
 controller/conexion_tramites.php
+estaticos/

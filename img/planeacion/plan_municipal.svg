@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 443.06 456.02">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #004a98;
+        font-family: AptosDisplay, Aptos;
+        font-size: 37.7px;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-5 {
+        fill: #dc2597;
+      }
+
+      .cls-6 {
+        fill: url(#Degradado_sin_nombre_47);
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-6, .cls-7 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2.02px;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        fill: #98989a;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-13 {
+        opacity: .95;
+      }
+
+      .cls-14 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        fill: url(#Degradado_sin_nombre_43);
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_43" data-name="Degradado sin nombre 43" x1="38.62" y1="440.62" x2="443.49" y2="-40.22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ededed"/>
+      <stop offset="1" stop-color="#ededed"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" x="0" y="0" width="402.72" height="415.68" filterUnits="userSpaceOnUse">
+      <feOffset dx="-18.19" dy="-18.19"/>
+      <feGaussianBlur result="blur" stdDeviation="10.77"/>
+      <feFlood flood-color="#fff" flood-opacity=".15"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="Degradado_sin_nombre_47" data-name="Degradado sin nombre 47" x1="81.75" y1="389.4" x2="394.75" y2="17.67" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".75" stop-color="#ededed"/>
+    </linearGradient>
+    <filter id="drop-shadow-2" x="32.18" y="32.42" width="410.88" height="423.6" filterUnits="userSpaceOnUse">
+      <feOffset dx="18.19" dy="18.19"/>
+      <feGaussianBlur result="blur-2" stdDeviation="12.13"/>
+      <feFlood flood-color="#4f6367" flood-opacity=".15"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <g class="cls-13">
+        <rect class="cls-7" x="51.52" y="51.67" width="335.76" height="348.51" rx="20.21" ry="20.21"/>
+        <rect class="cls-6" x="51.52" y="51.67" width="335.76" height="348.51" rx="20.21" ry="20.21"/>
+      </g>
+      <text class="cls-4" transform="translate(109.63 317.22)"><tspan class="cls-14" x="0" y="0">P</tspan><tspan class="cls-16" x="19.75" y="0">l</tspan><tspan class="cls-10" x="29.07" y="0">an munici</tspan><tspan class="cls-1" x="176.61" y="0">p</tspan><tspan x="195.98" y="0">al</tspan><tspan x="12.51" y="34.47">de d</tspan><tspan class="cls-8" x="77.52" y="34.47">e</tspan><tspan class="cls-15" x="95.96" y="34.47">s</tspan><tspan x="113.05" y="34.47">ar</tspan><tspan class="cls-12" x="143.18" y="34.47">r</tspan><tspan x="154.4" y="34.47">o</tspan><tspan class="cls-11" x="173.73" y="34.47">l</tspan><tspan x="182.58" y="34.47">lo</tspan></text>
+      <g>
+        <circle class="cls-5" cx="221.43" cy="183.62" r="59.77"/>
+        <g>
+          <path class="cls-2" d="M229.46,154.33v7.72h7.72l-7.72-7.72Z"/>
+          <path class="cls-2" d="M220.26,211.68c.06-2.3,1.92-4.15,4.22-4.21.3-.9.34-1.64.11-2.13-.33-.71-1.27-.94-1.28-.95l-1.59-.38-.15-1.64c-.59-8.99,1.21-15.8,5.37-20.24,3.33-3.56,7.25-4.58,9.35-4.87,1.41-2.49,3.3-2.89,4.4-2.89.56,0,1.12.11,1.69.31v-8.32h-15.08c-1.19,0-2.15-.96-2.15-2.15v-15.08h-32.31c-1.19,0-2.15.96-2.15,2.15v59.6c0,1.19.96,2.15,2.15,2.15h24.49c.75-.79,1.78-1.3,2.94-1.36ZM201.46,157.75h17.23c1.19,0,2.15.96,2.15,2.15s-.96,2.15-2.15,2.15h-17.23c-1.19,0-2.15-.96-2.15-2.15s.96-2.15,2.15-2.15ZM201.46,166.37h17.23c1.19,0,2.15.96,2.15,2.15s-.96,2.15-2.15,2.15h-17.23c-1.19,0-2.15-.96-2.15-2.15s.96-2.15,2.15-2.15ZM201.46,174.98h24.46c1.19,0,2.15.96,2.15,2.15s-.96,2.15-2.15,2.15h-24.46c-1.19,0-2.15-.96-2.15-2.15s.96-2.15,2.15-2.15ZM201.46,183.6h18.31c1.19,0,2.15.96,2.15,2.15s-.96,2.15-2.15,2.15h-18.31c-1.19,0-2.15-.96-2.15-2.15s.96-2.15,2.15-2.15ZM199.3,194.37c0-1.19.96-2.15,2.15-2.15h14.75c1.19,0,2.15.96,2.15,2.15s-.96,2.15-2.15,2.15h-14.75c-1.19,0-2.15-.96-2.15-2.15Z"/>
+          <path class="cls-3" d="M250.07,213.9h-2.01v-2.1c0-1.16-.95-2.1-2.1-2.1h-1.36c3.04-8.78-6.7-12.47-7.3-16.47-.97-6.44,7.91-4.09,7.12.62-.09.52,3.58,1.79,4.82-.41l.75-1.33c.59-1.05.4-2.32-.47-3.15l-7.31-6.94c-.63-.6-.72-1.55-.22-2.26l.89-1.25c.28-.4.18-.94-.22-1.22-1.14-.77-3.43-1.68-4.89,2.09,0,0-15.48-.18-13.97,22.85,0,0,5.32,1.09,2.17,7.46h-1.37c-1.16,0-2.1.95-2.1,2.1v2.1h-2.02c-1.16,0-2.1.95-2.1,2.1v2.1h33.81v-2.1c0-1.16-.95-2.1-2.1-2.1Z"/>
+        </g>
+      </g>
+      <g>
+        <path class="cls-5" d="M367.69,132.88h0c-11.25,0-16.73-13.73-8.57-21.48l27.13-25.75v28.68c0,10.25-8.31,18.55-18.55,18.55Z"/>
+        <path class="cls-9" d="M367.36,182.22h0c-11.25-.08-16.63-13.85-8.42-21.54l27.3-25.56-.2,28.68c-.07,10.25-8.44,18.49-18.68,18.42Z"/>
+        <path class="cls-9" d="M367.36,231.31h0c-11.25-.08-16.63-13.85-8.42-21.54l27.3-25.56-.2,28.68c-.07,10.25-8.44,18.49-18.68,18.42Z"/>
+        <path class="cls-9" d="M367.36,281.59h0c-11.25-.08-16.63-13.85-8.42-21.54l27.3-25.56-.2,28.68c-.07,10.25-8.44,18.49-18.68,18.42Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

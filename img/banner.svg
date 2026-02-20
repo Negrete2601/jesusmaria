@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 400">
+  <defs>
+    <style>
+      .cls-1 {
+        mix-blend-mode: saturation;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #3c3c3b;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #004a98;
+        mix-blend-mode: hard-light;
+        opacity: .78;
+      }
+
+      .cls-5 {
+        isolation: isolate;
+      }
+
+      .cls-6 {
+        fill: url(#Degradado_sin_nombre_9);
+        opacity: .86;
+      }
+
+      .cls-6, .cls-7, .cls-2 {
+        mix-blend-mode: multiply;
+      }
+
+      .cls-7 {
+        fill: url(#Degradado_sin_nombre_9-2);
+      }
+
+      .cls-2 {
+        opacity: .77;
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-3" width="1920" height="400"/>
+    </clipPath>
+    <linearGradient id="Degradado_sin_nombre_9" data-name="Degradado sin nombre 9" x1="-159.31" y1="406.22" x2="688.61" y2="-73.29" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#154769" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#267e90"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_9-2" data-name="Degradado sin nombre 9" x1="-157.86" y1="389.96" x2="634.62" y2="-58.19" xlink:href="#Degradado_sin_nombre_9"/>
+  </defs>
+  <g class="cls-5">
+    <g id="Capa_2" data-name="Capa 2">
+      <g id="Capa_1-2" data-name="Capa 1">
+        <g>
+          <g class="cls-8">
+            <image width="11201" height="6136" transform="translate(0 -419.58) scale(.17)" xlink:href="C:\Users\Oscar Carrillo\Downloads\Pag 14 Panoramica JM.jpg"/>
+          </g>
+          <rect class="cls-1" width="1920" height="400"/>
+          <rect class="cls-2" width="1920" height="400"/>
+          <rect class="cls-4" width="1920" height="400"/>
+          <polygon class="cls-6" points="410.7 400 0 400 0 0 608.9 0 410.7 400"/>
+          <polygon class="cls-7" points="356.1 400 0 400 0 0 554.29 0 356.1 400"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 443.3 456.02">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffa400;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #004a98;
+        font-family: AptosDisplay, Aptos;
+        font-size: 37.7px;
+      }
+
+      .cls-4 {
+        fill: url(#Degradado_sin_nombre_47);
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2.02px;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        fill: #98989a;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-10 {
+        opacity: .95;
+      }
+
+      .cls-5 {
+        fill: url(#Degradado_sin_nombre_43);
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_43" data-name="Degradado sin nombre 43" x1="38.69" y1="440.62" x2="443.56" y2="-40.22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ededed"/>
+      <stop offset="1" stop-color="#ededed"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" x="0" y="0" width="402.72" height="415.68" filterUnits="userSpaceOnUse">
+      <feOffset dx="-18.19" dy="-18.19"/>
+      <feGaussianBlur result="blur" stdDeviation="10.77"/>
+      <feFlood flood-color="#fff" flood-opacity=".15"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="Degradado_sin_nombre_47" data-name="Degradado sin nombre 47" x1="81.82" y1="389.4" x2="394.82" y2="17.67" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".75" stop-color="#ededed"/>
+    </linearGradient>
+    <filter id="drop-shadow-2" x="32.18" y="32.42" width="411.12" height="423.6" filterUnits="userSpaceOnUse">
+      <feOffset dx="18.19" dy="18.19"/>
+      <feGaussianBlur result="blur-2" stdDeviation="12.13"/>
+      <feFlood flood-color="#4f6367" flood-opacity=".15"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <g class="cls-10">
+        <rect class="cls-5" x="51.59" y="51.67" width="335.76" height="348.51" rx="20.21" ry="20.21"/>
+        <rect class="cls-4" x="51.59" y="51.67" width="335.76" height="348.51" rx="20.21" ry="20.21"/>
+      </g>
+      <text class="cls-3" transform="translate(153.88 321.08)"><tspan x="0" y="0">In</tspan><tspan class="cls-9" x="27.93" y="0">f</tspan><tspan x="38.13" y="0">orm</tspan><tspan class="cls-6" x="99.3" y="0">e</tspan><tspan class="cls-8" x="117.75" y="0">s</tspan><tspan x="-21.04" y="30.61">de </tspan><tspan class="cls-11" x="24.41" y="30.61">g</tspan><tspan x="40.71" y="30.61">obierno</tspan></text>
+      <g>
+        <path class="cls-7" d="M367.26,132.88h0c-11.25,0-16.73-13.73-8.57-21.48l27.13-25.75v28.68c0,10.25-8.31,18.55-18.55,18.55Z"/>
+        <path class="cls-1" d="M366.93,182.22h0c-11.25-.08-16.63-13.85-8.42-21.54l27.3-25.56-.2,28.68c-.07,10.25-8.44,18.49-18.68,18.42Z"/>
+        <path class="cls-7" d="M366.93,231.31h0c-11.25-.08-16.63-13.85-8.42-21.54l27.3-25.56-.2,28.68c-.07,10.25-8.44,18.49-18.68,18.42Z"/>
+        <path class="cls-7" d="M366.93,281.59h0c-11.25-.08-16.63-13.85-8.42-21.54l27.3-25.56-.2,28.68c-.07,10.25-8.44,18.49-18.68,18.42Z"/>
+      </g>
+      <g>
+        <circle class="cls-1" cx="221.48" cy="183.62" r="59.77"/>
+        <path class="cls-2" d="M258.72,166.81h1.38v-1.96h.75v-1.96h-32.34l-1.52-2.24v-5.99l1.52-2.24h-1.52c0-2.31-1.87-4.18-4.18-4.18h-.74v-9.71h-1.19v9.71h-.74c-2.31,0-4.18,1.87-4.18,4.18h-1.52l1.52,2.24v5.99l-1.52,2.24h-32.34v1.96h.75v1.96h1.38v16.93h-2.13v2.09h.75v2.09h1.38v23.88h74.5v-23.88h1.38v-2.09h.75v-2.09h-2.13v-16.93ZM203.45,209.59h-10.57v-16.21h10.57v16.21ZM203.23,186.49h-10.12v-14.03h10.12v14.03ZM218.63,166.04c0-1.52,1.24-2.76,2.76-2.76h.17c1.52,0,2.76,1.24,2.76,2.76v3.86h-5.69v-3.86ZM217.39,172.46h8.16v14.03h-8.16v-14.03ZM227.61,209.59h-12.27v-19.28h12.27v19.28ZM250.07,209.59h-10.57v-16.21h10.57v16.21ZM249.85,186.49h-10.12v-14.03h10.12v14.03Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

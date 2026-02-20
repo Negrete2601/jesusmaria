@@ -5,7 +5,7 @@
 function register_buzon($nombre, $email, $idtipoasunto, $descripcion, $domicilio, $telefono)
 {
 	include('../../controller/conexion.php');
-	echo $query = "INSERT INTO buzon(nombre, correo, domicilio, telefono, idtipoasunto, descripcion, fecha, hora) VALUES ('$nombre', '$email', '$domicilio', '$telefono', '$idtipoasunto', '$descripcion', Now(), Now())";
+	$query = "INSERT INTO buzon(nombre, correo, domicilio, telefono, idtipoasunto, descripcion, fecha, hora) VALUES ('$nombre', '$email', '$domicilio', '$telefono', '$idtipoasunto', '$descripcion', Now(), Now())";
 	//echo $query;
 	$result = mysqli_query($conexion,$query);
 	

@@ -57,6 +57,7 @@ function fill_tr_dependencias_table($dependencias)
 	return $tr_dependencia_table;
 }
 
+
 function fill_tramites_dependencia($id_dependencia)
 {	
 	$tramites_dependencia = get_tramites_dependenciat($id_dependencia);
@@ -189,6 +190,7 @@ function fill_tr_tramites_dependencia($tramites_dependencia, $icono)
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="tab-pane fade" id="requisitos-'.$tramite['id'].'" role="tabpanel" aria-labelledby="requisitos-tab-'.$tramite['id'].'">
                                         <div class="alert alert-info">
                                             <i class="fas fa-info-circle me-2"></i>Para este trámite se requieren los siguientes documentos:
@@ -209,7 +211,8 @@ function fill_tr_tramites_dependencia($tramites_dependencia, $icono)
                                             </table>
                                         </div>
                                     </div>
-                                    <div class="tab-pane fade show active" id="legal-'.$tramite['id'].'" role="tabpanel" aria-labelledby="legal-tab-'.$tramite['id'].'">                                        
+
+                                    <div class="tab-pane fade" id="legal-'.$tramite['id'].'" role="tabpanel" aria-labelledby="legal-tab-'.$tramite['id'].'">                                        
                                         <div class="info-item">
                                             <span class="info-icon"><i class="fa-regular fa-comment-dots"></i></span>
                                             <div class="info-content">
@@ -254,7 +257,7 @@ function fill_modal_requisitos_tramite($requisitos)
 
         if(!empty($requisito['documento']))
         {
-            $documento = '<td><a href="'.$requisito['documento '].'"><button class="btn btn-sm btn-outline-primary btn-download">Descargar Formato</button></a></td>';
+            $documento = '<td><a href="carga_tramites/'.$requisito['documento'].'" target="_blank"><button class="btn btn-sm btn-outline-primary btn-download">Descargar Formato</button></a></td>';
         }else{
             $documento = '';
         }
