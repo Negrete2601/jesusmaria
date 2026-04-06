@@ -116,6 +116,7 @@
 						        <a class="dropdown-item" href="http://jesusmaria.gob.mx/directorio_empresarial/" target="_blank">Directorio Empresarial</a>
 						        <a class="dropdown-item" href="http://jesusmaria.gob.mx/cedeco/" target="_blank">Talleres CEDECOS</a>
 						        <a class="dropdown-item" href="javascript:pedirFolio();">Consultar Estatus de su Petición</a>
+								<a class="dropdown-item" href="javascript:cambiarcont('view/tramites_linea/catastral.php');">Consulta Cuenta Catastral</a>
 					        </div>
                         </div>
 
@@ -188,6 +189,7 @@
 									<li><a href="https://jesusmaria.recaudacion.net/SIM/datosTimbrado.jsp" target="_blank">Factura en Línea</a></li>
 									<li><a href="http://desarrollo-economico.jesusmaria.gob.mx/" target="_blank">Bolsa de trabajo</a></li>
 									<li class="mt-2"><a href="https://transparencia.jesusmaria.gob.mx" target="_blank" class="fw-bold text-secondary">Transparencia <i class="fas fa-external-link-alt ms-1"></i></a></li>
+									<li><a href="javascript:cambiarcont('view/tramites_linea/catastral.php');">Consulta Cuenta Catastral</a></li>
 								</ul>
 							</div>
 						</div>
