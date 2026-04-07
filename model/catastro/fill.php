@@ -1,8 +1,10 @@
 <?php
+include('../../controller/catastro/funciones_catastro.php');
 
-if(isset($_POST['cuenta'])) {
-    $cuenta = $_POST['cuenta'];
-    $result = '
+$cuenta = get_detalle_cuenta($_POST['cuenta']);
+if($cuenta) 
+{
+    echo '
     <div class="col-lg-8 animate__animated animate__fadeInUp">
         <div class="card border-0 shadow-lg">
             <div class="card-header bg-primary text-white p-3 text-center">
@@ -15,39 +17,39 @@ if(isset($_POST['cuenta'])) {
                         <tbody>
                             <tr>
                                 <th class="w-50 ps-4 text-muted">Cuenta Catastral Consultada</th>
-                                <td class="fw-bold text-dark">'.$cuenta.'</td>
+                                <td class="fw-bold text-dark">'.$cuenta['cuenta'].'</td>
                             </tr>
                             <tr>
                                 <th class="ps-4 text-muted">Tipo de Terreno</th>
-                                <td class="fw-bold">Urbano Habitacional</td>
+                                <td class="fw-bold">'.$cuenta['tipo'].'</td>
                             </tr>
                             <tr>
                                 <th class="ps-4 text-muted">Superficie de Terreno (m²)</th>
-                                <td class="fw-bold">250.00 m²</td>
+                                <td class="fw-bold">'.number_format($cuenta['m2_terreno'], 2).' m²</td>
                             </tr>
                             <tr>
                                 <th class="ps-4 text-muted">Valor Unitario</th>
-                                <td class="fw-bold text-success">$ 1,500.00</td>
+                                <td class="fw-bold text-success">$ '.number_format($cuenta['valor_unitario'], 2).'</td>
                             </tr>
                             <tr>
                                 <th class="ps-4 text-muted">Valor del Terreno</th>
-                                <td class="fw-bold text-success">$ 375,000.00</td>
+                                <td class="fw-bold text-success">$ '.number_format($cuenta['valor_terreno'], 2).'</td>
                             </tr>
                             <tr>
                                 <th class="ps-4 text-muted">Metros Construidos (m²)</th>
-                                <td class="fw-bold">185.20 m²</td>
+                                <td class="fw-bold">'.number_format($cuenta['m2_construidos'], 2).' m²</td>
                             </tr>
                             <tr>
                                 <th class="ps-4 text-muted">Valor de la Construcción</th>
-                                <td class="fw-bold text-success">$ 875,000.00</td>
+                                <td class="fw-bold text-success">$ '.number_format($cuenta['valor_construccion'],2).'</td>
                             </tr>
                             <tr>
                                 <th class="ps-4 text-muted">Valor de la Superficie</th>
-                                <td class="fw-bold text-success">$ 375,000.00</td>
+                                <td class="fw-bold text-success">$ '.number_format($cuenta['valor_superficie'], 2).'</td>
                             </tr>
                             <tr class="table-primary">
                                 <th class="ps-4 fs-5 text-primary">Valor Catastral Total</th>
-                                <td class="fs-5 fw-bold text-primary">$ 1,250,000.00</td>
+                                <td class="fs-5 fw-bold text-primary">$ '.number_format($cuenta['valor_catastral'], 2).'</td>
                             </tr>
                         </tbody>
                     </table>
@@ -64,7 +66,6 @@ if(isset($_POST['cuenta'])) {
             </div>
         </div>
     </div>';    
-    echo $result;
 } else {
     echo "Petición no válida.";
 }
